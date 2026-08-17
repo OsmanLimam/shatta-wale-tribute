@@ -70,11 +70,17 @@ export function FinalReveal() {
         </Reveal>
 
         <Reveal delay={0.55}>
-          <p className="mt-20 max-w-xl text-sm leading-relaxed text-ivory-dim/70">
-            An independent creative archival project. Not affiliated with or
-            officially endorsed by Shatta Wale or his management unless
-            explicitly stated. Created by Osman Limam.
-          </p>
+          <div className="mt-20 max-w-xl space-y-2">
+            <p className="text-sm leading-relaxed text-ivory-dim/70">
+              An independent creative archival project. Not affiliated with or
+              officially endorsed by Shatta Wale or his management unless
+              explicitly stated. Created by Osman Limam.
+            </p>
+            <p className="font-mono-caps text-[0.55rem] text-ivory-dim/50">
+              ● Ambient score: &ldquo;Prove You&rdquo; — Shatta Wale. Used as
+              room tone for the archive.
+            </p>
+          </div>
         </Reveal>
       </div>
     </Section>

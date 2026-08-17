@@ -18,6 +18,7 @@ import { Contribute } from "@/components/legacy/contribute";
 import { FutureMessage } from "@/components/legacy/future-message";
 import { Letter } from "@/components/legacy/letter";
 import { FinalReveal } from "@/components/legacy/final-reveal";
+import { AmbientAudio } from "@/components/legacy/ambient-audio";
 import { chapters } from "@/content/journey";
 
 export default function Home() {
@@ -38,6 +39,8 @@ export default function Home() {
       <ScrollProgress />
       <ChapterIndicator count={chapters.length} />
       <Navigation entered={entered} />
+
+      <AmbientAudio />
 
       <Hero onEnter={() => setEntered(true)} />
 

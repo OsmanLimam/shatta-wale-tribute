@@ -49,7 +49,7 @@ export function Hero({ onEnter }: HeroProps) {
           fill
           priority
           sizes="100vw"
-          quality={85}
+          quality={75}
           className="absolute inset-0 h-full w-full object-cover"
         />
         {/* Light tonal overlay — lets the photo show, with darker bottom for text contrast */}

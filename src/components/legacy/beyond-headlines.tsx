@@ -22,8 +22,8 @@ export function BeyondHeadlines() {
           <Reveal delay={0.1}>
             <div className="mt-8">
               <LegacyImage
-                src="/images/shatta-wale/beyond-headlines.png"
-                alt="Shatta Wale — portrait behind the headlines."
+                src="/images/wendy-shay/portrait-blonde-dreads-brown.jpg"
+                alt="Wendy Shay — portrait behind the headlines."
                 caption="The person behind the public name."
                 className="aspect-[4/5] w-full max-w-md"
               />

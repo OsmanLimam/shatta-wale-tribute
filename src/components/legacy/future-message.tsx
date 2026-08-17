@@ -19,8 +19,8 @@ export function FutureMessage() {
           <Reveal delay={0.1}>
             <div className="mt-8">
               <LegacyImage
-                src="/images/shatta-wale/future-message.jpg"
-                alt="Shatta Wale — a moment held in time, looking toward the future."
+                src="/images/wendy-shay/portrait-gold-gown-window.jpg"
+                alt="Wendy Shay — a moment held in time, looking toward the future."
                 caption="Time, preserved. The future is listening."
                 className="aspect-[4/5] w-full max-w-md"
               />

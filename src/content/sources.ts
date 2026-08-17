@@ -169,6 +169,16 @@ export const sources: Source[] = [
       "Press coverage of Efya–Wendy Shay joint appearances and the broader Ghanaian female-vocalist conversation.",
   },
 
+  {
+    id: "src-shay-concert",
+    label: "Shay Concert — Westhills Mall franchise (RuffTown / Hisense)",
+    tier: "primary",
+    publisher: "RuffTown Records / Hisense Ghana / Westhills Mall",
+    year: 2023,
+    corroborates:
+      "Shay Concert franchise: 2023 edition at Westhills Mall, Weija, and the announced Shay Concert 2025 on Nov 22nd at the same venue. Sponsored by Hisense, backed by RuffTown Records. Documented via official concert posters and HypeLens Africa photo coverage.",
+  },
+
   // ── Interviews ────────────────────────────────────────────────────────
   {
     id: "src-interview-citifm",

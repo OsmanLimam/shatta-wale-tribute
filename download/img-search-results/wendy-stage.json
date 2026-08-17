@@ -1,0 +1,50 @@
+{
+  "success": true,
+  "query": "Ghanaian singer Wendy Shay performing on stage with blonde hair",
+  "count": 6,
+  "ranked": true,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c742f5e4e4e2.jpeg",
+      "caption": "A woman in a red jumpsuit sings on stage with a banner reading \"THE G... DE...\". suitable for background image",
+      "source": "CitiNewsroom.com",
+      "original_width": "864px",
+      "original_height": "1080px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/6637d3e5a316.jpeg",
+      "caption": "A woman in a sparkly dress stands on a stage facing a large, cheering crowd at night. suitable for background image",
+      "source": "CitiNewsroom.com",
+      "original_width": "762px",
+      "original_height": "1080px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c2407e9151a7.jpeg",
+      "caption": "A collage of three blurry photos showing a female singer performing on stage.",
+      "source": "Yen News",
+      "original_width": "1200px",
+      "original_height": "675px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7591cfe3631e.jpg",
+      "caption": "A woman in an embellished strapless gown poses by a window. suitable for background image",
+      "source": "Twitter",
+      "original_width": "812px",
+      "original_height": "1200px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c51dd4006fa8.jpg",
+      "caption": "A woman with blonde curly hair holds up a black tank top in a room.",
+      "source": "Twitter",
+      "original_width": "674px",
+      "original_height": "1200px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/264bebd19662.jpg",
+      "caption": "A woman with blonde dreadlocks wears an embellished pink gown, posing elegantly. suitable for background image",
+      "source": "Twitter",
+      "original_width": "842px",
+      "original_height": "1200px"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "success": true,
+  "query": "Wendy Shay Shay On You concert Accra performance",
+  "count": 6,
+  "ranked": true,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c742f5e4e4e2.jpeg",
+      "caption": "A woman in a red jumpsuit sings on stage with a banner reading \"THE G... DE...\". Suitable for background image.",
+      "source": "CitiNewsroom.com",
+      "original_width": "864px",
+      "original_height": "1080px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/6637d3e5a316.jpeg",
+      "caption": "A woman in a sparkly dress performs on stage for a large, cheering crowd at night. suitable for background image",
+      "source": "CitiNewsroom.com",
+      "original_width": "762px",
+      "original_height": "1080px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/b8dffad04abb.jpg",
+      "caption": "A female singer in a sequined dress performs on stage. Text: HYPE LENS.AFRICA",
+      "source": "Pulse Ghana",
+      "original_width": "1024px",
+      "original_height": "1502px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/64939d39dbf7.jpg",
+      "caption": "A promotional poster for the \"SHAY CONCERT 2025\" on Nov 22nd at Westhills Mall, featuring logos for Hisense and RuffTown Records.",
+      "source": "YouTube",
+      "original_width": "1280px",
+      "original_height": "720px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c2407e9151a7.jpeg",
+      "caption": "A collage of three blurry photos showing a female singer performing on stage.",
+      "source": "Yen News",
+      "original_width": "1200px",
+      "original_height": "675px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/2d0d79b1b6ba.jpg",
+      "caption": "A female singer in a gold outfit performs on stage with dancers, featuring \"rakil tv\" and \"TGM 27\" logos.",
+      "source": "YouTube",
+      "original_width": "1280px",
+      "original_height": "720px"
+    }
+  ]
+}

@@ -28,7 +28,7 @@ export const chapters: Chapter[] = [
     ],
     sourceIds: ["src-ghanaweb-profile", "src-modernghana", "src-pulse-africa"],
     verification: "verified",
-    imagePath: "/images/wendy-shay/journey-01-accra.jpg",
+    imagePath: "/images/wendy-shay/portrait-bw-bucket-hat.jpg",
     imageCaption: "Accra, Ghana — the city where the story begins.",
     headlineLocal: {
       lang: "TWI",
@@ -50,7 +50,7 @@ export const chapters: Chapter[] = [
     ],
     sourceIds: ["src-modernghana", "src-graphic-entertainment", "src-citinewsroom"],
     verification: "verified",
-    imagePath: "/images/wendy-shay/journey-02-return.jpg",
+    imagePath: "/images/wendy-shay/portrait-blonde-dreads-brown.jpg",
     imageCaption: "The return — a signed artist with a country watching to see what she would become.",
   },
   {
@@ -68,7 +68,7 @@ export const chapters: Chapter[] = [
     ],
     sourceIds: ["src-graphic-entertainment", "src-pulse-africa", "src-modernghana"],
     verification: "verified",
-    imagePath: "/images/wendy-shay/journey-03-uber-driver.jpg",
+    imagePath: "/images/wendy-shay/uber-driver-driving.jpg",
     imageCaption: "The breakthrough — 'Uber Driver' and the moment the comparisons stopped working.",
   },
   {
@@ -87,7 +87,7 @@ export const chapters: Chapter[] = [
     ],
     sourceIds: ["src-graphic-entertainment", "src-pulse-africa", "src-modernghana"],
     verification: "verified",
-    imagePath: "/images/wendy-shay/journey-04-commando.jpg",
+    imagePath: "/images/wendy-shay/portrait-black-fur-top.jpg",
     imageCaption: "The reinvention — image, sound, and brand fused into one identity.",
   },
   {
@@ -106,7 +106,7 @@ export const chapters: Chapter[] = [
     ],
     sourceIds: ["src-vgma-2019", "src-graphic-entertainment", "src-pulse-africa"],
     verification: "verified",
-    imagePath: "/images/wendy-shay/journey-05-awards.jpg",
+    imagePath: "/images/wendy-shay/redcarpet-black-gown.jpg",
     imageCaption: "The Awards — formal recognition of an arrival the streets already knew.",
   },
   {
@@ -124,7 +124,7 @@ export const chapters: Chapter[] = [
     ],
     sourceIds: ["src-graphic-entertainment", "src-citinewsroom", "src-modernghana"],
     verification: "verified",
-    imagePath: "/images/wendy-shay/journey-06-controversies.jpg",
+    imagePath: "/images/wendy-shay/portrait-blonde-outdoor.jpg",
     imageCaption: "A public career is also a public record of friction.",
   },
   {
@@ -143,7 +143,7 @@ export const chapters: Chapter[] = [
     ],
     sourceIds: ["src-graphic-entertainment", "src-citinewsroom", "src-pulse-africa"],
     verification: "verified",
-    imagePath: "/images/wendy-shay/journey-07-survivor.jpg",
+    imagePath: "/images/wendy-shay/cover-survivor.jpg",
     imageCaption: "The Survivor era — a different artist on the other side of the reset.",
   },
   {
@@ -161,7 +161,7 @@ export const chapters: Chapter[] = [
     ],
     sourceIds: ["src-editorial-legacy", "src-wendy-shay-official"],
     verification: "editorial",
-    imagePath: "/images/wendy-shay/journey-08-today.jpg",
+    imagePath: "/images/wendy-shay/cover-enigma.jpg",
     imageCaption: "Today — the page is still being written.",
     closingLocal: {
       lang: "GA",

@@ -1,0 +1,50 @@
+{
+  "success": true,
+  "query": "Wendy Shay RuffTown Records singer red carpet event",
+  "count": 6,
+  "ranked": true,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/d48e7f8e8bfb.jpg",
+      "caption": "A woman in a black gown stands in a hallway with orange carpet. suitable for background image",
+      "source": "Pulse Ghana",
+      "original_width": "1024px",
+      "original_height": "1280px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/6fcccd87cec4.webp",
+      "caption": "A collage of a performer and a concert crowd with text: SHAY CONCERT 2023, HYPELENS AFRICA, sadigmore.",
+      "source": "Celebrities Ho Konkonsa Gossip",
+      "original_width": "1200px",
+      "original_height": "675px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/5aaa4789d3bc.jpeg",
+      "caption": "A collage of a woman and child, plus a solo shot, with an \"AFRIMA AWARDS\" logo inset.",
+      "source": "Yen News",
+      "original_width": "1200px",
+      "original_height": "675px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/111358f79133.jpeg",
+      "caption": "A collage of two photos showing a woman in different outfits, one indoors and the other on stage.",
+      "source": "Yen News",
+      "original_width": "1200px",
+      "original_height": "675px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/e8b146686572.jpg",
+      "caption": "A smiling woman in a yellow ruffled blouse stands before a colorful graffiti wall. suitable for background image",
+      "source": "The AfroFusion Spot",
+      "original_width": "1280px",
+      "original_height": "720px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/0fdbd7f5cfe1.jpg",
+      "caption": "Two men pose under purple light; background text: \"MUSIC + FOOD AS A SOCIAL UNIFIER\".",
+      "source": "LinkedIn Ghana",
+      "original_width": "800px",
+      "original_height": "1066px"
+    }
+  ]
+}

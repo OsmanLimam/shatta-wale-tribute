@@ -44,13 +44,13 @@ export function Hero({ onEnter }: HeroProps) {
         aria-hidden="true"
       >
         <Image
-          src="/images/wendy-shay/hero-stage.jpg"
-          alt="Wendy Shay performing on stage under rose-tinted light."
+          src="/images/wendy-shay/stage-red-jumpsuit.jpg"
+          alt="Wendy Shay performing on stage in a red jumpsuit."
           fill
           priority
           sizes="100vw"
           quality={75}
-          className="absolute inset-0 h-full w-full object-cover"
+          className="absolute inset-0 h-full w-full object-cover object-top"
         />
         {/* Light tonal overlay — lets the photo show, with darker bottom for text contrast */}
         <div

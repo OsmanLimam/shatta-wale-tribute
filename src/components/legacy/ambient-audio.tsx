@@ -124,10 +124,19 @@ export function AmbientAudio() {
     const onTimeUpdate = () => setCurrentTime(audio.currentTime);
     const onLoadedMeta = () => setDuration(audio.duration || 0);
     const onReady = () => setDuration(audio.duration || 0);
+    const onDurationChange = () => setDuration(audio.duration || 0);
+
+    // If the audio metadata already loaded before this effect ran (e.g. when
+    // hasInteracted flips and re-triggers the effect), read duration synchronously
+    // so the time readout shows the correct value immediately.
+    if (isFinite(audio.duration) && audio.duration > 0) {
+      setDuration(audio.duration);
+    }
 
     audio.addEventListener("timeupdate", onTimeUpdate);
     audio.addEventListener("loadedmetadata", onLoadedMeta);
     audio.addEventListener("canplaythrough", onReady);
+    audio.addEventListener("durationchange", onDurationChange);
 
     // Attempt autoplay after a short delay (lets hero animation begin first)
     const attemptAutoplay = async () => {
@@ -179,6 +188,7 @@ export function AmbientAudio() {
       audio.removeEventListener("timeupdate", onTimeUpdate);
       audio.removeEventListener("loadedmetadata", onLoadedMeta);
       audio.removeEventListener("canplaythrough", onReady);
+      audio.removeEventListener("durationchange", onDurationChange);
       document.removeEventListener("click", onFirstGesture);
       document.removeEventListener("keydown", onFirstGesture);
       document.removeEventListener("touchstart", onFirstGesture);

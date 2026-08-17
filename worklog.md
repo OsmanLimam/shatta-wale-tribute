@@ -152,3 +152,28 @@ Stage Summary:
 - 8 text-heavy sections now have visual texture (SM watermark + gold-glow) instead of flat dark backgrounds.
 - SM emblem integrated into navigation header for branding consistency.
 - Production build verified, all images load, VLM-verified screenshot confirms visual quality.
+
+---
+Task ID: wendy-audio-verify-1
+Agent: main
+Task: Verify Wendy Shay ambient audio file integration with the Living Legacy Experience site and fix any playback bugs.
+
+Work Log:
+- Confirmed the user-provided Wendy Shay track (s1zwznyuisiaf7rik4.m4a, 2.35 MB, 2:25 duration) is correctly placed at /public/audio/wendy-shay-ambient.m4a.
+- Verified AmbientAudio component (src/components/legacy/ambient-audio.tsx) references the file via /audio/wendy-shay-ambient.m4a with audio/mp4 source type.
+- Started dev server (Next.js 16.1.3 with Turbopack) and confirmed HTTP 200 for both the homepage and the audio file (size=2353034 bytes — matches source exactly).
+- Used agent-browser to load the page and inspected the audio element: readyState=4 (HAVE_ENOUGH_DATA), duration=145.22s, src correctly resolves to http://localhost:3000/audio/wendy-shay-ambient.m4a.
+- Clicked the Play ambient music button — audio successfully started playback, currentTime advanced from 0.00s → 11.21s → 62.65s over real time, volume faded smoothly from 0 to 0.40 (the target).
+- Caught a state bug: the time readout UI showed "0:11 / 0:00" instead of "0:11 / 2:25". Diagnosed root cause — when the hasInteracted flag flipped false→true, the useEffect re-ran and re-attached event listeners, but the loadedmetadata event had already fired before re-attachment, so the React duration state stayed at 0.
+- Fixed the bug in ambient-audio.tsx by:
+  - Adding a synchronous duration read on every effect mount (if isFinite(audio.duration) && audio.duration > 0, immediately setDuration).
+  - Adding a durationchange event listener (covers edge cases where duration changes after initial load).
+  - Updating cleanup to remove the new listener.
+- Reloaded the page, clicked Play, and verified the time readout now correctly shows "0:03 / 2:25" → "0:10 / 2:25" as playback progresses.
+- VLM-verified screenshot confirms: "NOW PLAYING" label, "Wendy Shay — Wendy Shay" track title, "0:10 / 2:25" time readout, and all three control icons (pause, volume, close) all rendered correctly.
+
+Stage Summary:
+- Wendy Shay ambient score is fully integrated: file served at /audio/wendy-shay-ambient.m4a, AmbientAudio component wires it correctly, autoplay-on-gesture flow works, smooth volume fade-in works, time readout now correctly displays current/total.
+- Fixed duration-readout bug that was showing 0:00 instead of 2:25 — added synchronous duration read on effect mount plus durationchange listener.
+- Audio plays cleanly at 0.40 target volume, advances smoothly through 145.22s track, loops indefinitely as designed.
+- All audio player UI elements verified via VLM: NOW PLAYING label, track title, time readout, pause/volume/close icons.

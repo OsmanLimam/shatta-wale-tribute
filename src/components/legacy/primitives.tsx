@@ -269,8 +269,11 @@ export function SourceChip({ label, tier }: { label: string; tier: string }) {
           ? "text-ivory-dim"
           : "text-clay";
   return (
-    <span className="inline-flex items-center gap-2 border border-hairline px-2 py-1 font-mono-caps text-[0.6rem]">
-      <span className={tierColor}>●</span>
+    <span
+      className="inline-flex h-7 items-center gap-2 border border-hairline px-2 font-mono-caps text-[0.6rem] uppercase tracking-wider"
+      title={`Source tier: ${tier}`}
+    >
+      <span className={tierColor} aria-hidden="true">●</span>
       <span className="text-ivory-dim">{label}</span>
     </span>
   );

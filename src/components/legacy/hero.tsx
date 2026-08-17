@@ -2,6 +2,7 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
+import Image from "next/image";
 import { usePrefersReducedMotion } from "@/lib/legacy/motion";
 import { LocalLine } from "./primitives";
 
@@ -42,12 +43,14 @@ export function Hero({ onEnter }: HeroProps) {
         className="absolute inset-0 z-0"
         aria-hidden="true"
       >
-        <img
+        <Image
           src="/images/shatta-wale/hero-stage.jpg"
           alt="Shatta Wale performing on stage under gold light."
+          fill
+          priority
+          sizes="100vw"
+          quality={85}
           className="absolute inset-0 h-full w-full object-cover"
-          loading="eager"
-          decoding="async"
         />
         {/* Light tonal overlay — lets the photo show, with darker bottom for text contrast */}
         <div

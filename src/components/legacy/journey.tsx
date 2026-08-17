@@ -75,7 +75,7 @@ function ChapterBlock({ chapter, index, reversed }: ChapterBlockProps) {
   return (
     <article
       data-chapter-index={chapter.index}
-      className="relative pl-12 md:grid md:grid-cols-2 md:items-center md:gap-16 md:pl-0"
+      className="relative pl-12 md:grid md:grid-cols-2 md:items-start md:gap-16 md:pl-0"
       id={`journey-${chapter.id}`}
     >
       {/* Chapter node on the rail */}
@@ -169,7 +169,7 @@ function ChapterBlock({ chapter, index, reversed }: ChapterBlockProps) {
             )}
 
             {/* Sources */}
-            <div className="flex flex-wrap gap-2 pt-4">
+            <div className="flex flex-wrap items-start gap-2 pt-4">
               {chapter.sourceIds.map((sid) => {
                 const src = sourcesById[sid];
                 if (!src) return null;

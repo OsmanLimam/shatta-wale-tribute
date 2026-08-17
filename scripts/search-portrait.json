@@ -1,0 +1,67 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "Shatta Wale portrait photo Ghanaian musician"
+✅ Got 8 images
+{
+  "success": true,
+  "query": "Shatta Wale portrait photo Ghanaian musician",
+  "count": 8,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/85bc6a7457f4.jpg",
+      "caption": "",
+      "source": "YouTube",
+      "original_width": "900px",
+      "original_height": "900px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/295781d5b424.jpg",
+      "caption": "",
+      "source": "Naija News",
+      "original_width": "2160px",
+      "original_height": "1441px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/8b20033b59e2.jpg",
+      "caption": "",
+      "source": "x.com",
+      "original_width": "1024px",
+      "original_height": "1024px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/4538465c5fbf.jpg",
+      "caption": "",
+      "source": "YouTube",
+      "original_width": "1280px",
+      "original_height": "720px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/934ccad406d4.jpg",
+      "caption": "",
+      "source": "Ghanamusicblog.net",
+      "original_width": "2000px",
+      "original_height": "2000px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/4d401afd16c0.jpg",
+      "caption": "",
+      "source": "Ghanamusicblog.net",
+      "original_width": "1280px",
+      "original_height": "720px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/0d9e66b7047e.jpg",
+      "caption": "",
+      "source": "YouTube",
+      "original_width": "1280px",
+      "original_height": "720px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/83de3e60ed15.png",
+      "caption": "",
+      "source": "Tekedia",
+      "original_width": "2800px",
+      "original_height": "2800px"
+    }
+  ]
+}

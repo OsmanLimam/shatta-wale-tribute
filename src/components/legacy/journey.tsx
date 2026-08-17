@@ -103,7 +103,7 @@ function ChapterBlock({ chapter, index, reversed }: ChapterBlockProps) {
             {chapter.imagePath ? (
               <LegacyImage
                 src={chapter.imagePath}
-                alt={`Artistic interpretation evoking the ${chapter.era} era — ${chapter.headline}`}
+                alt={`Shatta Wale — ${chapter.era} era (${chapter.periodLabel})`}
                 caption={chapter.imageCaption}
                 className="aspect-[4/5] w-full max-w-sm"
               />

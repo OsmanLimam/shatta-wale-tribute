@@ -33,27 +33,27 @@ export function Hero({ onEnter }: HeroProps) {
       id="hero"
       className="relative grain flex h-[100svh] min-h-[640px] w-full items-center justify-center overflow-hidden bg-ink"
     >
-      {/* Atmospheric backdrop — original AI artwork, NOT a photograph */}
+      {/* Atmospheric backdrop — Shatta Wale performing on stage */}
       <motion.div
         initial={{ opacity: 0, scale: reduced ? 1 : 1.08 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 2.4, ease: [0.22, 1, 0.36, 1] }}
-        className="absolute inset-0 -z-10"
+        className="absolute inset-0 z-0"
         aria-hidden="true"
       >
         <img
-          src="/images/hero-atmosphere.jpg"
-          alt="Atmospheric interpretation: a vast empty stage lit by a single warm gold spotlight cutting through haze."
+          src="/images/shatta-wale/hero-stage.jpg"
+          alt="Shatta Wale performing on stage under gold light."
           className="absolute inset-0 h-full w-full object-cover"
           loading="eager"
           decoding="async"
         />
-        {/* Tonal overlay — keeps the imagery within the editorial palette */}
+        {/* Light tonal overlay — lets the photo show, with darker bottom for text contrast */}
         <div
           className="absolute inset-0"
           style={{
             background:
-              "radial-gradient(120% 100% at 50% 30%, rgba(201,162,75,0.10) 0%, rgba(10,10,10,0.55) 50%, #0a0a0a 88%)",
+              "linear-gradient(180deg, rgba(10,10,10,0.30) 0%, rgba(10,10,10,0.15) 35%, rgba(10,10,10,0.55) 75%, #0a0a0a 100%)",
           }}
         />
         {/* Bottom fade into next section */}
@@ -66,7 +66,7 @@ export function Hero({ onEnter }: HeroProps) {
         />
         {/* Attribution corner */}
         <div className="absolute bottom-4 right-4 z-10 font-mono-caps text-[0.5rem] text-ivory/50">
-          ● Artistic interpretation · generated for this archive
+          ● Photo · Web archive
         </div>
       </motion.div>
 
@@ -95,7 +95,7 @@ export function Hero({ onEnter }: HeroProps) {
           A LIVING LEGACY EXPERIENCE
         </motion.span>
 
-        <h1 className="font-display text-[clamp(3rem,12vw,11rem)] leading-[0.92] tracking-[-0.04em] text-ivory-fade">
+        <h1 className="font-display text-[clamp(3rem,12vw,11rem)] leading-[0.92] tracking-[-0.04em] text-ivory-fade [text-shadow:0_2px_30px_rgba(0,0,0,0.85),0_1px_3px_rgba(0,0,0,0.9)]">
           <motion.span
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -110,7 +110,7 @@ export function Hero({ onEnter }: HeroProps) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.0, delay: 1.0, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-6 font-display text-[clamp(1.25rem,3.6vw,2.5rem)] italic leading-snug text-ivory"
+          className="mt-6 font-display text-[clamp(1.25rem,3.6vw,2.5rem)] italic leading-snug text-ivory [text-shadow:0_2px_20px_rgba(0,0,0,0.85)]"
         >
           Before History Writes Your Story.
         </motion.p>
@@ -119,7 +119,7 @@ export function Hero({ onEnter }: HeroProps) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.0, delay: 1.4, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-8 max-w-2xl text-base leading-relaxed text-ivory-dim sm:text-lg"
+          className="mt-8 max-w-2xl text-base leading-relaxed text-ivory sm:text-lg [text-shadow:0_1px_12px_rgba(0,0,0,0.9)]"
         >
           A living digital archive of the journey, influence, and moments that
           shaped one of Ghana&rsquo;s most recognizable musical figures.

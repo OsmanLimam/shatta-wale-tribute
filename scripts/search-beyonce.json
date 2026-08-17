@@ -1,0 +1,53 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "Shatta Wale Beyoncé Already Lion King collaboration"
+✅ Got 6 images
+{
+  "success": true,
+  "query": "Shatta Wale Beyoncé Already Lion King collaboration",
+  "count": 6,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/1a99a198bfca.png",
+      "caption": "",
+      "source": "BellaNaija",
+      "original_width": "1155px",
+      "original_height": "793px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/69a2d5b79655.jpg",
+      "caption": "",
+      "source": "Billboard",
+      "original_width": "1548px",
+      "original_height": "1024px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/84f103a8883a.jpeg",
+      "caption": "",
+      "source": "Yen News",
+      "original_width": "1200px",
+      "original_height": "675px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7b6b7c869dd5.jpg",
+      "caption": "",
+      "source": "Accra Mail",
+      "original_width": "1280px",
+      "original_height": "720px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/be06d32079c9.jpg",
+      "caption": "",
+      "source": "Texas Monthly",
+      "original_width": "1600px",
+      "original_height": "900px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/107afb19e171.jpg",
+      "caption": "",
+      "source": "Radr Africa",
+      "original_width": "1920px",
+      "original_height": "1080px"
+    }
+  ]
+}

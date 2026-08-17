@@ -19,7 +19,7 @@ export const moments: MediaItem[] = [
       "The earliest widely circulated recorded appearance — 'Moko Hoo' on Ghanaian radio. The first time the public heard a voice that would, after a name change and a decade of work, become unmistakable.",
     sourceIds: ["src-musicinafrica", "src-myjoyonline-biography"],
     verification: "verified",
-    imagePath: "/images/ch-first-dream.jpg",
+    imagePath: "/images/shatta-wale/moment-01.jpg",
   },
   {
     id: "mom-rebrand-shatta-wale",
@@ -31,7 +31,7 @@ export const moments: MediaItem[] = [
       "A total reset — new name, new identity, new sound. The single most consequential decision of the career: the moment the trajectory changed direction permanently.",
     sourceIds: ["src-myjoyonline-biography", "src-graphic-entertainment"],
     verification: "verified",
-    imagePath: "/images/ch-reinvention.jpg",
+    imagePath: "/images/shatta-wale/moment-02.jpg",
   },
   {
     id: "mom-dancehall-king-release",
@@ -43,7 +43,7 @@ export const moments: MediaItem[] = [
       "The anthem that mapped the rebrand onto the wider national imagination. Within months it became shorthand for an entire era of Ghanaian dancehall.",
     sourceIds: ["src-graphic-entertainment", "src-musicinafrica"],
     verification: "verified",
-    imagePath: "/images/ch-breakthrough.jpg",
+    imagePath: "/images/shatta-wale/moment-03.jpg",
   },
   {
     id: "mom-vgma-2014",
@@ -55,7 +55,7 @@ export const moments: MediaItem[] = [
       "Institutional recognition of the breakthrough era. The most cited single award in his public story.",
     sourceIds: ["src-vgma-2014", "src-myjoyonline-biography"],
     verification: "verified",
-    imagePath: "/images/ch-breakthrough.jpg",
+    imagePath: "/images/shatta-wale/moment-04.jpg",
   },
   {
     id: "mom-kakai-ayoo-run",
@@ -67,7 +67,7 @@ export const moments: MediaItem[] = [
       "The chapter where the breakthrough became a body of work. Each single extended the audience and confirmed the volume-driven release strategy as a sustainable model.",
     sourceIds: ["src-graphic-entertainment", "src-pulse-africa", "src-modernghana"],
     verification: "verified",
-    imagePath: "/images/ch-movement.jpg",
+    imagePath: "/images/shatta-wale/moment-05.jpg",
   },
   {
     id: "mom-lionking-feature",
@@ -79,7 +79,7 @@ export const moments: MediaItem[] = [
       "Ghanaian dancehall placed on a globally marketed Disney-released album. The inflection point for international press coverage of his career.",
     sourceIds: ["src-beyonce-lionking", "src-bbc-africa", "src-complex-2020"],
     verification: "verified",
-    imagePath: "/images/ch-rise.jpg",
+    imagePath: "/images/shatta-wale/moment-06.jpg",
   },
   {
     id: "mom-already-visual",
@@ -91,7 +91,7 @@ export const moments: MediaItem[] = [
       "The visual companion to the Beyoncé collaboration extended the reach of the previous year's record and brought additional chart visibility.",
     sourceIds: ["src-billboard-chart-2020", "src-bbc-africa", "src-complex-2020"],
     verification: "verified",
-    imagePath: "/images/ch-rise.jpg",
+    imagePath: "/images/shatta-wale/moment-07.jpg",
   },
   {
     id: "mom-shatta-movement-concerts",
@@ -103,7 +103,7 @@ export const moments: MediaItem[] = [
       "Fan-organised stadium-scale turnouts, sustained across multiple eras. The visible proof that the Movement is not an audience but a constituency.",
     sourceIds: ["src-graphic-entertainment", "src-modernghana", "src-pulse-africa"],
     verification: "verified",
-    imagePath: "/images/ch-movement.jpg",
+    imagePath: "/images/shatta-wale/moment-08.jpg",
   },
 ];
 

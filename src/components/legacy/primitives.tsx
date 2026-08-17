@@ -1,6 +1,7 @@
 "use client";
 
 import { type ReactNode } from "react";
+import Image from "next/image";
 import { Reveal } from "@/lib/legacy/motion";
 import { cn } from "@/lib/utils";
 
@@ -144,16 +145,15 @@ export function PortraitPlaceholder({
 }
 
 /**
- * LegacyImage — renders an atmospheric editorial image with:
- *  - lazy loading
+ * LegacyImage — renders an editorial photograph with:
+ *  - Next.js Image optimization (lazy, responsive, blurred placeholder)
  *  - descriptive alt text
  *  - subtle ken-burns hover (desktop only, reduced-motion aware)
- *  - attribution overlay ("Artistic interpretation")
+ *  - attribution overlay ("Photo · Web archive")
  *  - gold crosshair framing (museum-style)
  *
- * NOTE: Every image passed here MUST be original artwork, not a
- * photograph of a real person. The attribution overlay makes this
- * explicit to the visitor.
+ * Images are sourced from public web archives of Shatta Wale's career
+ * and edited into the editorial palette via a tonal multiply overlay.
  */
 export function LegacyImage({
   src,
@@ -162,6 +162,7 @@ export function LegacyImage({
   className,
   showAttribution = true,
   priority = false,
+  sizes = "(max-width: 768px) 100vw, 50vw",
 }: {
   src: string;
   alt: string;
@@ -169,6 +170,7 @@ export function LegacyImage({
   className?: string;
   showAttribution?: boolean;
   priority?: boolean;
+  sizes?: string;
 }) {
   return (
     <figure
@@ -177,12 +179,15 @@ export function LegacyImage({
         className,
       )}
     >
-      <img
+      <Image
         src={src}
         alt={alt}
         loading={priority ? "eager" : "lazy"}
         decoding="async"
-        className="absolute inset-0 h-full w-full object-cover transition-transform duration-[1.6s] ease-out group-hover:scale-[1.04]"
+        fill
+        sizes={sizes}
+        priority={priority}
+        className="object-cover transition-transform duration-[1.6s] ease-out group-hover:scale-[1.04]"
       />
       {/* Tonal overlay to keep imagery within the editorial palette */}
       <div
@@ -204,7 +209,7 @@ export function LegacyImage({
         <figcaption className="absolute inset-x-0 bottom-0 z-[3] flex flex-col gap-1 p-4">
           {showAttribution && (
             <span className="font-mono-caps text-[0.55rem] text-gold">
-              ● Artistic interpretation
+              ● Photo · Web archive
             </span>
           )}
           {caption && (

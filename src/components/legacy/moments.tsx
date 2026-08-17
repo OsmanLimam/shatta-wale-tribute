@@ -54,9 +54,10 @@ export function Moments() {
                 {moment.imagePath ? (
                   <LegacyImage
                     src={moment.imagePath}
-                    alt={`Artistic interpretation: ${moment.title} (${moment.year})`}
-                    caption={`Era evocation for: ${moment.title}`}
+                    alt={`Shatta Wale — ${moment.title} (${moment.year})`}
+                    caption={moment.title}
                     className="h-full w-full"
+                    sizes="(max-width: 1024px) 100vw, 60vw"
                   />
                 ) : (
                   <PortraitPlaceholder

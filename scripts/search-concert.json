@@ -1,0 +1,53 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "Shatta Wale concert crowd Ghana performance"
+✅ Got 6 images
+{
+  "success": true,
+  "query": "Shatta Wale concert crowd Ghana performance",
+  "count": 6,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/2b7f9053abdf.jpeg",
+      "caption": "",
+      "source": "Ghana Business News",
+      "original_width": "1028px",
+      "original_height": "800px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/ca159d75f433.png",
+      "caption": "",
+      "source": "GBC Ghana Online",
+      "original_width": "1280px",
+      "original_height": "854px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/631146a761b0.jpg",
+      "caption": "",
+      "source": "YouTube",
+      "original_width": "1280px",
+      "original_height": "720px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/54df192cb53e.jpg",
+      "caption": "",
+      "source": "YouTube",
+      "original_width": "1280px",
+      "original_height": "720px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7be1ae303911.jpg",
+      "caption": "",
+      "source": "YouTube",
+      "original_width": "1280px",
+      "original_height": "720px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c8195100dda4.jpg",
+      "caption": "",
+      "source": "Ghana Plug",
+      "original_width": "1080px",
+      "original_height": "1341px"
+    }
+  ]
+}

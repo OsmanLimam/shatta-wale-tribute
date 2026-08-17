@@ -1,6 +1,6 @@
 "use client";
 
-import { Section, LegacyImage } from "./primitives";
+import { Section, LegacyImage, PortraitPlaceholder } from "./primitives";
 import { Reveal, MaskText } from "@/lib/legacy/motion";
 import { familyMembers } from "@/content/family";
 import { sourcesById } from "@/content/sources";
@@ -55,6 +55,14 @@ export function ShayFamily() {
             chosen to share. Where the record is silent, this section is
             silent. Where it speaks, it speaks with care.
           </p>
+          <p className="mt-4 max-w-2xl text-sm leading-relaxed text-ivory-dim/85">
+            <span className="font-mono-caps text-gold/80">EDITORIAL NOTE &middot;</span>{' '}
+            Photographs of her daughters are intentionally omitted. The
+            publicly circulated images are fan-made social-media collages that
+            depict minors without verified parental consent; this archive
+            declines to republish them. The museum-style placeholder below
+            is the editorial answer to that boundary.
+          </p>
         </div>
       </Reveal>
 
@@ -73,12 +81,20 @@ export function ShayFamily() {
                       : "md:col-span-5 md:col-start-1 md:order-1"
                   }
                 >
-                  <LegacyImage
-                    src={member.imagePath}
-                    alt={`Wendy Shay — ${member.relation} (${member.name}).`}
-                    caption={`${member.name} — ${member.relation}.`}
-                    className="aspect-[4/5] w-full max-w-md"
-                  />
+                  {member.imagePath ? (
+                    <LegacyImage
+                      src={member.imagePath}
+                      alt={`Wendy Shay — ${member.relation} (${member.name}).`}
+                      caption={`${member.name} — ${member.relation}.`}
+                      className="aspect-[4/5] w-full max-w-md"
+                    />
+                  ) : (
+                    <PortraitPlaceholder
+                      label="PRIVATE · NAMED IN THE RECORD"
+                      sublabel={member.name}
+                      className="aspect-[4/5] w-full max-w-md"
+                    />
+                  )}
                 </div>
 
                 {/* Text side */}

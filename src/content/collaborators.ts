@@ -10,6 +10,14 @@ import type { SourceTier } from "@/lib/types";
  *  - Photos sourced from public web archives of each collaborator.
  *  - Photos are NOT original Wendy Shay photography — they depict the
  *    collaborator, used here for editorial identification only.
+ *
+ * Editorial integrity note:
+ *  Earlier drafts of this list included Stonebwoy, Efya, and Shaggy. Those
+ *  entries described "press framing", "shared billing", or "parallel careers"
+ *  — not a documented joint release, credited feature, or confirmed joint
+ *  performance. Per the sourcing principle above, those entries have been
+ *  removed. The remaining list contains only collaborators with a verifiable
+ *  musical credit intersection with Wendy Shay's catalogue.
  */
 
 export interface Collaborator {
@@ -51,7 +59,7 @@ export const collaborators: Collaborator[] = [
     collaboration: "'Stevie Wonder' (Wendy Shay feat. Shatta Wale) and 'H.I.T Haters In Tears' (Wendy Shay feat. Shatta Wale)",
     year: "2020 — 2023",
     significance:
-      "The most prominent cross-label dancehall exchange of her career. Two named joint singles — 'Stevie Wonder' and 'H.I.T Haters In Tears' — pair Wendy Shay with the figure who, alongside Stonebwoy, defined Ghanaian dancehall across the same era. The records document a direct creative exchange between two of the genre's most recognizable voices, and gave her catalogue a dancehall credibility it could not have built alone.",
+      "The most prominent cross-label dancehall exchange of her career. Two named joint singles — 'Stevie Wonder' and 'H.I.T Haters In Tears' — pair Wendy Shay with the figure who defined Ghanaian dancehall across the same era. The records document a direct creative exchange between two of the genre's most recognizable voices, and gave her catalogue a dancehall credibility it could not have built alone.",
     imagePath: "/images/collaborators/shatta-wale.jpg",
     sourceIds: ["src-shatta-wale", "src-modernghana", "src-graphic-entertainment"],
     tier: "primary",
@@ -105,18 +113,6 @@ export const collaborators: Collaborator[] = [
     tier: "reputable",
   },
   {
-    id: "efya",
-    name: "Efya",
-    origin: "Ghanaian singer-songwriter",
-    collaboration: "Joint recordings and live appearances",
-    year: "across the journey",
-    significance:
-      "One of Ghana's most respected vocalists. Her collaborations with Wendy Shay demonstrate the range of the contemporary catalogue — the Afropop sound stretched into soulful territory.",
-    imagePath: "/images/collaborators/efya.jpg",
-    sourceIds: ["src-efya", "src-musicinafrica", "src-graphic-entertainment"],
-    tier: "reputable",
-  },
-  {
     id: "sista-afia",
     name: "Sista Afia",
     origin: "Ghanaian Afropop singer",
@@ -126,18 +122,6 @@ export const collaborators: Collaborator[] = [
       "A peer and, depending on the outlet, a perceived rival. The 2020 public exchange between the two became, depending on who was writing, either a rivalry narrative or a commentary on how the Ghanaian press frames women in music. The exchange mattered less for its substance than for the way it was amplified.",
     imagePath: "/images/collaborators/sista-afia.jpg",
     sourceIds: ["src-sista-afia", "src-citinewsroom", "src-graphic-entertainment"],
-    tier: "reputable",
-  },
-  {
-    id: "stonebwoy",
-    name: "Stonebwoy",
-    origin: "Ghanaian dancehall artist, VGMA winner",
-    collaboration: "Same-era Ghanaian dancehall crossover press coverage",
-    year: "across the journey",
-    significance:
-      "The other major name in Ghanaian dancehall across the same era. The press repeatedly framed Stonebwoy and Wendy Shay as parallel figures operating in adjacent lanes — the male and female faces of a dancehall-tinged Ghanaian mainstream that, before 2018, was largely a male-dominated space. Where they have shared billing and press framing is part of the wider story of who got to headline in that era.",
-    imagePath: "/images/collaborators/stonebwoy.jpg",
-    sourceIds: ["src-graphic-entertainment", "src-citinewsroom"],
     tier: "reputable",
   },
   {
@@ -152,16 +136,34 @@ export const collaborators: Collaborator[] = [
     sourceIds: ["src-mavado", "src-graphic-entertainment", "src-modernghana"],
     tier: "primary",
   },
-  {
-    id: "shaggy",
-    name: "Shaggy",
-    origin: "Jamaican reggae-dancehall icon, multiple-Grammy winner",
-    collaboration: "Caribbean/West-African crossover press and shared billing",
-    year: "across the journey",
-    significance:
-      "An earlier generation of Caribbean dancehall that the West-African scene grew up sampling. The Shaggy–Wendy Shay conversation — through press coverage and shared diaspora-tour circuits — connects the Ghanaian Afropop wave to the reggae-dancehall tradition that shaped it.",
-    imagePath: "/images/collaborators/shaggy.jpg",
-    sourceIds: ["src-graphic-entertainment", "src-pulse-africa"],
-    tier: "reputable",
-  },
 ];
+
+/**
+ * REMOVED COLLABORATORS (documented here for editorial transparency)
+ *
+ * The following artists were listed in earlier drafts but have been removed
+ * from the visible list above. Each removal is recorded with the reason.
+ *
+ * Stonebwoy
+ *   Earlier language: "Same-era Ghanaian dancehall crossover press coverage"
+ *   Reason for removal: Describes press framing of parallel careers, not a
+ *   documented joint release, credited feature, or confirmed joint
+ *   performance with Wendy Shay. Parallel careers in the same era is not a
+ *   collaboration.
+ *
+ * Efya
+ *   Earlier language: "Joint recordings and live appearances"
+ *   Reason for removal: The earlier language was generic and did not cite a
+ *   specific released song or credited feature. Without a verifiable
+ *   musical-credit intersection in the public catalogue, the entry does not
+ *   meet the sourcing threshold stated in the file header.
+ *
+ * Shaggy
+ *   Earlier language: "Caribbean/West-African crossover press and shared
+ *   billing"
+ *   Reason for removal: Describes press coverage of parallel diaspora-tour
+ *   circuits, not a documented joint release with Wendy Shay. The
+ *   reggae-dancehall tradition's influence on the West-African scene is
+ *   recorded in the journey narrative; what is not recorded here is a
+ *   collaboration that does not appear in the public catalogue.
+ */

@@ -41,7 +41,7 @@ export function Moments() {
       <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-12">
         {/* Visual stage */}
         <div className="lg:col-span-7">
-          <div className="relative aspect-[4/5] w-full overflow-hidden border border-hairline bg-charcoal sm:aspect-[16/10] lg:aspect-[4/5]">
+          <div className="relative aspect-[4/5] w-full overflow-hidden border border-hairline bg-charcoal sm:aspect-[16/10]">
             <AnimatePresence mode="wait">
               <motion.div
                 key={moment.id}

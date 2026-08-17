@@ -187,7 +187,7 @@ export const moments: MediaItem[] = [
       "At the time of writing, Wendy Shay continues to release, perform, and shape the public conversation around Ghanaian popular culture. The specifics of today will, in time, become the verified facts of a future chapter.",
     sourceIds: ["src-editorial-legacy", "src-wendy-shay-official"],
     verification: "editorial",
-    imagePath: "/images/wendy-shay/shay-concert-2025-poster.jpg",
+    imagePath: "/images/wendy-shay/moment-14.jpg",
   },
 ];
 

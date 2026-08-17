@@ -1,0 +1,25 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "Stonebwoy Ghanaian dancehall artist"
+✅ Got 2 images
+{
+  "success": true,
+  "query": "Stonebwoy Ghanaian dancehall artist",
+  "count": 2,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/e5772795046a.jpg",
+      "caption": "",
+      "source": "Pan African Music",
+      "original_width": "2000px",
+      "original_height": "1511px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/47bc8ae79aaf.jpg",
+      "caption": "",
+      "source": "Unorthodox Reviews",
+      "original_width": "982px",
+      "original_height": "961px"
+    }
+  ]
+}

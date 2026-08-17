@@ -98,7 +98,7 @@ export function Contribute() {
     <Section id="contribute" tone="charcoal" className="grain">
       <div className="mb-14 md:mb-20">
         <Reveal>
-          <div className="font-mono-caps mb-5 text-gold">11 — Your Chapter</div>
+          <div className="font-mono-caps mb-5 text-gold">12 — Your Chapter</div>
         </Reveal>
         <Reveal delay={0.05}>
           <h2 className="font-display text-[clamp(2.75rem,8vw,7rem)] leading-[0.92] text-ivory-fade">

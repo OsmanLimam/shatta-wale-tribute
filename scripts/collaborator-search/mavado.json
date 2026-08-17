@@ -1,0 +1,25 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "Mavado Jamaican dancehall artist"
+✅ Got 2 images
+{
+  "success": true,
+  "query": "Mavado Jamaican dancehall artist",
+  "count": 2,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/fe784d056561.jpg",
+      "caption": "",
+      "source": "The Caribbean Camera",
+      "original_width": "3000px",
+      "original_height": "1676px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/df480c0c09e5.jpg",
+      "caption": "",
+      "source": "SoundCloud",
+      "original_width": "1080px",
+      "original_height": "1080px"
+    }
+  ]
+}

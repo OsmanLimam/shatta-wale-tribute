@@ -1,0 +1,25 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "Beyoncé singer portrait"
+✅ Got 2 images
+{
+  "success": true,
+  "query": "Beyoncé singer portrait",
+  "count": 2,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/8200da96261b.jpg",
+      "caption": "",
+      "source": "HELLO! Magazine",
+      "original_width": "1920px",
+      "original_height": "1080px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/9ce5bb79306b.jpg",
+      "caption": "",
+      "source": "Alamy",
+      "original_width": "924px",
+      "original_height": "1390px"
+    }
+  ]
+}

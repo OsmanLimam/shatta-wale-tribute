@@ -9,7 +9,7 @@ export function FutureMessage() {
       <div className="grid grid-cols-1 gap-16 lg:grid-cols-12">
         <div className="lg:col-span-5">
           <Reveal>
-            <div className="font-mono-caps mb-5 text-gold">12 — A Message For The Future</div>
+            <div className="font-mono-caps mb-5 text-gold">13 — A Message For The Future</div>
           </Reveal>
           <Reveal delay={0.05}>
             <h2 className="font-display text-[clamp(2.25rem,6vw,5rem)] leading-[0.98] text-ivory-fade">

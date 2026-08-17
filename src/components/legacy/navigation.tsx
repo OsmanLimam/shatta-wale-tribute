@@ -12,6 +12,7 @@ const NAV_ITEMS = [
   { id: "music", label: "The Music" },
   { id: "impact", label: "The Impact" },
   { id: "moments", label: "The Moments" },
+  { id: "collaborators", label: "Collaborators" },
   { id: "archive", label: "The Archive" },
   { id: "letter", label: "The Letter" },
   { id: "contribute", label: "Your Chapter" },

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, Playfair_Display, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
@@ -91,10 +91,18 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/sm-symbol.svg", type: "image/svg+xml", sizes: "any" },
     ],
     apple: [{ url: "/favicon.svg" }],
   },
+  manifest: "/manifest.webmanifest",
   category: "arts & entertainment",
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0a0a0a",
+  width: "device-width",
+  initialScale: 1,
 };
 
 const jsonLd = {
@@ -158,6 +166,13 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${playfair.variable} ${mono.variable} antialiased bg-background text-foreground`}
       >
+        {/* Skip-to-content link — first focusable element for screen-reader / keyboard users */}
+        <a
+          href="#hero"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:border focus:border-gold focus:bg-ink focus:px-4 focus:py-2 focus:font-mono-caps focus:text-xs focus:text-gold"
+        >
+          Skip to content
+        </a>
         {children}
         <Toaster />
       </body>

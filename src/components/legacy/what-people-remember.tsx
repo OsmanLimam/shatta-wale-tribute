@@ -31,7 +31,7 @@ export function WhatPeopleRemember() {
     <Section id="remember" tone="charcoal" className="grain">
       <div className="mb-16 md:mb-20">
         <Reveal>
-          <div className="font-mono-caps mb-5 text-gold">09 — What People Remember</div>
+          <div className="font-mono-caps mb-5 text-gold">10 — What People Remember</div>
         </Reveal>
         <Reveal delay={0.05}>
           <h2 className="font-display text-[clamp(2.5rem,7vw,6rem)] leading-[0.95]">

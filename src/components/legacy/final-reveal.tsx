@@ -12,7 +12,7 @@ export function FinalReveal() {
     <Section id="final-reveal" tone="ink" className="grain min-h-[100svh] flex items-center">
       <div className="mx-auto flex max-w-4xl flex-col items-center text-center">
         <Reveal>
-          <div className="font-mono-caps mb-8 text-gold">14 — Final Reveal</div>
+          <div className="font-mono-caps mb-8 text-gold">15 — Final Reveal</div>
         </Reveal>
 
         <Reveal delay={0.05}>
@@ -70,7 +70,7 @@ export function FinalReveal() {
         </Reveal>
 
         <Reveal delay={0.55}>
-          <div className="mt-20 max-w-xl space-y-2">
+          <footer className="mt-20 max-w-xl space-y-2">
             <p className="text-sm leading-relaxed text-ivory-dim/70">
               An independent creative archival project. Not affiliated with or
               officially endorsed by Shatta Wale or his management unless
@@ -80,7 +80,7 @@ export function FinalReveal() {
               ● Ambient score: &ldquo;Prove You&rdquo; — Shatta Wale. Used as
               room tone for the archive.
             </p>
-          </div>
+          </footer>
         </Reveal>
       </div>
     </Section>

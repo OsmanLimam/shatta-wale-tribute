@@ -41,7 +41,7 @@ export function Archive() {
     <Section id="archive" tone="ink">
       <div className="mb-12 md:mb-16">
         <Reveal>
-          <div className="font-mono-caps mb-5 text-gold">10 — The Archive</div>
+          <div className="font-mono-caps mb-5 text-gold">11 — The Archive</div>
         </Reveal>
         <Reveal delay={0.05}>
           <h2 className="font-display text-[clamp(2.5rem,7vw,6rem)] leading-[0.95] text-ivory-fade">

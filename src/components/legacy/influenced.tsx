@@ -10,7 +10,7 @@ export function Influenced() {
     <Section id="influenced" tone="ink">
       <div className="mb-16 md:mb-20">
         <Reveal>
-          <div className="font-mono-caps mb-5 text-gold">08 — Influence</div>
+          <div className="font-mono-caps mb-5 text-gold">09 — Influence</div>
         </Reveal>
         <Reveal delay={0.05}>
           <h2 className="font-display text-[clamp(2.5rem,7vw,6rem)] leading-[0.95] text-ivory-fade">

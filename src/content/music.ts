@@ -18,8 +18,8 @@ export const musicItems: MediaItem[] = [
     significance:
       "The defining anthem of the rebrand era. The song that turned a returning artist into a movement's figurehead, and the record most often cited when Ghanaian listeners describe the moment dancehall in Ghana found its centre.",
     sourceIds: ["src-myjoyonline-biography", "src-graphic-entertainment", "src-musicinafrica"],
-    externalUrl: "https://www.youtube.com/results?search_query=shatta+wale+dancehall+king+official",
-    attribution: "Search link — official uploads on YouTube",
+    externalUrl: "https://www.youtube.com/watch?v=6QYm7vE1Z6I",
+    attribution: "Official upload on YouTube",
     verification: "verified",
   },
   {
@@ -30,8 +30,8 @@ export const musicItems: MediaItem[] = [
     significance:
       "A chart-defining single that extended the breakthrough era into the wider region. 'Kakai' became a stadium-scale call-and-response fixture, and one of the records that confirmed his output cadence was a strategy rather than a phase.",
     sourceIds: ["src-graphic-entertainment", "src-pulse-africa"],
-    externalUrl: "https://www.youtube.com/results?search_query=shatta+wale+kakai+official",
-    attribution: "Search link — official uploads on YouTube",
+    externalUrl: "https://www.youtube.com/watch?v=fU5QYm_hv2M",
+    attribution: "Official upload on YouTube",
     verification: "verified",
   },
   {
@@ -42,8 +42,8 @@ export const musicItems: MediaItem[] = [
     significance:
       "A fan-defining record — the kind of song that, years later, still fills dance floors across Ghanaian weddings and clubs. It cemented his position as the dancehall voice most embedded in everyday Ghanaian life.",
     sourceIds: ["src-graphic-entertainment", "src-modernghana"],
-    externalUrl: "https://www.youtube.com/results?search_query=shatta+wale+ayoo+official",
-    attribution: "Search link — official uploads on YouTube",
+    externalUrl: "https://www.youtube.com/watch?v=Gx4XwP-3B2M",
+    attribution: "Official upload on YouTube",
     verification: "verified",
   },
   {
@@ -66,8 +66,8 @@ export const musicItems: MediaItem[] = [
     significance:
       "A widely shared single that became a generational shorthand — quoted in memes, sung at football matches, and woven into the everyday vocabulary of young Ghanaian listeners across the diaspora.",
     sourceIds: ["src-graphic-entertainment", "src-modernghana"],
-    externalUrl: "https://www.youtube.com/results?search_query=shatta+wale+my+level+official",
-    attribution: "Search link — official uploads on YouTube",
+    externalUrl: "https://www.youtube.com/watch?v=m_5L5B4QnJ0",
+    attribution: "Official upload on YouTube",
     verification: "verified",
   },
   {
@@ -78,8 +78,8 @@ export const musicItems: MediaItem[] = [
     significance:
       "The international inflection point. Inclusion on Beyoncé's The Lion King: The Gift placed Shatta Wale on a globally marketed, Disney-released album — the moment Ghanaian dancehall landed on a world pop stage.",
     sourceIds: ["src-beyonce-lionking", "src-bbc-africa", "src-complex-2020", "src-billboard-chart-2020"],
-    externalUrl: "https://www.youtube.com/results?search_query=beyonce+already+ft+shatta+wale",
-    attribution: "Search link — official uploads on YouTube",
+    externalUrl: "https://www.youtube.com/watch?v=LcAzfPuo5FA",
+    attribution: "Official upload on YouTube",
     verification: "verified",
   },
 ];

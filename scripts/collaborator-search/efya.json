@@ -1,0 +1,25 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "Efya Ghanaian singer portrait"
+✅ Got 2 images
+{
+  "success": true,
+  "query": "Efya Ghanaian singer portrait",
+  "count": 2,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/ad8c289e8573.jpeg",
+      "caption": "",
+      "source": "Yen News",
+      "original_width": "1200px",
+      "original_height": "675px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/b3ee3973f1df.jpeg",
+      "caption": "",
+      "source": "Yen News",
+      "original_width": "1200px",
+      "original_height": "675px"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "Major Lazer Diplo music group"
+✅ Got 2 images
+{
+  "success": true,
+  "query": "Major Lazer Diplo music group",
+  "count": 2,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/698bc93feca5.jpeg",
+      "caption": "",
+      "source": "Insomniac",
+      "original_width": "1400px",
+      "original_height": "860px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/bdc3187ad809.jpg",
+      "caption": "",
+      "source": "eBay",
+      "original_width": "1200px",
+      "original_height": "968px"
+    }
+  ]
+}

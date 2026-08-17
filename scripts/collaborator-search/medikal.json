@@ -1,0 +1,25 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "Medikal Ghanaian rapper"
+✅ Got 2 images
+{
+  "success": true,
+  "query": "Medikal Ghanaian rapper",
+  "count": 2,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/5456dd68c3e8.jpg",
+      "caption": "",
+      "source": "YouTube",
+      "original_width": "1280px",
+      "original_height": "720px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/dc22755c516b.png",
+      "caption": "",
+      "source": "ghheadlines News",
+      "original_width": "1133px",
+      "original_height": "1025px"
+    }
+  ]
+}

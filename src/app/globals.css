@@ -248,6 +248,12 @@
     padding-bottom: clamp(5rem, 12vh, 10rem);
   }
 
+  /* Scroll-padding so anchored scrolls leave room for fixed nav + audio panel */
+  html {
+    scroll-padding-top: 6rem;
+    scroll-padding-bottom: 6rem;
+  }
+
   /* Editorial container */
   .container-legacy {
     width: 100%;

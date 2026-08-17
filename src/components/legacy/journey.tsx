@@ -5,6 +5,7 @@ import { Reveal, MaskText, usePrefersReducedMotion } from "@/lib/legacy/motion";
 import { chapters } from "@/content/journey";
 import { sourcesById } from "@/content/sources";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 
 export function Journey() {
@@ -33,9 +34,9 @@ export function Journey() {
 
       {/* Timeline rail */}
       <div className="relative">
-        {/* Vertical line — the recurring "time" motif */}
+        {/* Vertical line — hidden on mobile (text gets full width), visible md+ */}
         <div
-          className="absolute left-[14px] top-0 h-full w-px bg-ivory/10 md:left-1/2 md:-translate-x-1/2"
+          className="absolute left-[14px] top-0 hidden h-full w-px bg-ivory/10 md:left-1/2 md:block md:-translate-x-1/2"
           aria-hidden="true"
         >
           <motion.div
@@ -75,12 +76,12 @@ function ChapterBlock({ chapter, index, reversed }: ChapterBlockProps) {
   return (
     <article
       data-chapter-index={chapter.index}
-      className="relative pl-12 md:grid md:grid-cols-2 md:items-start md:gap-16 md:pl-0"
+      className="relative md:grid md:grid-cols-2 md:items-start md:gap-16 md:pl-0"
       id={`journey-${chapter.id}`}
     >
-      {/* Chapter node on the rail */}
+      {/* Chapter node on the rail — desktop only (mobile has no rail) */}
       <div
-        className="absolute left-[7px] top-2 z-10 md:left-1/2 md:-translate-x-1/2"
+        className="absolute left-[7px] top-2 z-10 hidden md:left-1/2 md:block md:-translate-x-1/2"
         aria-hidden="true"
       >
         <span className="block h-[15px] w-[15px] rotate-45 border border-gold bg-ink" />
@@ -97,23 +98,43 @@ function ChapterBlock({ chapter, index, reversed }: ChapterBlockProps) {
               <span className="font-display text-[clamp(3rem,8vw,6rem)] leading-none text-gold/30">
                 {String(chapter.index).padStart(2, "0")}
               </span>
-              <span className="font-mono-caps text-gold">{chapter.periodLabel}</span>
+              {/* Mobile: era label inline next to numeral; Desktop: period below numeral */}
+              <div className="flex flex-col">
+                <span className="font-mono-caps text-[0.6rem] text-ivory-dim md:hidden">
+                  {chapter.era}
+                </span>
+                <span className="font-mono-caps text-gold">{chapter.periodLabel}</span>
+              </div>
             </div>
 
-            {chapter.imagePath ? (
-              <LegacyImage
-                src={chapter.imagePath}
-                alt={`Shatta Wale — ${chapter.era} era (${chapter.periodLabel})`}
-                caption={chapter.imageCaption}
-                className="aspect-[4/5] w-full max-w-sm"
-              />
-            ) : (
-              <PortraitPlaceholder
-                label={chapter.era}
-                sublabel={`Chapter ${chapter.index}`}
-                className="aspect-[4/5] w-full max-w-sm"
-              />
-            )}
+            <div className="relative">
+              {chapter.imagePath ? (
+                <LegacyImage
+                  src={chapter.imagePath}
+                  alt={`Shatta Wale — ${chapter.era} era (${chapter.periodLabel})`}
+                  caption={chapter.imageCaption}
+                  className="aspect-[4/5] w-full max-w-sm"
+                />
+              ) : (
+                <PortraitPlaceholder
+                  label={chapter.era}
+                  sublabel={`Chapter ${chapter.index}`}
+                  className="aspect-[4/5] w-full max-w-sm"
+                />
+              )}
+              {/* Shatta Movement emblem watermark on the Movement chapter */}
+              {chapter.id === "the-movement" && (
+                <div className="pointer-events-none absolute -right-3 -top-3 z-[5] rotate-12 opacity-80 sm:-right-6 sm:-top-6">
+                  <Image
+                    src="/sm-symbol.svg"
+                    alt="Shatta Movement emblem"
+                    width={72}
+                    height={72}
+                    className="drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]"
+                  />
+                </div>
+              )}
+            </div>
           </div>
         </Reveal>
       </div>

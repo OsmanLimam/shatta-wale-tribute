@@ -1,0 +1,25 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "Sarkodie Ghanaian rapper"
+✅ Got 2 images
+{
+  "success": true,
+  "query": "Sarkodie Ghanaian rapper",
+  "count": 2,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/20e2c59b8673.jpg",
+      "caption": "",
+      "source": "Rolling Stone",
+      "original_width": "1800px",
+      "original_height": "1200px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7589c954cc02.jpg",
+      "caption": "",
+      "source": "Daily Post Nigeria",
+      "original_width": "2480px",
+      "original_height": "2037px"
+    }
+  ]
+}

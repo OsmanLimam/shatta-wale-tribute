@@ -11,6 +11,7 @@ import { Music } from "@/components/legacy/music";
 import { Impact } from "@/components/legacy/impact";
 import { Moments } from "@/components/legacy/moments";
 import { BeyondHeadlines } from "@/components/legacy/beyond-headlines";
+import { Collaborators } from "@/components/legacy/collaborators";
 import { Influenced } from "@/components/legacy/influenced";
 import { WhatPeopleRemember } from "@/components/legacy/what-people-remember";
 import { Archive } from "@/components/legacy/archive";
@@ -55,6 +56,8 @@ export default function Home() {
       <Moments />
 
       <BeyondHeadlines />
+
+      <Collaborators />
 
       <Influenced />
 

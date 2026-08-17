@@ -10,7 +10,7 @@ export function Letter() {
       <div className="mx-auto max-w-3xl">
         <Reveal>
           <div className="font-mono-caps mb-5 text-center text-gold">
-            13 — The Letter
+            14 — The Letter
           </div>
         </Reveal>
 

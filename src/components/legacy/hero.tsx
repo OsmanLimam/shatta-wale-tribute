@@ -90,6 +90,24 @@ export function Hero({ onEnter }: HeroProps) {
 
       {/* Hero content */}
       <div className="container-legacy relative z-10 flex flex-col items-center text-center">
+        {/* Shatta Movement emblem — top accent above the eyebrow */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1.0, delay: 0.2 }}
+          className="mb-6"
+          aria-hidden="true"
+        >
+          <Image
+            src="/sm-symbol.svg"
+            alt=""
+            width={56}
+            height={56}
+            className="opacity-90"
+            priority
+          />
+        </motion.div>
+
         <motion.span
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}

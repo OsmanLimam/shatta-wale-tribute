@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { Section, SourceChip } from "./primitives";
+import { Section, SourceChip, LegacyImage } from "./primitives";
 import { Reveal } from "@/lib/legacy/motion";
 import { archiveItems } from "@/content/moments";
 import { sourcesById } from "@/content/sources";
@@ -117,16 +117,25 @@ export function Archive() {
         <div className="grid grid-cols-1 gap-px overflow-hidden border border-hairline bg-hairline sm:grid-cols-2 lg:grid-cols-3">
           {filtered.map((item, i) => (
             <Reveal key={item.id} delay={Math.min(i * 0.04, 0.3)}>
-              <article className="group flex h-full flex-col bg-charcoal p-6 transition-colors hover:bg-charcoal-2">
-                <div className="flex items-center justify-between">
-                  <span className="font-mono-caps text-gold">{item.year}</span>
-                  <span className="font-mono-caps text-ivory-dim/70">
-                    {item.type}
-                  </span>
-                </div>
-                <h3 className="mt-3 font-display text-xl leading-snug text-ivory">
-                  {item.title}
-                </h3>
+              <article className="group flex h-full flex-col bg-charcoal transition-colors hover:bg-charcoal-2">
+                {item.imagePath && (
+                  <LegacyImage
+                    src={item.imagePath}
+                    alt={`Artistic interpretation: ${item.title}`}
+                    showAttribution={false}
+                    className="aspect-[16/10] w-full border-b border-hairline"
+                  />
+                )}
+                <div className="flex flex-1 flex-col p-6">
+                  <div className="flex items-center justify-between">
+                    <span className="font-mono-caps text-gold">{item.year}</span>
+                    <span className="font-mono-caps text-ivory-dim/70">
+                      {item.type}
+                    </span>
+                  </div>
+                  <h3 className="mt-3 font-display text-xl leading-snug text-ivory">
+                    {item.title}
+                  </h3>
                 {item.location && (
                   <div className="mt-2 font-mono-caps text-[0.55rem] text-ivory-dim/70">
                     {item.location}
@@ -142,6 +151,7 @@ export function Archive() {
                       <SourceChip key={sid} label={s.tier} tier={s.tier} />
                     ) : null;
                   })}
+                </div>
                 </div>
               </article>
             </Reveal>

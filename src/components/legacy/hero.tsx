@@ -3,7 +3,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { usePrefersReducedMotion } from "@/lib/legacy/motion";
-import { PortraitPlaceholder } from "./primitives";
 
 interface HeroProps {
   onEnter: () => void;
@@ -34,7 +33,7 @@ export function Hero({ onEnter }: HeroProps) {
       id="hero"
       className="relative grain flex h-[100svh] min-h-[640px] w-full items-center justify-center overflow-hidden bg-ink"
     >
-      {/* Atmospheric backdrop — gradient + portrait placeholder */}
+      {/* Atmospheric backdrop — original AI artwork, NOT a photograph */}
       <motion.div
         initial={{ opacity: 0, scale: reduced ? 1 : 1.08 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -42,19 +41,20 @@ export function Hero({ onEnter }: HeroProps) {
         className="absolute inset-0 -z-10"
         aria-hidden="true"
       >
-        {/* Vignette + warm-gold radial wash */}
+        <img
+          src="/images/hero-atmosphere.jpg"
+          alt="Atmospheric interpretation: a vast empty stage lit by a single warm gold spotlight cutting through haze."
+          className="absolute inset-0 h-full w-full object-cover"
+          loading="eager"
+          decoding="async"
+        />
+        {/* Tonal overlay — keeps the imagery within the editorial palette */}
         <div
           className="absolute inset-0"
           style={{
             background:
-              "radial-gradient(120% 100% at 50% 30%, rgba(201,162,75,0.16) 0%, rgba(22,22,22,0.6) 38%, #0a0a0a 72%)",
+              "radial-gradient(120% 100% at 50% 30%, rgba(201,162,75,0.10) 0%, rgba(10,10,10,0.55) 50%, #0a0a0a 88%)",
           }}
-        />
-        {/* Faint centre portrait — typographic, NOT a photo */}
-        <PortraitPlaceholder
-          label="LIVING ARCHIVE"
-          sublabel="SHATTA WALE"
-          className="absolute left-1/2 top-1/2 h-[58vh] max-h-[680px] w-[80vw] max-w-[420px] -translate-x-1/2 -translate-y-1/2 opacity-30"
         />
         {/* Bottom fade into next section */}
         <div
@@ -64,9 +64,13 @@ export function Hero({ onEnter }: HeroProps) {
               "linear-gradient(to bottom, transparent, #0a0a0a 92%)",
           }}
         />
+        {/* Attribution corner */}
+        <div className="absolute bottom-4 right-4 z-10 font-mono-caps text-[0.5rem] text-ivory/50">
+          ● Artistic interpretation · generated for this archive
+        </div>
       </motion.div>
 
-      {/* Cinematic entrance overlay — mask/curain transition */}
+      {/* Cinematic entrance overlay — mask/curtain transition */}
       <AnimatePresence>
         {entered && !reduced && (
           <motion.div

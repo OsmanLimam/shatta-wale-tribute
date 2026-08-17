@@ -50,7 +50,12 @@ export interface Chapter {
   /** IDs from sources.json that corroborate this chapter. */
   sourceIds: string[];
   /** Optional uncertain/verified flags. */
-  verification?: "verified" | "uncertain";
+  verification?: "verified" | "uncertain" | "editorial";
+  /** Optional atmospheric image (path under /public) evoking the chapter mood.
+   *  Always artistic interpretation — never a photo of a real person. */
+  imagePath?: string;
+  /** Caption displayed as image attribution. */
+  imageCaption?: string;
 }
 
 export interface Achievement {
@@ -76,6 +81,8 @@ export interface MediaItem {
   /** Optional external link to a legitimate platform. */
   externalUrl?: string;
   attribution?: string;
+  /** Optional atmospheric image (path under /public). */
+  imagePath?: string;
 }
 
 export interface Quote {

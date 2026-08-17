@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Section, PortraitPlaceholder, SourceChip } from "./primitives";
+import { Section, LegacyImage, SourceChip, PortraitPlaceholder } from "./primitives";
 import { Reveal, usePrefersReducedMotion } from "@/lib/legacy/motion";
 import { moments } from "@/content/moments";
 import { sourcesById } from "@/content/sources";
@@ -51,11 +51,20 @@ export function Moments() {
                 transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                 className="absolute inset-0"
               >
-                <PortraitPlaceholder
-                  label={moment.type.toUpperCase()}
-                  sublabel={moment.year}
-                  className="h-full w-full"
-                />
+                {moment.imagePath ? (
+                  <LegacyImage
+                    src={moment.imagePath}
+                    alt={`Artistic interpretation: ${moment.title} (${moment.year})`}
+                    caption={`Era evocation for: ${moment.title}`}
+                    className="h-full w-full"
+                  />
+                ) : (
+                  <PortraitPlaceholder
+                    label={moment.type.toUpperCase()}
+                    sublabel={moment.year}
+                    className="h-full w-full"
+                  />
+                )}
               </motion.div>
             </AnimatePresence>
 

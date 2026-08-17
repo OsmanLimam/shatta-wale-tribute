@@ -1,6 +1,6 @@
 "use client";
 
-import { Section, PortraitPlaceholder } from "./primitives";
+import { Section, LegacyImage } from "./primitives";
 import { Reveal, MaskText } from "@/lib/legacy/motion";
 
 export function BeyondHeadlines() {
@@ -21,9 +21,10 @@ export function BeyondHeadlines() {
 
           <Reveal delay={0.1}>
             <div className="mt-8">
-              <PortraitPlaceholder
-                label="THE PERSON BEHIND"
-                sublabel="Beyond the public noise"
+              <LegacyImage
+                src="/images/beyond-headlines.jpg"
+                alt="Artistic interpretation: a blurred figure behind frosted glass, evoking a person obscured by public noise."
+                caption="A person behind the headlines — original artwork, not a photograph."
                 className="aspect-[4/5] w-full max-w-md"
               />
             </div>

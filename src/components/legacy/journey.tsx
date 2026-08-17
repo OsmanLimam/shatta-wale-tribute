@@ -1,6 +1,6 @@
 "use client";
 
-import { Section, PortraitPlaceholder, SourceChip } from "./primitives";
+import { Section, LegacyImage, SourceChip, PortraitPlaceholder } from "./primitives";
 import { Reveal, MaskText, usePrefersReducedMotion } from "@/lib/legacy/motion";
 import { chapters } from "@/content/journey";
 import { sourcesById } from "@/content/sources";
@@ -100,11 +100,20 @@ function ChapterBlock({ chapter, index, reversed }: ChapterBlockProps) {
               <span className="font-mono-caps text-gold">{chapter.periodLabel}</span>
             </div>
 
-            <PortraitPlaceholder
-              label={chapter.era}
-              sublabel={`Chapter ${chapter.index}`}
-              className="aspect-[4/5] w-full max-w-sm"
-            />
+            {chapter.imagePath ? (
+              <LegacyImage
+                src={chapter.imagePath}
+                alt={`Artistic interpretation evoking the ${chapter.era} era — ${chapter.headline}`}
+                caption={chapter.imageCaption}
+                className="aspect-[4/5] w-full max-w-sm"
+              />
+            ) : (
+              <PortraitPlaceholder
+                label={chapter.era}
+                sublabel={`Chapter ${chapter.index}`}
+                className="aspect-[4/5] w-full max-w-sm"
+              />
+            )}
           </div>
         </Reveal>
       </div>

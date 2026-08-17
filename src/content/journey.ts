@@ -27,6 +27,8 @@ export const chapters: Chapter[] = [
     ],
     sourceIds: ["src-ghanaweb-profile", "src-musicinafrica", "src-myjoyonline-biography"],
     verification: "verified",
+    imagePath: "/images/ch-before-the-name.jpg",
+    imageCaption: "Artistic interpretation — pre-dawn Accra, evocative of an unwritten beginning.",
   },
   {
     id: "the-first-dream",
@@ -43,6 +45,8 @@ export const chapters: Chapter[] = [
     ],
     sourceIds: ["src-myjoyonline-biography", "src-musicinafrica", "src-graphic-entertainment"],
     verification: "verified",
+    imagePath: "/images/ch-first-dream.jpg",
+    imageCaption: "Artistic interpretation — a dim studio, evocative of the apprenticeship years.",
   },
   {
     id: "the-breakthrough",
@@ -60,6 +64,8 @@ export const chapters: Chapter[] = [
     ],
     sourceIds: ["src-vgma-2014", "src-myjoyonline-biography", "src-graphic-entertainment", "src-citinewsroom"],
     verification: "verified",
+    imagePath: "/images/ch-breakthrough.jpg",
+    imageCaption: "Artistic interpretation — stadium lights and suspended confetti, evocative of the breakthrough moment.",
   },
   {
     id: "the-reinvention",
@@ -77,6 +83,8 @@ export const chapters: Chapter[] = [
     ],
     sourceIds: ["src-graphic-entertainment", "src-pulse-africa", "src-modernghana", "src-musicinafrica"],
     verification: "verified",
+    imagePath: "/images/ch-reinvention.jpg",
+    imageCaption: "Artistic interpretation — fragmented gold mirror shards, evocative of reinvented identity.",
   },
   {
     id: "the-rise",
@@ -94,6 +102,8 @@ export const chapters: Chapter[] = [
     ],
     sourceIds: ["src-beyonce-lionking", "src-billboard-chart-2020", "src-bbc-africa", "src-complex-2020", "src-pulse-africa"],
     verification: "verified",
+    imagePath: "/images/ch-rise.jpg",
+    imageCaption: "Artistic interpretation — a single global spotlight, evocative of international arrival.",
   },
   {
     id: "the-controversies",
@@ -110,6 +120,8 @@ export const chapters: Chapter[] = [
     ],
     sourceIds: ["src-graphic-entertainment", "src-citinewsroom", "src-myjoyonline-biography"],
     verification: "verified",
+    imagePath: "/images/ch-controversies.jpg",
+    imageCaption: "Artistic interpretation — torn newsprint in shadow, evocative of public friction.",
   },
   {
     id: "the-movement",
@@ -126,6 +138,8 @@ export const chapters: Chapter[] = [
     ],
     sourceIds: ["src-graphic-entertainment", "src-modernghana", "src-pulse-africa"],
     verification: "verified",
+    imagePath: "/images/ch-movement.jpg",
+    imageCaption: "Artistic interpretation — a sea of raised hands, evocative of the Movement.",
   },
   {
     id: "today",
@@ -142,5 +156,7 @@ export const chapters: Chapter[] = [
     ],
     sourceIds: ["src-editorial-legacy", "src-shatta-official"],
     verification: "editorial",
+    imagePath: "/images/ch-today.jpg",
+    imageCaption: "Artistic interpretation — an open doorway with light, evocative of continuation.",
   },
 ];

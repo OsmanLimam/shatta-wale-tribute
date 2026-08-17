@@ -1,6 +1,6 @@
 "use client";
 
-import { Section, PortraitPlaceholder } from "./primitives";
+import { Section, LegacyImage } from "./primitives";
 import { Reveal, MaskText } from "@/lib/legacy/motion";
 
 export function FutureMessage() {
@@ -18,9 +18,10 @@ export function FutureMessage() {
           </Reveal>
           <Reveal delay={0.1}>
             <div className="mt-8">
-              <PortraitPlaceholder
-                label="TIME · 50 YEARS"
-                sublabel="For the future"
+              <LegacyImage
+                src="/images/future-message.jpg"
+                alt="Artistic interpretation: an antique brass hourglass with golden sand falling in slow motion — the time and legacy motif."
+                caption="Time, preserved. The future is listening."
                 className="aspect-[4/5] w-full max-w-md"
               />
             </div>

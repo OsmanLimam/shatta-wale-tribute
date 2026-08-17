@@ -143,6 +143,79 @@ export function PortraitPlaceholder({
   );
 }
 
+/**
+ * LegacyImage — renders an atmospheric editorial image with:
+ *  - lazy loading
+ *  - descriptive alt text
+ *  - subtle ken-burns hover (desktop only, reduced-motion aware)
+ *  - attribution overlay ("Artistic interpretation")
+ *  - gold crosshair framing (museum-style)
+ *
+ * NOTE: Every image passed here MUST be original artwork, not a
+ * photograph of a real person. The attribution overlay makes this
+ * explicit to the visitor.
+ */
+export function LegacyImage({
+  src,
+  alt,
+  caption,
+  className,
+  showAttribution = true,
+  priority = false,
+}: {
+  src: string;
+  alt: string;
+  caption?: string;
+  className?: string;
+  showAttribution?: boolean;
+  priority?: boolean;
+}) {
+  return (
+    <figure
+      className={cn(
+        "group relative isolate overflow-hidden border border-hairline bg-charcoal",
+        className,
+      )}
+    >
+      <img
+        src={src}
+        alt={alt}
+        loading={priority ? "eager" : "lazy"}
+        decoding="async"
+        className="absolute inset-0 h-full w-full object-cover transition-transform duration-[1.6s] ease-out group-hover:scale-[1.04]"
+      />
+      {/* Tonal overlay to keep imagery within the editorial palette */}
+      <div
+        className="absolute inset-0 z-[1] mix-blend-multiply"
+        style={{
+          background:
+            "linear-gradient(180deg, rgba(10,10,10,0.10) 0%, rgba(10,10,10,0.35) 60%, rgba(10,10,10,0.75) 100%)",
+        }}
+        aria-hidden="true"
+      />
+      {/* Gold crosshair frame */}
+      <div className="absolute left-1/2 top-0 z-[2] h-px w-10 -translate-x-1/2 bg-gold/50" aria-hidden="true" />
+      <div className="absolute left-1/2 bottom-0 z-[2] h-px w-10 -translate-x-1/2 bg-gold/50" aria-hidden="true" />
+      <div className="absolute left-0 top-1/2 z-[2] h-10 w-px -translate-y-1/2 bg-gold/50" aria-hidden="true" />
+      <div className="absolute right-0 top-1/2 z-[2] h-10 w-px -translate-y-1/2 bg-gold/50" aria-hidden="true" />
+
+      {/* Caption / attribution */}
+      {(caption || showAttribution) && (
+        <figcaption className="absolute inset-x-0 bottom-0 z-[3] flex flex-col gap-1 p-4">
+          {showAttribution && (
+            <span className="font-mono-caps text-[0.55rem] text-gold">
+              ● Artistic interpretation
+            </span>
+          )}
+          {caption && (
+            <span className="text-xs leading-snug text-ivory/85">{caption}</span>
+          )}
+        </figcaption>
+      )}
+    </figure>
+  );
+}
+
 /** Source-tag chip used to anchor factual claims. */
 export function SourceChip({ label, tier }: { label: string; tier: string }) {
   const tierColor =

@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -63,10 +64,18 @@ export function Navigation({ entered }: { entered: boolean }) {
         <nav className="container-legacy flex h-16 items-center justify-between md:h-20">
           <button
             onClick={() => go("hero")}
-            className="font-mono-caps text-gold focus-legacy"
+            className="flex items-center gap-2.5 focus-legacy"
             aria-label="Back to top"
           >
-            SW · LIVING LEGACY
+            <Image
+              src="/sm-symbol.svg"
+              alt="Shatta Movement emblem"
+              width={32}
+              height={32}
+              className="h-7 w-7 md:h-8 md:w-8"
+              priority
+            />
+            <span className="font-mono-caps text-gold">SW · LIVING LEGACY</span>
           </button>
 
           <div className="hidden items-center gap-7 lg:flex">
@@ -108,7 +117,16 @@ export function Navigation({ entered }: { entered: boolean }) {
             <div className="grain absolute inset-0" />
             <div className="relative flex h-full flex-col">
               <div className="container-legacy flex h-16 items-center justify-between">
-                <span className="font-mono-caps text-gold">SW · LIVING LEGACY</span>
+                <div className="flex items-center gap-2.5">
+                  <Image
+                    src="/sm-symbol.svg"
+                    alt="Shatta Movement emblem"
+                    width={32}
+                    height={32}
+                    className="h-7 w-7"
+                  />
+                  <span className="font-mono-caps text-gold">SW · LIVING LEGACY</span>
+                </div>
                 <button
                   onClick={() => setOpen(false)}
                   className="flex items-center gap-2 font-mono-caps text-ivory focus-legacy"

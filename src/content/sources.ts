@@ -130,6 +130,47 @@ export const sources: Source[] = [
       "Concerts, Shatta Movement fan-activity, and domestic news items.",
   },
 
+  {
+    id: "src-shattafest",
+    label: "ShattaFest concert series — coverage",
+    tier: "reputable",
+    publisher: "Graphic.com.gh / MyJoyOnline / Modern Ghana",
+    corroborates:
+      "ShattaFest recurring concert event organised under the Shatta Movement banner; dates, venues, turnout figures.",
+  },
+  {
+    id: "src-wendy-shay",
+    label: "Wendy Shay — RuffTown Records releases & joint credits",
+    tier: "primary",
+    publisher: "RuffTown Records / Wendy Shay verified channels",
+    corroborates:
+      "Wendy Shay releases featuring or co-billed with Shatta Wale.",
+  },
+  {
+    id: "src-burna-boy",
+    label: "Burna Boy — joint releases & press coverage",
+    tier: "reputable",
+    publisher: "Music In Africa / Pulse Africa",
+    corroborates:
+      "West-African crossover press coverage of the Shatta Wale–Burna Boy creative exchange.",
+  },
+  {
+    id: "src-shaggy-jamaica",
+    label: "Shaggy — joint appearances & Jamaican dancehall coverage",
+    tier: "interview",
+    publisher: "Reggaeville / Jamaica Observer",
+    corroborates:
+      "On-record interviews and Caribbean-press coverage of Shatta Wale's connection to Jamaican dancehall and the Shaggy exchange.",
+  },
+  {
+    id: "src-davido",
+    label: "Davido — joint releases & press coverage",
+    tier: "reputable",
+    publisher: "Pulse Africa / Modern Ghana",
+    corroborates:
+      "West-African press coverage of Davido–Shatta Wale studio and live exchanges.",
+  },
+
   // ── Interviews ────────────────────────────────────────────────────────
   {
     id: "src-interview-citifm",

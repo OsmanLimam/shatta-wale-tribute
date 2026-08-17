@@ -6,7 +6,7 @@ import { letter } from "@/content/letter";
 
 export function Letter() {
   return (
-    <Section id="letter" tone="charcoal" className="grain">
+    <Section id="letter" tone="charcoal" className="grain sm-watermark-bl">
       <div className="mx-auto max-w-3xl">
         <Reveal>
           <div className="font-mono-caps mb-5 text-center text-gold">

@@ -20,7 +20,7 @@ export function Moments() {
   };
 
   return (
-    <Section id="moments" tone="ink">
+    <Section id="moments" tone="ink" className="sm-watermark-bl">
       <div className="mb-14 md:mb-20">
         <Reveal>
           <div className="font-mono-caps mb-5 text-gold">06 — The Moments</div>

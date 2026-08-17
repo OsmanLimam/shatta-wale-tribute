@@ -28,7 +28,7 @@ const perceptions = [
 
 export function WhatPeopleRemember() {
   return (
-    <Section id="remember" tone="charcoal" className="grain">
+    <Section id="remember" tone="charcoal" className="grain gold-glow">
       <div className="mb-16 md:mb-20">
         <Reveal>
           <div className="font-mono-caps mb-5 text-gold">10 — What People Remember</div>

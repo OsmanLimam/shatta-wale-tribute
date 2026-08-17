@@ -55,12 +55,12 @@ export function Collaborators() {
             }}
           >
             <article className="group flex h-full flex-col">
-              {/* Portrait */}
+              {/* Portrait — landscape-friendly aspect so we don't crop heads off */}
               <LegacyImage
                 src={c.imagePath}
                 alt={`${c.name} — ${c.origin}.`}
                 caption={`${c.name} — ${c.year}.`}
-                className="aspect-[4/5] w-full"
+                className="aspect-[4/3] w-full"
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
               />
 

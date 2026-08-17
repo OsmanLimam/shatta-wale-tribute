@@ -5,7 +5,7 @@ import { Reveal, MaskText } from "@/lib/legacy/motion";
 
 export function WhyThisExists() {
   return (
-    <Section id="why-this-exists" tone="ink">
+    <Section id="why-this-exists" tone="ink" className="sm-watermark gold-glow">
       <div className="grid grid-cols-1 gap-16 lg:grid-cols-12">
         <div className="lg:col-span-4">
           <Reveal>

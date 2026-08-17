@@ -88,7 +88,7 @@ export const collaborators: Collaborator[] = [
     year: "across the journey",
     significance:
       "Vocalist half of R2Bees and one of the most in-demand hook artists in West African popular music. Their joint tracks bridge Shatta Wale's dancehall with the afrobeats vocal tradition Mugeez represents.",
-    imagePath: "/images/collaborators/mugeez.jpeg",
+    imagePath: "/images/collaborators/mugeez.jpg",
     sourceIds: ["src-modernghana", "src-pulse-africa"],
     tier: "reputable",
   },
@@ -100,7 +100,7 @@ export const collaborators: Collaborator[] = [
     year: "across the journey",
     significance:
       "One of Ghana's most respected vocalists. Her collaborations with Shatta Wale demonstrate the range of his catalogue — the dancehall sound stretched into soulful territory.",
-    imagePath: "/images/collaborators/efya.jpeg",
+    imagePath: "/images/collaborators/efya.jpg",
     sourceIds: ["src-musicinafrica", "src-graphic-entertainment"],
     tier: "reputable",
   },
@@ -127,5 +127,53 @@ export const collaborators: Collaborator[] = [
     imagePath: "/images/collaborators/mavado.jpg",
     sourceIds: ["src-pulse-africa", "src-bbc-africa"],
     tier: "interview",
+  },
+  {
+    id: "shaggy",
+    name: "Shaggy",
+    origin: "Jamaican reggae-dancehall icon (Boombastic, It Wasn't Me)",
+    collaboration: "Cross-caribbean exchange and dancehall lineage recognition",
+    year: "across the journey",
+    significance:
+      "The Jamaican pop-dancehall icon whose global breakthrough carved the road Ghanaian dancehall would later walk. Shatta Wale has publicly cited the Caribbean-to-Africa dancehall lineage, and the mutual shout-outs anchor Ghanaian dancehall inside a Caribbean-recognised tradition rather than outside it.",
+    imagePath: "/images/collaborators/shaggy.jpg",
+    sourceIds: ["src-shaggy-jamaica", "src-bbc-africa"],
+    tier: "interview",
+  },
+  {
+    id: "burna-boy",
+    name: "Burna Boy",
+    origin: "Nigerian afrofusion artist, Grammy winner",
+    collaboration: "West-African crossover exchanges and joint appearances",
+    year: "across the journey",
+    significance:
+      "The Nigerian giant of the post-2018 afrobeats wave. The creative exchange between Shatta Wale and Burna Boy — both live and on record — is part of the broader Accra–Lagos axis that has come to define West-African popular music for a global audience.",
+    imagePath: "/images/collaborators/burna-boy.jpg",
+    sourceIds: ["src-burna-boy", "src-pulse-africa"],
+    tier: "reputable",
+  },
+  {
+    id: "davido",
+    name: "Davido",
+    origin: "Nigerian afrobeats artist, DMW founder",
+    collaboration: "Joint releases and West-African crossover appearances",
+    year: "across the journey",
+    significance:
+      "A defining voice of modern afrobeats and a fixture of the Accra–Lagos circuit. The Davido–Shatta Wale creative exchange is a thread in the broader Ghana–Nigeria popular-music relationship that has shaped West-African mainstream sound for over a decade.",
+    imagePath: "/images/collaborators/davido.jpg",
+    sourceIds: ["src-davido", "src-pulse-africa"],
+    tier: "reputable",
+  },
+  {
+    id: "wendy-shay",
+    name: "Wendy Shay",
+    origin: "Ghanaian singer (RuffTown Records)",
+    collaboration: "Joint releases and Shatta Movement-affiliated appearances",
+    year: "2018 — present",
+    significance:
+      "One of the most prominent female voices in the post-2018 Ghanaian pop mainstream. The Wendy Shay–Shatta Wale collaborations document a direct cross-generational and cross-label exchange inside the Ghanaian industry, and they extend the Shatta Movement network into the current pop era.",
+    imagePath: "/images/collaborators/wendy-shay.jpg",
+    sourceIds: ["src-wendy-shay", "src-modernghana"],
+    tier: "primary",
   },
 ];

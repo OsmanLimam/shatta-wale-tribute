@@ -95,7 +95,7 @@ export function Contribute() {
   };
 
   return (
-    <Section id="contribute" tone="charcoal" className="grain">
+    <Section id="contribute" tone="charcoal" className="grain sm-watermark">
       <div className="mb-14 md:mb-20">
         <Reveal>
           <div className="font-mono-caps mb-5 text-gold">12 — Your Chapter</div>

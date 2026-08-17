@@ -7,7 +7,7 @@ import { sourcesById } from "@/content/sources";
 
 export function Influenced() {
   return (
-    <Section id="influenced" tone="ink">
+    <Section id="influenced" tone="ink" className="sm-watermark-bl gold-glow">
       <div className="mb-16 md:mb-20">
         <Reveal>
           <div className="font-mono-caps mb-5 text-gold">09 — Influence</div>

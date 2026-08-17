@@ -105,6 +105,18 @@ export const moments: MediaItem[] = [
     verification: "verified",
     imagePath: "/images/shatta-wale/moment-08.jpg",
   },
+  {
+    id: "mom-shattafest",
+    type: "performance",
+    title: "ShattaFest — the Movement's flagship concert",
+    year: "2014 — ongoing",
+    location: "Accra Sports Stadium & venues across Ghana",
+    significance:
+      "ShattaFest is the recurring concert franchise organised under the Shatta Movement banner — the moment the fan institution stages itself in physical space. Stadium-scale turnouts, recurring editions across years, and a stage design built around the Movement's identity rather than around a tour cycle. It is the closest thing the Ghanaian industry has to a fan-owned festival franchise, and it has run long enough that a generation of attendees has now grown up inside it.",
+    sourceIds: ["src-shattafest", "src-graphic-entertainment", "src-modernghana"],
+    verification: "verified",
+    imagePath: "/images/shatta-wale/shattafest-crowd.png",
+  },
 ];
 
 export const archiveItems: MediaItem[] = [
@@ -119,6 +131,7 @@ export const archiveItems: MediaItem[] = [
       "The starting point of the public biographical record. Birth date and place widely reported across Ghanaian outlets; further childhood detail intentionally omitted from this archive.",
     sourceIds: ["src-ghanaweb-profile", "src-musicinafrica"],
     verification: "verified",
+    imagePath: "/images/shatta-wale/journey-01-accra.png",
   },
   {
     id: "arc-rebrand",
@@ -130,6 +143,7 @@ export const archiveItems: MediaItem[] = [
       "The rebrand that reset the trajectory and gave the Movement its name. Without this decision, none of the chapters that follow take the shape they took.",
     sourceIds: ["src-myjoyonline-biography", "src-graphic-entertainment"],
     verification: "verified",
+    imagePath: "/images/shatta-wale/journey-02-bandana.jpg",
   },
   {
     id: "arc-vgma-artiste-year",
@@ -141,6 +155,7 @@ export const archiveItems: MediaItem[] = [
       "The headline award of the breakthrough era. The institutional moment most often used to date the public arrival.",
     sourceIds: ["src-vgma-2014", "src-graphic-entertainment"],
     verification: "verified",
+    imagePath: "/images/shatta-wale/moment-04.jpg",
   },
   {
     id: "arc-already",
@@ -152,6 +167,7 @@ export const archiveItems: MediaItem[] = [
       "The international inflection point. The first time the wider world press wrote about him as a known quantity rather than a discovery.",
     sourceIds: ["src-beyonce-lionking", "src-bbc-africa", "src-complex-2020"],
     verification: "verified",
+    imagePath: "/images/shatta-wale/beyonce-collab.png",
   },
   {
     id: "arc-shatta-movement",
@@ -163,6 +179,7 @@ export const archiveItems: MediaItem[] = [
       "The organised fan base that has accompanied the career across the rebrand era. Functions as a cultural institution with the artist at its centre.",
     sourceIds: ["src-graphic-entertainment", "src-modernghana"],
     verification: "verified",
+    imagePath: "/images/shatta-wale/concert-crowd.jpg",
   },
   {
     id: "arc-international-press",
@@ -174,5 +191,6 @@ export const archiveItems: MediaItem[] = [
       "Sustained Western-music press engagement following 'The Lion King: The Gift'. Coverage repeatedly used the Beyoncé collaboration as the entry point for writing about Ghanaian dancehall more broadly.",
     sourceIds: ["src-bbc-africa", "src-complex-2020", "src-billboard-chart-2020"],
     verification: "verified",
+    imagePath: "/images/shatta-wale/concert-stage.jpg",
   },
 ];

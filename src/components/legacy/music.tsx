@@ -8,7 +8,7 @@ import { ExternalLink } from "lucide-react";
 
 export function Music() {
   return (
-    <Section id="music" tone="ink">
+    <Section id="music" tone="ink" className="sm-watermark gold-glow">
       <div className="mb-16 md:mb-20">
         <Reveal>
           <div className="font-mono-caps mb-5 text-gold">04 — The Music</div>

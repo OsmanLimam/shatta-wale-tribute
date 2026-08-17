@@ -35,7 +35,7 @@ const impactAreas = [
 
 export function Impact() {
   return (
-    <Section id="impact" tone="charcoal" className="grain">
+    <Section id="impact" tone="charcoal" className="grain gold-glow">
       <div className="mb-16 md:mb-24">
         <Reveal>
           <div className="font-mono-caps mb-5 text-gold">05 — The Impact</div>

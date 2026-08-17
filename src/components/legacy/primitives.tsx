@@ -187,7 +187,7 @@ export function LegacyImage({
         fill
         sizes={sizes}
         priority={priority}
-        className="object-cover transition-transform duration-[1.6s] ease-out group-hover:scale-[1.04]"
+        className="object-cover object-top transition-transform duration-[1.6s] ease-out group-hover:scale-[1.04]"
       />
       {/* Tonal overlay to keep imagery within the editorial palette */}
       <div

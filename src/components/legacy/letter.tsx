@@ -1,6 +1,6 @@
 "use client";
 
-import { Section } from "./primitives";
+import { Section, LocalLine } from "./primitives";
 import { Reveal, MaskText } from "@/lib/legacy/motion";
 import { letter } from "@/content/letter";
 
@@ -26,9 +26,16 @@ export function Letter() {
             if (i === 0) {
               return (
                 <Reveal key={i}>
-                  <p className="font-display text-2xl italic text-gold sm:text-3xl">
-                    {para}
-                  </p>
+                  <div className="space-y-2">
+                    <p className="font-display text-2xl italic text-gold sm:text-3xl">
+                      {para}
+                    </p>
+                    {letter.salutationLocal && (
+                      <LocalLine lang={letter.salutationLocal.lang}>
+                        {letter.salutationLocal.text}
+                      </LocalLine>
+                    )}
+                  </div>
                 </Reveal>
               );
             }
@@ -51,10 +58,18 @@ export function Letter() {
         </article>
 
         <Reveal>
-          <div className="mt-14 text-right">
+          <div className="mt-14 space-y-2 text-right">
             <p className="font-display text-xl italic text-ivory-dim">
               {letter.closing}
             </p>
+            {letter.closingLocal && (
+              <LocalLine
+                lang={letter.closingLocal.lang}
+                className="justify-end text-right"
+              >
+                {letter.closingLocal.text}
+              </LocalLine>
+            )}
             <p className="mt-3 font-mono-caps text-gold">
               {letter.signature}
             </p>

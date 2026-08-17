@@ -15,7 +15,17 @@ export const letter: Letter = {
     "If you read this and decide it is not for you, I will respect that. If you read it and want to add to it — a correction, a missing milestone, a personal reflection, a message to whoever finds this in fifty years — the page is ready. Nothing will be published without your word.",
     "This is not the final version of your story. It is an invitation to continue writing it.",
   ],
+  /** Ga greeting rendered directly underneath the English salutation. */
+  salutationLocal: {
+    lang: "GA",
+    text: "Minútsalɔ Shatta Wale,",
+  },
   closing: "With respect, and without expectation,",
+  /** Twi closing rendered directly underneath the English closing. */
+  closingLocal: {
+    lang: "TWI",
+    text: "Anidie ne anidasoɔ mu,",
+  },
   signature: "Osman Limam",
 };
 

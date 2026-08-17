@@ -1,6 +1,6 @@
 "use client";
 
-import { Section } from "./primitives";
+import { Section, LocalLine } from "./primitives";
 import { Reveal, MaskText } from "@/lib/legacy/motion";
 
 export function FinalReveal() {
@@ -31,6 +31,12 @@ export function FinalReveal() {
           <p className="mt-2 font-display text-2xl italic text-gold sm:text-3xl md:text-4xl">
             It&rsquo;s a beginning.
           </p>
+        </Reveal>
+
+        <Reveal delay={0.25}>
+          <LocalLine lang="PIDGIN" className="mt-4">
+            Di page open. Di future dey listen.
+          </LocalLine>
         </Reveal>
 
         <Reveal delay={0.3}>

@@ -1,6 +1,6 @@
 "use client";
 
-import { Section, LegacyImage } from "./primitives";
+import { Section, LegacyImage, LocalLine } from "./primitives";
 import { Reveal, MaskText } from "@/lib/legacy/motion";
 
 export function BeyondHeadlines() {
@@ -40,6 +40,13 @@ export function BeyondHeadlines() {
                   amount={0.4}
                 />
               </p>
+            </Reveal>
+
+            <Reveal delay={0.05}>
+              <LocalLine lang="PIDGIN" className="mt-2">
+                People dey remember celebrities through headlines, controversies,
+                viral moments, and social media. Na dat one be di cost of dat habit.
+              </LocalLine>
             </Reveal>
 
             <Reveal delay={0.1}>

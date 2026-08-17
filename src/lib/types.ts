@@ -56,6 +56,18 @@ export interface Chapter {
   imagePath?: string;
   /** Caption displayed as image attribution. */
   imageCaption?: string;
+  /** Optional Ghanaian local-language translation of the headline.
+   *  Rendered as a small italic gold line beneath the English headline. */
+  headlineLocal?: {
+    lang: "GA" | "TWI" | "PIDGIN";
+    text: string;
+  };
+  /** Optional local-language translation of the final body paragraph
+   *  (used for the chapter's closing line, where present). */
+  closingLocal?: {
+    lang: "GA" | "TWI" | "PIDGIN";
+    text: string;
+  };
 }
 
 export interface Achievement {
@@ -114,6 +126,16 @@ export interface Letter {
   closing: string;
   signature: string;
   date: string;
+  /** Optional local-language greeting rendered under the English salutation. */
+  salutationLocal?: {
+    lang: "GA" | "TWI" | "PIDGIN";
+    text: string;
+  };
+  /** Optional local-language closing rendered under the English closing. */
+  closingLocal?: {
+    lang: "GA" | "TWI" | "PIDGIN";
+    text: string;
+  };
 }
 
 export interface LegacyData {

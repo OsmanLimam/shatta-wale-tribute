@@ -221,6 +221,43 @@ export function LegacyImage({
   );
 }
 
+/**
+ * LocalLine — renders a single line of Ghanaian local language
+ * (Ga, Twi, or Pidgin) sitting underneath an English headline/body,
+ * with a small mono-caps language label in gold.
+ *
+ * Visual contract:
+ *  - English (primary, formal) stays as the main heading/body
+ *  - Local language sits as a smaller italic gold line directly underneath
+ *  - Language tag (`GA` / `TWI` / `PIDGIN`) prefixed in mono-caps
+ *
+ * This preserves the editorial design while letting the archive
+ * speak in the languages of Accra and the people who shaped the story.
+ */
+export function LocalLine({
+  lang,
+  children,
+  className,
+}: {
+  lang: "GA" | "TWI" | "PIDGIN";
+  children: ReactNode;
+  className?: string;
+}) {
+  return (
+    <p
+      className={cn(
+        "font-display text-base italic leading-snug text-gold/85 sm:text-lg",
+        className,
+      )}
+    >
+      <span className="font-mono-caps mr-3 text-[0.55rem] tracking-wider text-gold/60">
+        {lang}
+      </span>
+      {children}
+    </p>
+  );
+}
+
 /** Source-tag chip used to anchor factual claims. */
 export function SourceChip({ label, tier }: { label: string; tier: string }) {
   const tierColor =

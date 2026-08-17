@@ -79,3 +79,39 @@ Stage Summary:
 - Attribution overlay honestly labels images as "Photo · Web archive".
 - Production build succeeds, no console errors, no broken images.
 - Site remains responsive and the editorial gold-crosshair framing is preserved around every photo.
+
+---
+Task ID: localize-1
+Agent: main
+Task: Add Ghanaian local language lines (Ga, Twi, Pidgin) at key emotional moments throughout the site, with formal English preserved as the primary text.
+
+Work Log:
+- Created LocalLine helper component in primitives.tsx — renders a small italic gold line prefixed with a mono-caps language label (GA / TWI / PIDGIN). The English headline/body stays as the primary text; the local language sits as a secondary accent underneath.
+- Extended the Chapter type in lib/types.ts with optional headlineLocal and closingLocal fields ({ lang, text }).
+- Extended the Letter type in lib/types.ts with optional salutationLocal and closingLocal fields.
+- Updated journey.ts content with three localizations:
+  - Ch.1 (Before the Name) — Ga headline: "Gbekɛnuu kɛjɛ Ga, dani je lɛ bále gbɛ́i lɛ."
+  - Ch.7 (The Movement) — Pidgin headline: "More than fan base — Shatta Movement be proper cultural institution."
+  - Ch.8 (Today) — Twi closing line: "Sɛ ɛyɛ wo Shatta Wale na worekenkan yeɔ a: saa ti yi yɛ wo deɛ."
+- Updated journey.tsx to render headlineLocal directly under the English headline, and closingLocal directly under the last body paragraph.
+- Updated hero.tsx with two localizations:
+  - Ga subtitle: "Dani yinsane aaŋma bo osane." (under "Before History Writes Your Story.")
+  - Pidgin body: "Dis na living digital archive of di journey, di influence, and di moments wey shape one of Ghana ein most recognizable music icons." (under English body)
+- Updated beyond-headlines.tsx with Pidgin pull quote under the English MaskText: "People dey remember celebrities through headlines, controversies, viral moments, and social media. Na dat one be di cost of dat habit."
+- Updated letter.ts with Ga salutation "Minútsalɔ Shatta Wale," (under English "Shatta Wale,") and Twi closing "Anidie ne anidasoɔ mu," (under English "With respect, and without expectation,").
+- Updated letter.tsx to render salutationLocal under the salutation and closingLocal under the closing (right-aligned).
+- Updated final-reveal.tsx with Pidgin line: "Di page open. Di future dey listen." (under "It's a beginning.")
+- Verified production build succeeds, zero console errors, all 8 localized passages render correctly via VLM screenshots:
+  - Hero: Ga + Pidgin visible
+  - Journey Ch.1: Ga headline visible
+  - Journey Ch.7: Pidgin headline visible
+  - Journey Ch.8: Twi closing visible
+  - Letter: Ga greeting + Twi closing both visible
+  - Beyond Headlines: Pidgin pull quote visible
+  - Final Reveal: Pidgin closing visible
+
+Stage Summary:
+- 8 Ghanaian local-language lines now live across 6 sections (Hero, Journey Ch.1/7/8, Beyond Headlines, Letter greeting+closing, Final Reveal).
+- Formal English stays as the primary text; local languages sit as small italic gold accents underneath, prefixed with a mono-caps language label so the editorial design is preserved.
+- All Ga and Twi translations were provided by the user; all Pidgin translations were drafted by me.
+- Production build clean, no runtime errors, all localizations verified via VLM screenshot review.

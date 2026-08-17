@@ -1,6 +1,6 @@
 "use client";
 
-import { Section, LegacyImage, SourceChip, PortraitPlaceholder } from "./primitives";
+import { Section, LegacyImage, SourceChip, PortraitPlaceholder, LocalLine } from "./primitives";
 import { Reveal, MaskText, usePrefersReducedMotion } from "@/lib/legacy/motion";
 import { chapters } from "@/content/journey";
 import { sourcesById } from "@/content/sources";
@@ -131,6 +131,11 @@ function ChapterBlock({ chapter, index, reversed }: ChapterBlockProps) {
             <h3 className="font-display text-3xl leading-[1.1] text-ivory sm:text-4xl md:text-[2.5rem]">
               <MaskText text={chapter.headline} amount={0.4} />
             </h3>
+            {chapter.headlineLocal && (
+              <LocalLine lang={chapter.headlineLocal.lang} className="mt-1">
+                {chapter.headlineLocal.text}
+              </LocalLine>
+            )}
             <p className="text-base leading-relaxed text-ivory sm:text-lg">
               {chapter.shortNarrative}
             </p>
@@ -144,6 +149,14 @@ function ChapterBlock({ chapter, index, reversed }: ChapterBlockProps) {
                   {para}
                 </p>
               ))}
+              {chapter.closingLocal && (
+                <LocalLine
+                  lang={chapter.closingLocal.lang}
+                  className="pt-2"
+                >
+                  {chapter.closingLocal.text}
+                </LocalLine>
+              )}
             </div>
 
             {/* Verification flag */}

@@ -29,6 +29,10 @@ export const chapters: Chapter[] = [
     verification: "verified",
     imagePath: "/images/shatta-wale/journey-01-accra.png",
     imageCaption: "Accra, Ghana — the city where the story begins.",
+    headlineLocal: {
+      lang: "GA",
+      text: "Gbekɛnuu kɛjɛ Ga, dani je lɛ bále gbɛ́i lɛ.",
+    },
   },
   {
     id: "the-first-dream",
@@ -140,6 +144,10 @@ export const chapters: Chapter[] = [
     verification: "verified",
     imagePath: "/images/shatta-wale/journey-07-movement.jpg",
     imageCaption: "Shatta Movement — a fan base that functions as a cultural institution.",
+    headlineLocal: {
+      lang: "PIDGIN",
+      text: "More than fan base — Shatta Movement be proper cultural institution.",
+    },
   },
   {
     id: "today",
@@ -158,5 +166,9 @@ export const chapters: Chapter[] = [
     verification: "editorial",
     imagePath: "/images/shatta-wale/journey-08-today.jpg",
     imageCaption: "Today — the page is still being written.",
+    closingLocal: {
+      lang: "TWI",
+      text: "Sɛ ɛyɛ wo Shatta Wale na worekenkan yeɔ a: saa ti yi yɛ wo deɛ.",
+    },
   },
 ];

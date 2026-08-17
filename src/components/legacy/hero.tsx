@@ -3,6 +3,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { usePrefersReducedMotion } from "@/lib/legacy/motion";
+import { LocalLine } from "./primitives";
 
 interface HeroProps {
   onEnter: () => void;
@@ -115,6 +116,15 @@ export function Hero({ onEnter }: HeroProps) {
           Before History Writes Your Story.
         </motion.p>
 
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.0, delay: 1.15, ease: [0.22, 1, 0.36, 1] }}
+          className="mt-2 [text-shadow:0_2px_20px_rgba(0,0,0,0.85)]"
+        >
+          <LocalLine lang="GA">Dani yinsane aaŋma bo osane.</LocalLine>
+        </motion.div>
+
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -124,6 +134,18 @@ export function Hero({ onEnter }: HeroProps) {
           A living digital archive of the journey, influence, and moments that
           shaped one of Ghana&rsquo;s most recognizable musical figures.
         </motion.p>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.0, delay: 1.55, ease: [0.22, 1, 0.36, 1] }}
+          className="mt-3 max-w-2xl [text-shadow:0_1px_12px_rgba(0,0,0,0.9)]"
+        >
+          <LocalLine lang="PIDGIN">
+            Dis na living digital archive of di journey, di influence, and di
+            moments wey shape one of Ghana ein most recognizable music icons.
+          </LocalLine>
+        </motion.div>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}

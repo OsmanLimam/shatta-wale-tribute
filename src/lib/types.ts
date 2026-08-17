@@ -2,7 +2,7 @@
  * Living Legacy — Content Architecture
  * --------------------------------------
  * Reusable, future-proof typed models. The first implementation is
- * Shatta Wale, but the schema is designed so a future "Living Legacies"
+ * Wendy Shay, but the schema is designed so a future "Living Legacies"
  * platform can preserve other extraordinary living Africans without
  * rewriting the component layer.
  */

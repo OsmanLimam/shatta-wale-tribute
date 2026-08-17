@@ -98,11 +98,11 @@ export function Contribute() {
     <Section id="contribute" tone="charcoal" className="grain sm-watermark">
       <div className="mb-14 md:mb-20">
         <Reveal>
-          <div className="font-mono-caps mb-5 text-gold">12 — Your Chapter</div>
+          <div className="font-mono-caps mb-5 text-gold">13 — Your Chapter</div>
         </Reveal>
         <Reveal delay={0.05}>
           <h2 className="font-display text-[clamp(2.75rem,8vw,7rem)] leading-[0.92] text-ivory-fade">
-            Shatta Wale,
+            Wendy Shay,
             <br />
             this page is yours.
           </h2>
@@ -216,7 +216,7 @@ export function Contribute() {
                           </span>
                         )}
                       </div>
-                      <p className="text-xs text-ivory-dim/70">
+                      <p className="text-xs text-ivory-dim/85">
                         Audio stays in your browser. Nothing is uploaded until a
                         backend review pipeline is connected.
                       </p>
@@ -230,7 +230,7 @@ export function Contribute() {
                   rows={6}
                   required={field.required}
                   placeholder="Write here…"
-                  className="focus-legacy w-full resize-y border border-hairline bg-charcoal p-4 text-base text-ivory placeholder:text-ivory-dim/50"
+                  className="focus-legacy w-full resize-y border border-hairline bg-charcoal p-4 text-base text-ivory placeholder:text-ivory-dim/70"
                 />
               )}
 
@@ -248,7 +248,7 @@ export function Contribute() {
                   value={attribution}
                   onChange={(e) => setAttribution(e.target.value)}
                   placeholder="Your name, or leave blank to remain anonymous"
-                  className="focus-legacy w-full border border-hairline bg-charcoal px-4 py-2.5 text-base text-ivory placeholder:text-ivory-dim/50"
+                  className="focus-legacy w-full border border-hairline bg-charcoal px-4 py-2.5 text-base text-ivory placeholder:text-ivory-dim/70"
                 />
               </div>
 
@@ -274,7 +274,7 @@ export function Contribute() {
                       : "Submit contribution"}
                 </button>
 
-                <p className="text-xs leading-relaxed text-ivory-dim/70">
+                <p className="text-xs leading-relaxed text-ivory-dim/85">
                   No fake submission. Your contribution is stored locally as
                   pending-review in this browser. Nothing is published. A
                   backend review pipeline is prepared for but not yet

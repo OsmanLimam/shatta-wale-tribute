@@ -37,7 +37,7 @@ export function Music() {
                   {/* Index + year */}
                   <div className="md:col-span-3">
                     <div className="flex items-baseline gap-4">
-                      <span className="font-display text-3xl text-gold/40 sm:text-4xl">
+                      <span className="font-display text-3xl text-gold/65 sm:text-4xl">
                         {String(i + 1).padStart(2, "0")}
                       </span>
                       <span className="font-mono-caps text-gold">{item.year}</span>
@@ -76,7 +76,7 @@ export function Music() {
                       </a>
                     )}
                     {primarySrc?.attribution && (
-                      <p className="mt-2 font-mono-caps text-[0.55rem] text-ivory-dim/70">
+                      <p className="mt-2 font-mono-caps text-[0.55rem] text-ivory-dim/85">
                         {primarySrc.attribution}
                       </p>
                     )}

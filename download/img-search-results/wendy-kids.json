@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "query": "Wendy Shay with children daughter Korkor Tracy",
+  "count": 8,
+  "ranked": true,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/73b5e502db39.jpg",
+      "caption": "A collage of a woman and girl with text: WENDY SHAY, TRACY, Ghana flag, and heart.",
+      "source": "YouTube",
+      "original_width": "1280px",
+      "original_height": "720px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/90db0ac7b5f4.jpeg",
+      "caption": "A collage of three photos showing a woman and a young girl at a playground, on a bench, and by a kiosk.",
+      "source": "Yen News",
+      "original_width": "1200px",
+      "original_height": "675px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c72c9e5e25e4.jpeg",
+      "caption": "A collage of three photos showing a young boy in different outfits and poses. Text: BABY.",
+      "source": "Yen News",
+      "original_width": "1200px",
+      "original_height": "675px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f66a45774b92.jpeg",
+      "caption": "A collage of a woman with children and a girl, featuring a circular inset of a performance. The image contains text: \"GK\" and \"OMIWAKU\".",
+      "source": "Yen News",
+      "original_width": "1200px",
+      "original_height": "675px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/910851c318e4.jpg",
+      "caption": "A promotional image for \"Tracy Shay - Biography\" featuring a woman, a child, and an inset photo of children.",
+      "source": "YouTube",
+      "original_width": "1280px",
+      "original_height": "720px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/64a87f490297.jpg",
+      "caption": "The image is a collage with text: \"Korkor Shay story\", \"I thank you for the love you've shown my daughter, God bless you.\", and social media buttons.",
+      "source": "YouTube",
+      "original_width": "1280px",
+      "original_height": "720px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/5a4649bcca50.jpg",
+      "caption": "This image is a collage of multiple photos showing a woman and a girl on stage and posing together.",
+      "source": "YouTube",
+      "original_width": "1280px",
+      "original_height": "720px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/df862bdb40bb.jpeg",
+      "caption": "A collage of three photos showing a woman and a girl dancing and hugging in a store.",
+      "source": "Yen News",
+      "original_width": "1200px",
+      "original_height": "675px"
+    }
+  ]
+}

@@ -13,6 +13,7 @@ const NAV_ITEMS = [
   { id: "music", label: "The Music" },
   { id: "impact", label: "The Impact" },
   { id: "moments", label: "The Moments" },
+  { id: "shay-family", label: "The Family" },
   { id: "collaborators", label: "Collaborators" },
   { id: "archive", label: "The Archive" },
   { id: "letter", label: "The Letter" },
@@ -69,13 +70,13 @@ export function Navigation({ entered }: { entered: boolean }) {
           >
             <Image
               src="/sm-symbol.svg"
-              alt="Shatta Movement emblem"
+              alt="Wendy Shay emblem"
               width={32}
               height={32}
               className="h-7 w-7 md:h-8 md:w-8"
               priority
             />
-            <span className="font-mono-caps text-gold">SW · LIVING LEGACY</span>
+            <span className="font-mono-caps text-gold">WS · LIVING LEGACY</span>
           </button>
 
           <div className="hidden items-center gap-7 lg:flex">
@@ -120,12 +121,12 @@ export function Navigation({ entered }: { entered: boolean }) {
                 <div className="flex items-center gap-2.5">
                   <Image
                     src="/sm-symbol.svg"
-                    alt="Shatta Movement emblem"
+                    alt="Wendy Shay emblem"
                     width={32}
                     height={32}
                     className="h-7 w-7"
                   />
-                  <span className="font-mono-caps text-gold">SW · LIVING LEGACY</span>
+                  <span className="font-mono-caps text-gold">WS · LIVING LEGACY</span>
                 </div>
                 <button
                   onClick={() => setOpen(false)}
@@ -146,7 +147,7 @@ export function Navigation({ entered }: { entered: boolean }) {
                     onClick={() => go(item.id)}
                     className="group flex items-baseline gap-4 py-2 text-left focus-legacy"
                   >
-                    <span className="font-mono-caps text-gold/60 group-hover:text-gold">
+                    <span className="font-mono-caps text-gold/80 group-hover:text-gold">
                       {String(i + 1).padStart(2, "0")}
                     </span>
                     <span className="font-display text-3xl text-ivory group-hover:text-gold sm:text-4xl">

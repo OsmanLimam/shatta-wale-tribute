@@ -5,23 +5,23 @@ import { Reveal } from "@/lib/legacy/motion";
 
 const perceptions = [
   {
-    intro: "To some, he is",
+    intro: "To some, she is",
     body: "the voice of a specific Accra moment — the artist whose breakthrough-era singles became the soundtrack to a generation&rsquo;s coming-of-age, played at the weddings, the football viewings, and the ordinary days that turned into memories.",
     tag: "popular music",
   },
   {
-    intro: "To others, he represents",
-    body: "an uncompromising independence &mdash; a model of how to release, market, and tour without depending on the traditional label infrastructure that previously defined what a Ghanaian artist could be.",
+    intro: "To others, she represents",
+    body: "an uncompromising independence &mdash; a model of how to release, market, and tour without depending on the traditional label infrastructure that previously defined what a Ghanaian female artist could be.",
     tag: "independent model",
   },
   {
     intro: "To Ghanaian popular culture,",
-    body: "he is one of the most recognizable musical figures of the past two decades &mdash; the artist the conversation keeps returning to, whether in praise, in argument, or in nostalgia for a chapter that turned out to define a stretch of years.",
+    body: "she is one of the most recognizable female musical figures of the past decade &mdash; the artist the conversation keeps returning to, whether in praise, in argument, or in nostalgia for a chapter that turned out to define a stretch of years.",
     tag: "cultural presence",
   },
   {
     intro: "To the people who grew up listening,",
-    body: "he is the throughline of a stretch of life &mdash; the artist whose releases marked the seasons, whose public moments marked the years, and whose music is now bound to memories that are older than some of his current listeners.",
+    body: "she is the throughline of a stretch of life &mdash; the artist whose releases marked the seasons, whose public moments marked the years, and whose music is now bound to memories that are older than some of her current listeners.",
     tag: "generational memory",
   },
 ];
@@ -31,7 +31,7 @@ export function WhatPeopleRemember() {
     <Section id="remember" tone="charcoal" className="grain gold-glow">
       <div className="mb-16 md:mb-20">
         <Reveal>
-          <div className="font-mono-caps mb-5 text-gold">10 — What People Remember</div>
+          <div className="font-mono-caps mb-5 text-gold">11 — What People Remember</div>
         </Reveal>
         <Reveal delay={0.05}>
           <h2 className="font-display text-[clamp(2.5rem,7vw,6rem)] leading-[0.95]">
@@ -68,7 +68,7 @@ export function WhatPeopleRemember() {
       </div>
 
       <Reveal>
-        <p className="mt-8 font-mono-caps text-ivory-dim/70">
+        <p className="mt-8 font-mono-caps text-ivory-dim/85">
           ● Editorial interpretation &mdash; drawn from sustained coverage by
           Graphic Showbiz, MyJoyOnline, Citi Newsroom, Modern Ghana, and Pulse
           Ghana. Not direct quotation.

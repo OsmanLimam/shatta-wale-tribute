@@ -10,7 +10,7 @@ export function Letter() {
       <div className="mx-auto max-w-3xl">
         <Reveal>
           <div className="font-mono-caps mb-5 text-center text-gold">
-            14 — The Letter
+            15 — The Letter
           </div>
         </Reveal>
 
@@ -73,7 +73,7 @@ export function Letter() {
             <p className="mt-3 font-mono-caps text-gold">
               {letter.signature}
             </p>
-            <p className="mt-2 font-mono-caps text-[0.55rem] text-ivory-dim/70">
+            <p className="mt-2 font-mono-caps text-[0.55rem] text-ivory-dim/85">
               {letter.date}
             </p>
           </div>

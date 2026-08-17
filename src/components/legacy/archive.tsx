@@ -41,7 +41,7 @@ export function Archive() {
     <Section id="archive" tone="ink">
       <div className="mb-12 md:mb-16">
         <Reveal>
-          <div className="font-mono-caps mb-5 text-gold">11 — The Archive</div>
+          <div className="font-mono-caps mb-5 text-gold">12 — The Archive</div>
         </Reveal>
         <Reveal delay={0.05}>
           <h2 className="font-display text-[clamp(2.5rem,7vw,6rem)] leading-[0.95] text-ivory-fade">
@@ -81,7 +81,7 @@ export function Archive() {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search the archive…"
-            className="focus-legacy w-full border border-hairline bg-charcoal px-4 py-2.5 text-sm text-ivory placeholder:text-ivory-dim/60 lg:w-72"
+            className="focus-legacy w-full border border-hairline bg-charcoal px-4 py-2.5 text-sm text-ivory placeholder:text-ivory-dim/75 lg:w-72"
             aria-label="Search archive"
           />
         </div>
@@ -129,7 +129,7 @@ export function Archive() {
                 <div className="flex flex-1 flex-col p-6">
                   <div className="flex items-center justify-between">
                     <span className="font-mono-caps text-gold">{item.year}</span>
-                    <span className="font-mono-caps text-ivory-dim/70">
+                    <span className="font-mono-caps text-ivory-dim/85">
                       {item.type}
                     </span>
                   </div>
@@ -137,7 +137,7 @@ export function Archive() {
                     {item.title}
                   </h3>
                 {item.location && (
-                  <div className="mt-2 font-mono-caps text-[0.55rem] text-ivory-dim/70">
+                  <div className="mt-2 font-mono-caps text-[0.55rem] text-ivory-dim/85">
                     {item.location}
                   </div>
                 )}

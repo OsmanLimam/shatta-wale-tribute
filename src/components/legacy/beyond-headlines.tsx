@@ -9,7 +9,7 @@ export function BeyondHeadlines() {
       <div className="grid grid-cols-1 gap-16 lg:grid-cols-12">
         <div className="lg:col-span-5">
           <Reveal>
-            <div className="font-mono-caps mb-5 text-gold">07 — Beyond The Headlines</div>
+            <div className="font-mono-caps mb-5 text-gold">08 — Beyond The Headlines</div>
           </Reveal>
           <Reveal delay={0.05}>
             <h2 className="font-display text-[clamp(2.25rem,6vw,5rem)] leading-[0.98]">
@@ -62,7 +62,7 @@ export function BeyondHeadlines() {
 
             <Reveal delay={0.15}>
               <p className="text-base leading-relaxed text-ivory-dim sm:text-lg">
-                This section does not defend him. It does not attack him. It
+                This section does not defend her. It does not attack her. It
                 does not produce propaganda. It simply asks the question that
                 any honest archive of a public figure has to ask: when the
                 headlines fade, what is left?
@@ -72,11 +72,13 @@ export function BeyondHeadlines() {
             <Reveal delay={0.2}>
               <p className="text-base leading-relaxed text-ivory-dim sm:text-lg">
                 What is left, in this case, is a documented body of work, a
-                sustained fan institution, a rebrand that reset a national
-                scene, and a chapter &mdash; the Beyoncé collaboration &mdash;
-                that placed Ghanaian dancehall on a global pop stage. The
-                headlines are real, but they are not the whole of the record.
-                The record is what this project is for.
+                sustained fan institution in the Shay Gang, a Shay Concert
+                franchise that has run across multiple editions at Westhills
+                Mall, and a chapter &mdash; the Survivor era &mdash; that
+                placed her among the most critically engaged female artists
+                of her generation in Ghanaian pop. The headlines are real,
+                but they are not the whole of the record. The record is what
+                this project is for.
               </p>
             </Reveal>
 

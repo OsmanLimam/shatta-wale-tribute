@@ -114,11 +114,19 @@ export const sources: Source[] = [
   },
   {
     id: "src-shatta-wale",
-    label: "Shatta Wale — joint releases & cross-label appearances",
-    tier: "reputable",
-    publisher: "Pulse Africa / Modern Ghana",
+    label: "Shatta Wale — 'Stevie Wonder' & 'H.I.T Haters In Tears' joint singles",
+    tier: "primary",
+    publisher: "RuffTown Records / TrendyBeatz / Deezer",
     corroborates:
-      "West-African press coverage of the Wendy Shay–Shatta Wale creative exchange and joint appearances.",
+      "Credited joint releases: Wendy Shay feat. Shatta Wale — 'Stevie Wonder' and 'H.I.T Haters In Tears'. Verified via TrendyBeatz release pages and Deezer track credits.",
+  },
+  {
+    id: "src-mavado",
+    label: "Mavado — 'Apology' joint single",
+    tier: "primary",
+    publisher: "RuffTown Records / YouTube / Boomplay",
+    corroborates:
+      "Credited joint release: Wendy Shay feat. Mavado — 'Apology'. Verified via YouTube official uploads and Boomplay track credits.",
   },
   {
     id: "src-sarkodie",

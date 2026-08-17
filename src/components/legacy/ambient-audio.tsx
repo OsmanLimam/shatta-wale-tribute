@@ -339,7 +339,7 @@ export function AmbientAudio() {
                       <span className="ml-1 text-ivory-dim">— {TRACK_ARTIST}</span>
                     </p>
                     {/* Time readout */}
-                    <p className="mt-0.5 font-mono-caps text-[0.5rem] text-ivory-dim/70">
+                    <p className="mt-0.5 font-mono-caps text-[0.5rem] text-ivory-dim/85">
                       {formatTime(currentTime)} / {formatTime(duration)}
                     </p>
                   </div>

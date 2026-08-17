@@ -8,27 +8,27 @@ import { sourcesById } from "@/content/sources";
 const impactAreas = [
   {
     title: "Ghanaian popular music",
-    body: "The rebrand era reset the reference point for what a Ghanaian dancehall single could sound like, how often it could be released, and how directly it could speak to the streets without losing national reach. Younger artists now operate inside a landscape he helped re-shape.",
+    body: "The breakout era reset the reference point for what a Ghanaian female pop star could sound like, how consistently she could release, and how directly she could speak to women&rsquo;s everyday lives without softening the message for national reach. Younger female artists now operate inside a landscape she helped re-shape.",
     sourceIds: ["src-musicinafrica", "src-graphic-entertainment"],
   },
   {
-    title: "Dancehall in West Africa",
-    body: "His run of singles normalised a harder, patois-inflected but locally voiced dancehall as a viable commercial mode across the region — a positioning that, before the breakthrough era, was largely imported rather than homegrown.",
+    title: "Afropop &amp; Afrobeats crossover",
+    body: "Her run of singles normalised a dancehall-tinged but locally voiced Afropop as a viable commercial mode for female artists across the region &mdash; a positioning that, before the breakthrough era, was largely occupied by male voices. She made the lane not only visible but commercially sustainable.",
     sourceIds: ["src-musicinafrica", "src-pulse-africa"],
   },
   {
-    title: "Independent-artist identity",
-    body: "The volume-driven release cadence and the institutionalised fan base modelled a path that did not depend on traditional label infrastructure. The blueprint is visible across a generation of Ghanaian and West African artists who now release, market, and tour on their own terms.",
+    title: "Female-artist independence",
+    body: "The volume-driven release cadence and the unapologetically bold visual identity modelled a path that did not depend on male-co-signed credibility. The blueprint is visible across a generation of Ghanaian and West-African female artists who now release, market, and headline on their own terms &mdash; citing her as the reason they believed it was possible.",
     sourceIds: ["src-graphic-entertainment", "src-modernghana"],
   },
   {
     title: "International visibility",
-    body: "The Beyoncé collaboration placed Ghanaian dancehall on a globally marketed release and gave Western music press a fixed reference point for writing about the scene. The chapter is significant not because it created his stature, but because it confirmed it on a wider stage.",
-    sourceIds: ["src-beyonce-lionking", "src-bbc-africa", "src-complex-2020"],
+    body: "Sustained diaspora-facing features and tour dates across Europe, the UK, and North America have placed Ghanaian female pop on international stages that, before her, were rarely accessed by Ghanaian women without a male-led co-sign. The chapter is significant not because it created her stature, but because it confirmed it on a wider stage.",
+    sourceIds: ["src-pulse-africa", "src-modernghana"],
   },
   {
     title: "Youth culture & everyday life",
-    body: "Across weddings, football viewing centres, clubs, and the everyday vocabulary of young Ghanaian listeners, the music of the breakthrough and reinvention eras became woven into daily life. The cultural footprint is not measured in chart positions alone — it is measured in how often the songs appear in the background of ordinary days.",
+    body: "Across weddings, football viewing centres, clubs, and the everyday vocabulary of young Ghanaian listeners, the music of the breakthrough and reinvention eras became woven into daily life. The cultural footprint is not measured in chart positions alone &mdash; it is measured in how often the songs appear in the background of ordinary days, especially for the women who grew up hearing themselves represented in them.",
     sourceIds: ["src-graphic-entertainment", "src-modernghana"],
   },
 ];
@@ -43,7 +43,7 @@ export function Impact() {
         <Reveal delay={0.05}>
           <h2 className="font-display text-[clamp(2.5rem,7vw,6rem)] leading-[0.95]">
             <span className="block text-ivory">What changed</span>
-            <span className="block text-ivory-fade">because he existed?</span>
+            <span className="block text-ivory-fade">because she existed?</span>
           </h2>
         </Reveal>
         <Reveal delay={0.1}>
@@ -78,7 +78,7 @@ export function Impact() {
           <Reveal key={area.title}>
             <article className="grid grid-cols-1 gap-6 border-t border-hairline pt-8 md:grid-cols-12 md:gap-10">
               <div className="md:col-span-1">
-                <span className="font-mono-caps text-gold/60">
+                <span className="font-mono-caps text-gold/80">
                   {String(i + 1).padStart(2, "0")}
                 </span>
               </div>
@@ -97,7 +97,7 @@ export function Impact() {
                     return s ? (
                       <span
                         key={sid}
-                        className="font-mono-caps text-[0.55rem] text-ivory-dim/70"
+                        className="font-mono-caps text-[0.55rem] text-ivory-dim/85"
                       >
                         ● {s.tier}
                       </span>

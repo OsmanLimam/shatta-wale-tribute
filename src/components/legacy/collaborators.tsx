@@ -32,9 +32,9 @@ export function Collaborators() {
         <Reveal delay={0.1}>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-ivory-dim sm:text-lg">
             A career is partly the people who choose to work with you. These
-            are the artists whose credits intersect with Shatta Wale&rsquo;s
+            are the artists whose credits intersect with Wendy Shay&rsquo;s
             &mdash; documented collaborations across Ghanaian popular music,
-            West African crossover, and global pop.
+            West African crossover, and the post-2018 Afropop mainstream.
           </p>
         </Reveal>
       </div>

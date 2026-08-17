@@ -90,7 +90,7 @@ export function Hero({ onEnter }: HeroProps) {
 
       {/* Hero content */}
       <div className="container-legacy relative z-10 flex flex-col items-center text-center">
-        {/* Shatta Movement emblem — top accent above the eyebrow */}
+        {/* Wendy Shay emblem — top accent above the eyebrow */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}

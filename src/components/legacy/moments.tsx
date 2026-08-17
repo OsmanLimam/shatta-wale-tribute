@@ -54,7 +54,7 @@ export function Moments() {
                 {moment.imagePath ? (
                   <LegacyImage
                     src={moment.imagePath}
-                    alt={`Shatta Wale — ${moment.title} (${moment.year})`}
+                    alt={`Wendy Shay — ${moment.title} (${moment.year})`}
                     caption={moment.title}
                     className="h-full w-full"
                     sizes="(max-width: 1024px) 100vw, 60vw"
@@ -132,7 +132,7 @@ export function Moments() {
                   })}
                 </div>
                 {primarySrc && (
-                  <p className="mt-3 font-mono-caps text-[0.55rem] text-ivory-dim/70">
+                  <p className="mt-3 font-mono-caps text-[0.55rem] text-ivory-dim/85">
                     Anchored by: {primarySrc.label}
                   </p>
                 )}

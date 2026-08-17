@@ -1,0 +1,50 @@
+{
+  "success": true,
+  "query": "Wendy Shay mother mom parents family",
+  "count": 6,
+  "ranked": true,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/b104874ed3e8.jpeg",
+      "caption": "Two smiling women pose for a selfie in a room with a lit doorway and shelves.",
+      "source": "Yen News",
+      "original_width": "1120px",
+      "original_height": "1400px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/79eb32f54e33.jpeg",
+      "caption": "A collage of a woman with dreadlocks in different outfits and an inset photo of another woman.",
+      "source": "Yen News",
+      "original_width": "1200px",
+      "original_height": "675px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/513d2bd0d985.jpeg",
+      "caption": "This is a collage of three photos showing a woman in different outfits and settings.",
+      "source": "Yen News",
+      "original_width": "1200px",
+      "original_height": "675px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f66a45774b92.jpeg",
+      "caption": "A collage of a woman with children, one child alone, and an inset of a performance. Text: CK GINIWAKU.",
+      "source": "Yen News",
+      "original_width": "1200px",
+      "original_height": "675px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/6631ca23da4f.jpg",
+      "caption": "A woman and a child are hugging against a red background with the text: AGAIN AND AGAIN AND AGAIN [ENCORE ET ENCORE ET ENCORE]. suitable for background image",
+      "source": "YouTube",
+      "original_width": "1280px",
+      "original_height": "720px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7bc3f42c0bfc.jpeg",
+      "caption": "This image is a collage of multiple photos. Text on the white shirt: LOYAL FLAME.",
+      "source": "Yen News",
+      "original_width": "1200px",
+      "original_height": "675px"
+    }
+  ]
+}

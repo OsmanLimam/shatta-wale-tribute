@@ -111,7 +111,7 @@ function ChapterBlock({ chapter, index, reversed }: ChapterBlockProps) {
               {chapter.imagePath ? (
                 <LegacyImage
                   src={chapter.imagePath}
-                  alt={`Shatta Wale — ${chapter.era} era (${chapter.periodLabel})`}
+                  alt={`Wendy Shay — ${chapter.era} era (${chapter.periodLabel})`}
                   caption={chapter.imageCaption}
                   className="aspect-[4/5] w-full max-w-sm"
                 />
@@ -122,12 +122,12 @@ function ChapterBlock({ chapter, index, reversed }: ChapterBlockProps) {
                   className="aspect-[4/5] w-full max-w-sm"
                 />
               )}
-              {/* Shatta Movement emblem watermark on the Movement chapter */}
-              {chapter.id === "the-movement" && (
+              {/* Shay Gang emblem watermark on the Survivor chapter */}
+              {chapter.id === "the-survivor" && (
                 <div className="pointer-events-none absolute -right-3 -top-3 z-[5] rotate-12 opacity-80 sm:-right-6 sm:-top-6">
                   <Image
                     src="/sm-symbol.svg"
-                    alt="Shatta Movement emblem"
+                    alt="Wendy Shay emblem"
                     width={72}
                     height={72}
                     className="drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]"

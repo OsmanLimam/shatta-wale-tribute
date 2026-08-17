@@ -10,6 +10,7 @@ import { Journey } from "@/components/legacy/journey";
 import { Music } from "@/components/legacy/music";
 import { Impact } from "@/components/legacy/impact";
 import { Moments } from "@/components/legacy/moments";
+import { ShayFamily } from "@/components/legacy/shay-family";
 import { BeyondHeadlines } from "@/components/legacy/beyond-headlines";
 import { Collaborators } from "@/components/legacy/collaborators";
 import { Influenced } from "@/components/legacy/influenced";
@@ -54,6 +55,8 @@ export default function Home() {
       <Impact />
 
       <Moments />
+
+      <ShayFamily />
 
       <BeyondHeadlines />
 

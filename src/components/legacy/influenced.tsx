@@ -32,11 +32,12 @@ export function Influenced() {
           <p className="text-base leading-relaxed text-ivory sm:text-lg">
             A career of this scale influences more people than any archive can
             enumerate. The most defensible claim this section can make is the
-            one the public record supports: across more than a decade of
-            consistent output, a generation of younger Ghanaian and West African
-            artists has grown up with his work as a reference point &mdash; for
+            one the public record supports: across more than half a decade of
+            consistent output, a generation of younger Ghanaian and West-African
+            female artists has grown up with her work as a reference point &mdash; for
             the sound, for the release cadence, and for the possibility of an
-            independent career at scale.
+            independent female career at scale in a scene that, before her,
+            rarely sustained one.
           </p>
           <p className="mt-4 text-sm leading-relaxed text-ivory-dim">
             Specific named artists are not enumerated here. The verification
@@ -62,14 +63,14 @@ export function Influenced() {
               </blockquote>
               <figcaption className="mt-6 space-y-2">
                 <div className="font-mono-caps text-ivory-dim">{q.attributedTo}</div>
-                <div className="text-sm text-ivory-dim/70">Source: {q.source}</div>
+                <div className="text-sm text-ivory-dim/85">Source: {q.source}</div>
                 <div className="flex flex-wrap gap-2 pt-2">
                   {q.sourceIds.map((sid) => {
                     const s = sourcesById[sid];
                     return s ? (
                       <span
                         key={sid}
-                        className="font-mono-caps text-[0.55rem] text-ivory-dim/70"
+                        className="font-mono-caps text-[0.55rem] text-ivory-dim/85"
                       >
                         ● {s.tier}
                       </span>

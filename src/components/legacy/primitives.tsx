@@ -152,7 +152,7 @@ export function PortraitPlaceholder({
  *  - attribution overlay ("Photo · Web archive")
  *  - gold crosshair framing (museum-style)
  *
- * Images are sourced from public web archives of Shatta Wale's career
+ * Images are sourced from public web archives of Wendy Shay's career
  * and edited into the editorial palette via a tonal multiply overlay.
  */
 export function LegacyImage({
@@ -250,7 +250,7 @@ export function LocalLine({
         className,
       )}
     >
-      <span className="font-mono-caps mr-3 text-[0.55rem] tracking-wider text-gold/60">
+      <span className="font-mono-caps mr-3 text-[0.55rem] tracking-wider text-gold/80">
         {lang}
       </span>
       {children}

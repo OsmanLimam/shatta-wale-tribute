@@ -71,13 +71,13 @@ export function FinalReveal() {
 
         <Reveal delay={0.55}>
           <footer className="mt-20 max-w-xl space-y-2">
-            <p className="text-sm leading-relaxed text-ivory-dim/70">
+            <p className="text-sm leading-relaxed text-ivory-dim/85">
               An independent creative archival project. Not affiliated with or
-              officially endorsed by Shatta Wale or his management unless
-              explicitly stated. Created by Osman Limam.
+              officially endorsed by Wendy Shay, RuffTown Records, or her
+              management unless explicitly stated. Created by Osman Limam.
             </p>
-            <p className="font-mono-caps text-[0.55rem] text-ivory-dim/50">
-              ● Ambient score: &ldquo;Prove You&rdquo; — Shatta Wale. Used as
+            <p className="font-mono-caps text-[0.55rem] text-ivory-dim/70">
+              ● Ambient score: artist-provided score by Wendy Shay. Used as
               room tone for the archive.
             </p>
           </footer>

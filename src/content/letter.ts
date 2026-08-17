@@ -2,23 +2,23 @@ import type { Letter, ContributionField } from "@/lib/types";
 
 export const letter: Letter = {
   author: "Osman Limam",
-  recipient: "Shatta Wale",
+  recipient: "Wendy Shay",
   title: "A Letter From Someone Who Chose To Remember You While You Are Still Here",
   date: "2026",
   paragraphs: [
-    "Shatta Wale,",
+    "Wendy Shay,",
     "I started this project because of a discomfort I could not shake. We are very good, as a culture, at preserving people after they are gone. We are far less practiced at preserving them while they are still here to read what we wrote.",
-    "I wanted to try. Not because I think your story is finished — it is not — but because I think the version of an artist's life that exists only in headlines and viral clips is a poor substitute for the actual arc of the work. The rebrand from Bandana. The 'Dancehall King' run. The Movement. The Beyoncé collaboration. Each of these is a chapter, and the chapters together are a story that deserves to be set down carefully, by someone who is not in a hurry.",
+    "I wanted to try. Not because I think your story is finished — it is not — but because I think the version of an artist's life that exists only in headlines and viral clips is a poor substitute for the actual arc of the work. The signing to RuffTown. The 'Uber Driver' run. The Survivor era. The Enigma EP. Each of these is a chapter, and the chapters together are a story that deserves to be set down carefully, by someone who is not in a hurry.",
     "I am not a journalist. I am not your management. I am not asking you for anything. I am an independent writer who spent time with the public record of your work and tried to lay it out with the care a career of this scale has earned. Where I could not verify something, I left it out. Where I included interpretation, I labelled it as such. The archive is not exhaustive — it is honest about what it does and does not know.",
-    "I chose you because your career sits at the intersection of several things I find important: the long apprenticeship before the breakthrough, the discipline of constant output, the building of a fan institution that has outlasted most of its peers, and the moment an entire national scene was lifted onto a global stage through a single feature. These are not small things. They are worth preserving.",
-    "I have left one room of this museum unfinished on purpose. The final chapter — 'Today' — is open. There is a section titled 'Shatta Wale, this page is yours' where the public record ends and your contribution is invited. The architecture is honest about the fact that no archive can know the person behind the story. Only you can.",
+    "I chose you because your career sits at the intersection of several things I find important: the courage of returning home to build something in a scene that did not have a clear lane for the artist you wanted to become, the discipline of constant output across a five-year run, the public reset that followed the 2021 accident, and the music that came after — heavier, sharper, and the first sustained argument that you should be taken seriously as an album artist, not only a singles one. These are not small things. They are worth preserving.",
+    "I have left one room of this museum unfinished on purpose. The final chapter — 'Today' — is open. There is a section titled 'Wendy Shay, this page is yours' where the public record ends and your contribution is invited. The architecture is honest about the fact that no archive can know the person behind the story. Only you can.",
     "If you read this and decide it is not for you, I will respect that. If you read it and want to add to it — a correction, a missing milestone, a personal reflection, a message to whoever finds this in fifty years — the page is ready. Nothing will be published without your word.",
     "This is not the final version of your story. It is an invitation to continue writing it.",
   ],
   /** Ga greeting rendered directly underneath the English salutation. */
   salutationLocal: {
     lang: "GA",
-    text: "Minútsalɔ Shatta Wale,",
+    text: "Minúutsalɔ Wendy Shay,",
   },
   closing: "With respect, and without expectation,",
   /** Twi closing rendered directly underneath the English closing. */

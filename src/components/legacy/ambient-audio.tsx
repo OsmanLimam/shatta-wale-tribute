@@ -7,7 +7,7 @@ import { usePrefersReducedMotion } from "@/lib/legacy/motion";
 /**
  * AmbientAudio — soft background music for the Living Legacy Experience.
  *
- * Track: "Prove You" by Shatta Wale (Charles Nii Armah Mensah).
+ * Track: Wendy Shay (artist-provided ambient score).
  * Sourced from user-provided file; used here as ambient score for the archive.
  *
  * Behaviour:
@@ -26,10 +26,9 @@ import { usePrefersReducedMotion } from "@/lib/legacy/motion";
  * UI: small fixed bottom-right panel, gold accent, equalizer bars animate
  * when audio is actually playing. Always dismissable.
  */
-const TRACK_SRC_MP3 = "/audio/prove-you.mp3";
-const TRACK_SRC_M4A = "/audio/prove-you.m4a";
-const TRACK_TITLE = "Prove You";
-const TRACK_ARTIST = "Shatta Wale";
+const TRACK_SRC_M4A = "/audio/wendy-shay-ambient.m4a";
+const TRACK_TITLE = "Wendy Shay";
+const TRACK_ARTIST = "Wendy Shay";
 const STORAGE_KEY = "legacy-audio-pref";
 
 const FADE_IN_MS = 1500;
@@ -249,7 +248,6 @@ export function AmbientAudio() {
         preload={saveData ? "none" : "auto"}
         playsInline
       >
-        <source src={TRACK_SRC_MP3} type="audio/mpeg" />
         <source src={TRACK_SRC_M4A} type="audio/mp4" />
       </audio>
 

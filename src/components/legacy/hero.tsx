@@ -35,7 +35,7 @@ export function Hero({ onEnter }: HeroProps) {
       id="hero"
       className="relative grain flex h-[100svh] min-h-[640px] w-full items-center justify-center overflow-hidden bg-ink"
     >
-      {/* Atmospheric backdrop — Shatta Wale performing on stage */}
+      {/* Atmospheric backdrop — Wendy Shay performing on stage */}
       <motion.div
         initial={{ opacity: 0, scale: reduced ? 1 : 1.08 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -44,8 +44,8 @@ export function Hero({ onEnter }: HeroProps) {
         aria-hidden="true"
       >
         <Image
-          src="/images/shatta-wale/hero-stage.jpg"
-          alt="Shatta Wale performing on stage under gold light."
+          src="/images/wendy-shay/hero-stage.jpg"
+          alt="Wendy Shay performing on stage under rose-tinted light."
           fill
           priority
           sizes="100vw"
@@ -124,7 +124,7 @@ export function Hero({ onEnter }: HeroProps) {
             transition={{ duration: 1.0, delay: 0.6, ease: [0.22, 1, 0.36, 1] }}
             className="block"
           >
-            SHATTA WALE
+            WENDY SHAY
           </motion.span>
         </h1>
 
@@ -134,7 +134,7 @@ export function Hero({ onEnter }: HeroProps) {
           transition={{ duration: 1.0, delay: 1.0, ease: [0.22, 1, 0.36, 1] }}
           className="mt-6 font-display text-[clamp(1.25rem,3.6vw,2.5rem)] italic leading-snug text-ivory [text-shadow:0_2px_20px_rgba(0,0,0,0.85)]"
         >
-          Before History Writes Your Story.
+          Before The Crown Decides Her Place In The Story.
         </motion.p>
 
         <motion.div
@@ -143,7 +143,7 @@ export function Hero({ onEnter }: HeroProps) {
           transition={{ duration: 1.0, delay: 1.15, ease: [0.22, 1, 0.36, 1] }}
           className="mt-2 [text-shadow:0_2px_20px_rgba(0,0,0,0.85)]"
         >
-          <LocalLine lang="GA">Dani yinsane aaŋma bo osane.</LocalLine>
+          <LocalLine lang="TWI">Dani ahehyɛn atia kɛse, na wadi mu ansa na abakɔsɛm atwerɛ no.</LocalLine>
         </motion.div>
 
         <motion.p
@@ -153,7 +153,7 @@ export function Hero({ onEnter }: HeroProps) {
           className="mt-8 max-w-2xl text-base leading-relaxed text-ivory sm:text-lg [text-shadow:0_1px_12px_rgba(0,0,0,0.9)]"
         >
           A living digital archive of the journey, influence, and moments that
-          shaped one of Ghana&rsquo;s most recognizable musical figures.
+          shaped one of Ghana&rsquo;s most recognizable female musical figures.
         </motion.p>
 
         <motion.div
@@ -164,7 +164,7 @@ export function Hero({ onEnter }: HeroProps) {
         >
           <LocalLine lang="PIDGIN">
             Dis na living digital archive of di journey, di influence, and di
-            moments wey shape one of Ghana ein most recognizable music icons.
+            moments wey shape one of Ghana ein most recognizable female music icons.
           </LocalLine>
         </motion.div>
 

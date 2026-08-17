@@ -24,31 +24,33 @@ const mono = JetBrains_Mono({
   weight: ["400", "500"],
 });
 
-const SITE_URL = "https://shatta-wale-legacy.example.com";
-const SITE_TITLE = "Shatta Wale — A Living Legacy Experience";
+const SITE_URL = "https://wendy-shay-legacy.example.com";
+const SITE_TITLE = "Wendy Shay — A Living Legacy Experience";
 const SITE_DESCRIPTION =
-  "An independent digital archive of the journey, influence, and moments that shaped one of Ghana's most recognizable musical figures. Created while the story is still being written.";
+  "An independent digital archive of the journey, influence, and moments that shaped one of Ghana's most recognizable female musical figures. Created while the story is still being written.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: SITE_TITLE,
-    template: "%s · Shatta Wale Living Legacy",
+    template: "%s · Wendy Shay Living Legacy",
   },
   description: SITE_DESCRIPTION,
-  applicationName: "Shatta Wale Living Legacy",
+  applicationName: "Wendy Shay Living Legacy",
   authors: [{ name: "Osman Limam" }],
   creator: "Osman Limam",
   publisher: "Osman Limam",
   keywords: [
-    "Shatta Wale",
+    "Wendy Shay",
     "Ghanaian music",
-    "Dancehall",
+    "Afrobeats",
+    "Afropop",
     "Living legacy",
     "Digital archive",
     "African music",
-    "Shatta Movement",
+    "RuffTown Records",
     "Independent documentary",
+    "Female artist Ghana",
   ],
   robots: {
     index: true,
@@ -68,7 +70,7 @@ export const metadata: Metadata = {
     type: "profile",
     locale: "en_US",
     url: SITE_URL,
-    siteName: "Shatta Wale — A Living Legacy Experience",
+    siteName: "Wendy Shay — A Living Legacy Experience",
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
     images: [
@@ -76,7 +78,7 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Shatta Wale — Before History Writes Your Story",
+        alt: "Wendy Shay — Before The Crown Decides Her Place In The Story.",
         type: "image/jpeg",
       },
     ],
@@ -108,7 +110,7 @@ export const viewport: Viewport = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "Shatta Wale — A Living Legacy Experience",
+  name: "Wendy Shay — A Living Legacy Experience",
   url: SITE_URL,
   description: SITE_DESCRIPTION,
   inLanguage: "en",
@@ -118,9 +120,9 @@ const jsonLd = {
   },
   about: {
     "@type": "Person",
-    name: "Shatta Wale",
+    name: "Wendy Shay",
     description:
-      "Ghanaian dancehall and afrobeats artist, born Charles Nii Armah Mensah Jr.",
+      "Ghanaian Afropop and Afrobeats singer, born Wendy Asba Shay, signed to RuffTown Records in 2017.",
   },
   publisher: {
     "@type": "Person",
@@ -131,17 +133,17 @@ const jsonLd = {
 const personLd = {
   "@context": "https://schema.org",
   "@type": "Person",
-  name: "Shatta Wale",
-  birthName: "Charles Nii Armah Mensah Jr.",
-  birthDate: "1984-10-17",
+  name: "Wendy Shay",
+  birthName: "Wendy Asba Shay",
+  birthDate: "1991-02-20",
   birthPlace: "Accra, Ghana",
   nationality: "Ghanaian",
-  occupation: ["Musician", "Singer", "Songwriter", "Record Producer"],
-  genre: ["Dancehall", "Afrobeats", "Reggae"],
-  knowsAbout: "Ghanaian popular music, Dancehall in West Africa",
+  occupation: ["Singer", "Songwriter", "Performer"],
+  genre: ["Afrobeats", "Afropop", "Dancehall", "Highlife"],
+  knowsAbout: "Ghanaian popular music, Afropop, female artists in West Africa",
   subjectOf: {
     "@type": "WebSite",
-    name: "Shatta Wale — A Living Legacy Experience",
+    name: "Wendy Shay — A Living Legacy Experience",
     url: SITE_URL,
   },
 };

@@ -1,0 +1,78 @@
+{
+  "success": true,
+  "query": "Wendy Shay portrait glamour photoshoot",
+  "count": 10,
+  "ranked": true,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/83fed80596c5.jpg",
+      "caption": "A stylish woman with long black hair and red highlights wears a black blazer. Suitable for background image.",
+      "source": "Deezer",
+      "original_width": "1900px",
+      "original_height": "1900px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/039d80175599.jpg",
+      "caption": "A woman in a leopard-print bodysuit lies on her side against a plain white background. suitable for background image",
+      "source": "YouTube",
+      "original_width": "900px",
+      "original_height": "900px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/fe18639cc3d9.jpg",
+      "caption": "A woman with blonde buns and a brown dress poses against a peach background. suitable for background image",
+      "source": "The Lagos Review",
+      "original_width": "1440px",
+      "original_height": "2560px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/9d3a3f10db27.jpg",
+      "caption": "A woman with blonde hair, wearing a brown dress and green earrings, looks down. suitable for background image",
+      "source": "Netbuzz Radio - Netbuzz Africa",
+      "original_width": "2000px",
+      "original_height": "2000px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a23ebabbed66.jpg",
+      "caption": "A high-clarity portrait of a woman with dreadlocks and pearl makeup, suitable for background image.",
+      "source": "www.kwameblack.com",
+      "original_width": "1502px",
+      "original_height": "1125px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/6ff893d4c823.jpg",
+      "caption": "A woman in a gold-embellished gown poses against a wall. suitable for background image",
+      "source": "x.com",
+      "original_width": "800px",
+      "original_height": "1199px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/33cd333fc65c.jpg",
+      "caption": "A woman with blonde buns and jewelry poses in a dimly lit room with a man in the background. suitable for background image",
+      "source": "www.kwameblack.com",
+      "original_width": "1491px",
+      "original_height": "1125px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/d3cfd661eea2.jpg",
+      "caption": "A woman with dreadlocks and jewelry looks at the camera. The image contains watermarks: \"AFRICAN VOICES CHANGEMAKERS\" and \"Courtesy RunTown Records\".",
+      "source": "CNN",
+      "original_width": "1920px",
+      "original_height": "1080px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/1be51b1e2f9c.jpeg",
+      "caption": "A smiling woman with a colorful headwrap and large hoop earrings looks back over her shoulder. suitable for background image",
+      "source": "Yen News",
+      "original_width": "1120px",
+      "original_height": "1136px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/264bebd19662.jpg",
+      "caption": "A woman with blonde dreadlocks wears an embellished pink gown. suitable for background image",
+      "source": "Twitter",
+      "original_width": "842px",
+      "original_height": "1200px"
+    }
+  ]
+}

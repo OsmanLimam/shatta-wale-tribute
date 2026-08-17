@@ -1,0 +1,50 @@
+{
+  "success": true,
+  "query": "Accra Ghana city skyline streets",
+  "count": 6,
+  "ranked": true,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/550db3ae7776.jpg",
+      "caption": "The image contains watermarks and text: alamy, Image ID: 2M4WMHB, www.alamy.com.",
+      "source": "Alamy",
+      "original_width": "1300px",
+      "original_height": "956px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c3dd7ea6e9ca.jpg",
+      "caption": "A clear street view of Accra with the text \"ACCRA IS CHANGING\" overlaid. suitable for background image",
+      "source": "YouTube",
+      "original_width": "1280px",
+      "original_height": "720px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/d265658fab65.jpg",
+      "caption": "The image contains watermarks and text: alamy, Image ID: A4B06M, www.alamy.com.",
+      "source": "Alamy",
+      "original_width": "1300px",
+      "original_height": "804px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/667bac05841b.jpg",
+      "caption": "A clear, high-angle view of a dense cityscape with colorful residential buildings and a modern skyline in the background. suitable for background image",
+      "source": "African Cities Research Consortium",
+      "original_width": "1200px",
+      "original_height": "1200px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/8c31a25e36d0.jpg",
+      "caption": "Aerial view of a city at dusk with illuminated buildings and roads, featuring a \"depositphotos\" watermark. Text: depositphotos, Image ID: 537458222, www.depositphotos.com",
+      "source": "DepositPhotos",
+      "original_width": "1600px",
+      "original_height": "1148px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/200b7277f3af.jpg",
+      "caption": "Aerial view of Accra, Ghana, showing highways and colorful buildings. Text: ACCRA GHANA 🇬🇭. suitable for background image",
+      "source": "Pinterest",
+      "original_width": "1080px",
+      "original_height": "1920px"
+    }
+  ]
+}

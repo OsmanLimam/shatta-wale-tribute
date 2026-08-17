@@ -1,16 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
   <!--
-    Shatta Movement (SM) emblem
-    — Two interlocking S + M letterforms inside a gold diamond frame
-    — Designed to echo the editorial palette: ink black, warm gold, ivory
-    — The four cardinal gold marks mirror the museum-style crosshair framing
+    Wendy Shay (WS) emblem
+    — WS monogram inside a rose-gold diamond frame with a queen-crown motif
+    — Designed to echo the editorial palette: ink black, rose, ivory
+    — The four cardinal rose marks mirror the museum-style crosshair framing
       used throughout the LegacyImage component
   -->
   <defs>
-    <linearGradient id="sm-gold" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#d8b765"/>
-      <stop offset="50%" stop-color="#c9a24b"/>
-      <stop offset="100%" stop-color="#8a6f2e"/>
+    <linearGradient id="ws-rose" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0a8c5"/>
+      <stop offset="50%" stop-color="#e0508c"/>
+      <stop offset="100%" stop-color="#a32d63"/>
+    </linearGradient>
+    <linearGradient id="ws-ivory" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f4efe6"/>
+      <stop offset="100%" stop-color="#cdc6b8"/>
     </linearGradient>
   </defs>
 
@@ -18,29 +22,41 @@
   <rect width="240" height="240" fill="#0a0a0a"/>
 
   <!-- Diamond frame (outer) -->
-  <rect x="20" y="20" width="200" height="200" transform="rotate(45 120 120)" stroke="url(#sm-gold)" stroke-width="2" fill="none"/>
+  <rect x="20" y="20" width="200" height="200" transform="rotate(45 120 120)" stroke="url(#ws-rose)" stroke-width="2" fill="none"/>
 
   <!-- Diamond frame (inner, hairline) -->
-  <rect x="32" y="32" width="176" height="176" transform="rotate(45 120 120)" stroke="#c9a24b" stroke-width="0.5" fill="none" opacity="0.5"/>
+  <rect x="32" y="32" width="176" height="176" transform="rotate(45 120 120)" stroke="#e0508c" stroke-width="0.5" fill="none" opacity="0.5"/>
 
-  <!-- Cardinal gold marks (museum crosshair) -->
-  <circle cx="120" cy="14" r="2.5" fill="#c9a24b"/>
-  <circle cx="120" cy="226" r="2.5" fill="#c9a24b"/>
-  <circle cx="14" cy="120" r="2.5" fill="#c9a24b"/>
-  <circle cx="226" cy="120" r="2.5" fill="#c9a24b"/>
+  <!-- Cardinal rose marks (museum crosshair) -->
+  <circle cx="120" cy="14" r="2.5" fill="#e0508c"/>
+  <circle cx="120" cy="226" r="2.5" fill="#e0508c"/>
+  <circle cx="14" cy="120" r="2.5" fill="#e0508c"/>
+  <circle cx="226" cy="120" r="2.5" fill="#e0508c"/>
 
-  <!-- SM monogram — designed as a single iconic mark -->
-  <!-- S-curve (left side) -->
-  <path d="M 78 78 Q 60 78 60 96 Q 60 114 78 120 Q 96 126 96 144 Q 96 162 78 162 L 60 162"
-        stroke="url(#sm-gold)" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- Queen crown (above the monogram) — 5 points with a central jewel -->
+  <g stroke="url(#ws-rose)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Crown base bar -->
+    <line x1="74" y1="64" x2="166" y2="64"/>
+    <!-- Crown peaks (left to right) -->
+    <path d="M 74 64 L 78 44 L 92 56 L 108 38 L 120 30 L 132 38 L 148 56 L 162 44 L 166 64"/>
+    <!-- Tiny jewel circles at peaks -->
+    <circle cx="78" cy="42" r="1.6" fill="url(#ws-rose)" stroke="none"/>
+    <circle cx="120" cy="28" r="2" fill="url(#ws-rose)" stroke="none"/>
+    <circle cx="162" cy="42" r="1.6" fill="url(#ws-rose)" stroke="none"/>
+  </g>
 
-  <!-- M-form (right side, three peaks) -->
-  <path d="M 120 162 L 120 78 L 144 120 L 168 78 L 168 162"
-        stroke="#f4efe6" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- WS monogram — W (rose) + S (ivory), interlocking -->
+  <!-- W (left, rose) -->
+  <path d="M 60 90 L 72 150 L 90 110 L 108 150 L 120 90"
+        stroke="url(#ws-rose)" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- S (right, ivory) -->
+  <path d="M 168 100 Q 168 88 150 88 L 138 88 Q 126 88 126 100 Q 126 112 138 116 L 158 122 Q 170 126 170 138 Q 170 150 158 150 L 138 150 Q 126 150 126 138"
+        stroke="url(#ws-ivory)" stroke-width="6" fill="none" stroke-linecap="round"/>
 
   <!-- Underline accent -->
-  <line x1="56" y1="186" x2="184" y2="186" stroke="#c9a24b" stroke-width="1" opacity="0.6"/>
+  <line x1="56" y1="180" x2="184" y2="180" stroke="#e0508c" stroke-width="1" opacity="0.6"/>
 
   <!-- Tiny mono-caps label -->
-  <text x="120" y="208" text-anchor="middle" font-family="monospace" font-size="9" fill="#c9a24b" letter-spacing="3" font-weight="bold">SHATTA MOVEMENT</text>
+  <text x="120" y="204" text-anchor="middle" font-family="monospace" font-size="9" fill="#e0508c" letter-spacing="3" font-weight="bold">AFROPOP QUEEN</text>
 </svg>

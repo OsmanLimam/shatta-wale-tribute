@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "query": "Bullet RuffTown Records Ghanaian music producer",
+  "count": 5,
+  "ranked": true,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/136ee9ff5915.jpg",
+      "caption": "A man with dreadlocks and sunglasses sits in front of a white piano, wearing a white shirt. suitable for background image",
+      "source": "eGotickets",
+      "original_width": "1200px",
+      "original_height": "808px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/889cc8ef3e32.jpg",
+      "caption": "A man in a pink sweater and sunglasses sits outdoors, gesturing with his hands. The image contains a \"chat\" logo.",
+      "source": "Happy Ghana",
+      "original_width": "1280px",
+      "original_height": "720px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/ee9a84509bbe.jpeg",
+      "caption": "A collage of three high-quality portraits of a woman, a man, and another woman.",
+      "source": "Yen News",
+      "original_width": "1200px",
+      "original_height": "675px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/4269ad543fbf.jpg",
+      "caption": "A man in a white shirt plays a piano while a woman in a white lace top sits beside him. suitable for background image",
+      "source": "Pulse Ghana",
+      "original_width": "1200px",
+      "original_height": "675px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/4c938c13c49b.jpg",
+      "caption": "A split-screen image of a woman in pink and a man in a floral shirt. Text: GhPage.com",
+      "source": "Happy Ghana",
+      "original_width": "1280px",
+      "original_height": "720px"
+    }
+  ]
+}

@@ -3,9 +3,9 @@ import type { Source } from "@/lib/types";
 /**
  * sources.ts — corroboration registry for every factual claim in the project.
  *
- * Tier hierarchy (per Master Build Prompt A3):
+ * Tier hierarchy:
  *   1. primary     — official artist channels, management statements, award-org records, label releases, verified social posts.
- *   2. reputable   — major reputable media (BBC, Joy FM, Citi FM, Graphic.com.gh, MyJoyOnline, Ghanaweb, Music In Africa, Billboard, etc.)
+ *   2. reputable   — major reputable media (BBC, Joy FM, Citi FM, Graphic.com.gh, MyJoyOnline, GhanaWeb, Music In Africa, etc.)
  *   3. interview   — on-record, attributable, dated.
  *   4. editorial   — clearly labeled interpretation by the project author.
  *
@@ -20,49 +20,39 @@ import type { Source } from "@/lib/types";
 export const sources: Source[] = [
   // ── Primary ────────────────────────────────────────────────────────────
   {
-    id: "src-shatta-official",
-    label: "Shatta Wale — official channels & verified social",
+    id: "src-wendy-shay-official",
+    label: "Wendy Shay — official channels & verified social",
     tier: "primary",
-    publisher: "Shatta Wale (verified accounts)",
+    publisher: "Wendy Shay (verified accounts)",
     corroborates:
       "Career announcements, release cadence, public statements attributed to the artist.",
   },
   {
-    id: "src-vgma-2014",
-    label: "Vodafone Ghana Music Awards (VGMA) — 2014 results",
+    id: "src-rufftown-records",
+    label: "RuffTown Records — official releases & label credits",
+    tier: "primary",
+    publisher: "RuffTown Records / Bullet",
+    corroborates:
+      "Wendy Shay's signing, single-release credits, and label-level statements regarding her catalogue.",
+  },
+  {
+    id: "src-vgma-2019",
+    label: "Vodafone Ghana Music Awards (VGMA) — 2019 nominations",
     tier: "primary",
     publisher: "Charterhouse Ghana / VGMA",
-    year: 2014,
-    corroborates:
-      "Artiste of the Year and related 2014 VGMA wins attributed to Shatta Wale.",
-  },
-  {
-    id: "src-beyonce-lionking",
-    label: "Beyoncé — The Lion King: The Gift (2019) tracklist",
-    tier: "primary",
-    publisher: "Parkwood / Columbia Records",
     year: 2019,
     corroborates:
-      "Inclusion of 'Already' featuring Shatta Wale and Major Lazer on the official album.",
-  },
-  {
-    id: "src-billboard-chart-2020",
-    label: "Billboard — chart listing for 'Already'",
-    tier: "primary",
-    publisher: "Billboard",
-    year: 2020,
-    corroborates:
-      "Chart presence of Beyoncé's 'Already' (featuring Shatta Wale) on Billboard rankings.",
+      "VGMA 2019 New Artiste of the Year nomination attributed to Wendy Shay.",
   },
 
   // ── Reputable media ───────────────────────────────────────────────────
   {
-    id: "src-myjoyonline-biography",
-    label: "MyJoyOnline — profile coverage of Shatta Wale",
+    id: "src-ghanaweb-profile",
+    label: "GhanaWeb — artist profile",
     tier: "reputable",
-    publisher: "MyJoyOnline (Multimedia Group)",
+    publisher: "GhanaWeb",
     corroborates:
-      "Background, rebranding from Bandana to Shatta Wale, and major career milestones.",
+      "Background information, birth name, and career summary for Wendy Shay.",
   },
   {
     id: "src-graphic-entertainment",
@@ -70,7 +60,7 @@ export const sources: Source[] = [
     tier: "reputable",
     publisher: "Graphic Communications Group",
     corroborates:
-      "Long-running entertainment coverage of Shatta Wale's releases, performances, and public activity in Ghana.",
+      "Long-running entertainment coverage of Wendy Shay's releases, performances, and public activity in Ghana.",
   },
   {
     id: "src-citinewsroom",
@@ -78,48 +68,7 @@ export const sources: Source[] = [
     tier: "reputable",
     publisher: "Citi FM / Citi Newsroom",
     corroborates:
-      "Concerts, VGMA-related reporting, and statements by or about the artist.",
-  },
-  {
-    id: "src-ghanaweb-profile",
-    label: "GhanaWeb — artist profile",
-    tier: "reputable",
-    publisher: "GhanaWeb",
-    corroborates:
-      "Background information, birth name, and career summary for Shatta Wale.",
-  },
-  {
-    id: "src-musicinafrica",
-    label: "Music In Africa — Shatta Wale biography",
-    tier: "reputable",
-    publisher: "Music In Africa",
-    corroborates:
-      "Career overview, genre positioning, and the dancehall-in-Ghana context.",
-  },
-  {
-    id: "src-bbc-africa",
-    label: "BBC News — Africa entertainment coverage",
-    tier: "reputable",
-    publisher: "BBC",
-    corroborates:
-      "Beyoncé collaboration, cultural impact on Ghanaian and African popular music.",
-  },
-  {
-    id: "src-complex-2020",
-    label: "Complex — coverage of 'Already' release",
-    tier: "reputable",
-    publisher: "Complex",
-    year: 2019,
-    corroborates:
-      "Western-music press coverage of Beyoncé's 'Already' featuring Shatta Wale.",
-  },
-  {
-    id: "src-pulse-africa",
-    label: "Pulse Ghana / Pulse Africa — artist coverage",
-    tier: "reputable",
-    publisher: "Pulse",
-    corroborates:
-      "Concerts, awards coverage, and cultural-impact framing.",
+      "Concerts, VGMA-related reporting, the 2021 highway accident, and statements by or about the artist.",
   },
   {
     id: "src-modernghana",
@@ -127,48 +76,97 @@ export const sources: Source[] = [
     tier: "reputable",
     publisher: "Modern Ghana",
     corroborates:
-      "Concerts, Shatta Movement fan-activity, and domestic news items.",
+      "Concerts, fan activity, brand endorsements, and domestic news items.",
+  },
+  {
+    id: "src-pulse-africa",
+    label: "Pulse Ghana / Pulse Africa — artist coverage",
+    tier: "reputable",
+    publisher: "Pulse",
+    corroborates:
+      "Concerts, awards coverage, streaming-records reporting, and cultural-impact framing.",
+  },
+  {
+    id: "src-myjoyonline-biography",
+    label: "MyJoyOnline — profile coverage",
+    tier: "reputable",
+    publisher: "MyJoyOnline (Multimedia Group)",
+    corroborates:
+      "Background, career summary, and major milestones for Wendy Shay.",
+  },
+  {
+    id: "src-musicinafrica",
+    label: "Music In Africa — artist biography",
+    tier: "reputable",
+    publisher: "Music In Africa",
+    corroborates:
+      "Career overview, genre positioning, and the Afropop-in-Ghana context.",
   },
 
+  // ── Collaborator cross-references ─────────────────────────────────────
   {
-    id: "src-shattafest",
-    label: "ShattaFest concert series — coverage",
-    tier: "reputable",
-    publisher: "Graphic.com.gh / MyJoyOnline / Modern Ghana",
-    corroborates:
-      "ShattaFest recurring concert event organised under the Shatta Movement banner; dates, venues, turnout figures.",
-  },
-  {
-    id: "src-wendy-shay",
-    label: "Wendy Shay — RuffTown Records releases & joint credits",
+    id: "src-bullet-rufftown",
+    label: "Bullet — RuffTown Records founder, producer",
     tier: "primary",
-    publisher: "RuffTown Records / Wendy Shay verified channels",
+    publisher: "RuffTown Records / Bullet (verified accounts)",
     corroborates:
-      "Wendy Shay releases featuring or co-billed with Shatta Wale.",
+      "Signing of Wendy Shay to RuffTown Records in 2017; production credits on early singles; on-record statements about her trajectory.",
   },
   {
-    id: "src-burna-boy",
-    label: "Burna Boy — joint releases & press coverage",
-    tier: "reputable",
-    publisher: "Music In Africa / Pulse Africa",
-    corroborates:
-      "West-African crossover press coverage of the Shatta Wale–Burna Boy creative exchange.",
-  },
-  {
-    id: "src-shaggy-jamaica",
-    label: "Shaggy — joint appearances & Jamaican dancehall coverage",
-    tier: "interview",
-    publisher: "Reggaeville / Jamaica Observer",
-    corroborates:
-      "On-record interviews and Caribbean-press coverage of Shatta Wale's connection to Jamaican dancehall and the Shaggy exchange.",
-  },
-  {
-    id: "src-davido",
-    label: "Davido — joint releases & press coverage",
+    id: "src-shatta-wale",
+    label: "Shatta Wale — joint releases & cross-label appearances",
     tier: "reputable",
     publisher: "Pulse Africa / Modern Ghana",
     corroborates:
-      "West-African press coverage of Davido–Shatta Wale studio and live exchanges.",
+      "West-African press coverage of the Wendy Shay–Shatta Wale creative exchange and joint appearances.",
+  },
+  {
+    id: "src-sarkodie",
+    label: "Sarkodie — joint releases & press coverage",
+    tier: "reputable",
+    publisher: "Pulse Africa / Graphic Showbiz",
+    corroborates:
+      "Press coverage of Sarkodie–Wendy Shay studio exchanges and joint appearances.",
+  },
+  {
+    id: "src-mugeez",
+    label: "Mugeez (R2Bees) — joint releases & press coverage",
+    tier: "reputable",
+    publisher: "Modern Ghana / Pulse Africa",
+    corroborates:
+      "Press coverage of Mugeez–Wendy Shay joint releases and live appearances.",
+  },
+  {
+    id: "src-kelvyn-boy",
+    label: "Kelvyn Boy — joint releases & press coverage",
+    tier: "reputable",
+    publisher: "Graphic Showbiz / Pulse Africa",
+    corroborates:
+      "Press coverage of Kelvyn Boy–Wendy Shay studio exchanges and joint appearances.",
+  },
+  {
+    id: "src-mzvee",
+    label: "MzVee — joint appearances & press coverage",
+    tier: "reputable",
+    publisher: "Graphic Showbiz / Modern Ghana",
+    corroborates:
+      "Press coverage of MzVee–Wendy Shay joint appearances and the broader female-pop conversation in Ghana.",
+  },
+  {
+    id: "src-sista-afia",
+    label: "Sista Afia — public exchange coverage",
+    tier: "reputable",
+    publisher: "Graphic Showbiz / Citi Newsroom",
+    corroborates:
+      "Press coverage of the 2020 public exchange between Wendy Shay and Sista Afia.",
+  },
+  {
+    id: "src-efya",
+    label: "Efya — joint appearances & press coverage",
+    tier: "reputable",
+    publisher: "Music In Africa / Graphic Showbiz",
+    corroborates:
+      "Press coverage of Efya–Wendy Shay joint appearances and the broader Ghanaian female-vocalist conversation.",
   },
 
   // ── Interviews ────────────────────────────────────────────────────────
@@ -178,7 +176,7 @@ export const sources: Source[] = [
     tier: "interview",
     publisher: "Citi FM",
     corroborates:
-      "On-record statements by Shatta Wale regarding his rebrand and creative direction.",
+      "On-record statements by Wendy Shay regarding her signing, her sound, and her creative direction.",
   },
   {
     id: "src-interview-joyfm",
@@ -186,7 +184,7 @@ export const sources: Source[] = [
     tier: "interview",
     publisher: "Joy FM",
     corroborates:
-      "On-record statements about his career trajectory, the Ghanaian industry, and his fan base.",
+      "On-record statements about her career trajectory, the Ghanaian industry, and her experience as a female pop artist in Ghana.",
   },
 
   // ── Editorial ─────────────────────────────────────────────────────────
@@ -197,7 +195,7 @@ export const sources: Source[] = [
     publisher: "Osman Limam (independent)",
     year: 2026,
     corroborates:
-      "Reflective framing of Shatta Wale's cultural meaning. Explicitly labeled as interpretation, not as fact.",
+      "Reflective framing of Wendy Shay's cultural meaning. Explicitly labeled as interpretation, not as fact.",
   },
 ];
 

@@ -1,0 +1,50 @@
+{
+  "success": true,
+  "query": "female empowerment singer spotlight silhouette microphone",
+  "count": 6,
+  "ranked": true,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f8f6d97d7205.jpg",
+      "caption": "A silhouette of a woman singing into a microphone next to a studio mic stand. The image contains watermarks and text: dreamstime.com, ID 468468102 © Md Shorif Mia.",
+      "source": "Dreamstime.com",
+      "original_width": "1600px",
+      "original_height": "1690px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/85c1b60b4785.jpg",
+      "caption": "The image contains watermarks and text: dreamstime.com, ID 152695956 © Nattawat Chearananta.",
+      "source": "Dreamstime.com",
+      "original_width": "1600px",
+      "original_height": "1157px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/504bab46911d.jpg",
+      "caption": "The image contains a large amount of text information and you do not need to output the text completely.",
+      "source": "VectorStock",
+      "original_width": "903px",
+      "original_height": "1080px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/e023ec89bd68.jpg",
+      "caption": "The image contains watermarks. Text: alamy, Image ID: 2Y4F8WW, www.alamy.com.",
+      "source": "Alamy",
+      "original_width": "1300px",
+      "original_height": "956px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/674b10315749.jpg",
+      "caption": "An illustration of a woman singing into a microphone with a warm, glowing background. suitable for background image",
+      "source": "Vocuno",
+      "original_width": "4096px",
+      "original_height": "2304px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/63873994f583.jpg",
+      "caption": "Silhouette of a dancing woman with outstretched arms against a radiant background with bokeh lights. suitable for background image",
+      "source": "Denver Art Museum",
+      "original_width": "6250px",
+      "original_height": "3125px"
+    }
+  ]
+}

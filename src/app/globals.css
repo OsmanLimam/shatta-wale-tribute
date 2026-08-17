@@ -4,8 +4,9 @@
 @custom-variant dark (&:is(.dark *));
 
 /* ============================================================
-   SHATTA WALE — LIVING LEGACY EXPERIENCE
+   WENDY SHAY — LIVING LEGACY EXPERIENCE
    Design tokens — premium editorial × cinematic documentary
+   Accent: rose-gold (queen-of-afrobeats identity)
    ============================================================ */
 
 @theme inline {
@@ -55,19 +56,28 @@
   --color-gold: var(--gold);
   --color-gold-dim: var(--gold-dim);
   --color-clay: var(--clay);
+  --color-rose: var(--rose);
+  --color-rose-dim: var(--rose-dim);
+  --color-rose-soft: var(--rose-soft);
 }
 
 :root {
-  /* Core palette — deep black + warm metallic gold + ivory */
+  /* Core palette — deep black + rose-gold (queen) + ivory */
   --ink: #0a0a0a;
   --charcoal: #161616;
   --charcoal-2: #1c1c1c;
   --ivory: #f4efe6;
   --ivory-dim: #cdc6b8;
-  --gold: #c9a24b;
-  --gold-dim: #8a6f2e;
-  --gold-soft: #d8b765;
-  --clay: #8a3c2e; /* muted single-use secondary accent (kente-derived) */
+  /* Rose — Wendy Shay accent (queen of afrobeats) */
+  --gold: #e0508c;       /* kept as 'gold' for utility-class compatibility */
+  --gold-dim: #a32d63;
+  --gold-soft: #f0a8c5;
+  --clay: #8a3c2e;       /* muted single-use secondary accent (kente-derived) */
+  /* Rose tokens — semantic */
+  --rose: #e0508c;
+  --rose-dim: #a32d63;
+  --rose-soft: #f0a8c5;
+  --warm-gold: #c9a24b;   /* retained for warm secondary accent in gradients */
 
   --radius: 0.25rem;
 
@@ -84,25 +94,25 @@
   --secondary-foreground: var(--ivory);
   --muted: var(--charcoal-2);
   --muted-foreground: var(--ivory-dim);
-  --accent: var(--gold);
+  --accent: var(--rose);
   --accent-foreground: var(--ink);
   --destructive: oklch(0.6 0.18 25);
   --border: rgba(244, 239, 230, 0.10);
   --input: rgba(244, 239, 230, 0.12);
-  --ring: var(--gold);
-  --chart-1: var(--gold);
+  --ring: var(--rose);
+  --chart-1: var(--rose);
   --chart-2: var(--clay);
   --chart-3: var(--ivory-dim);
   --chart-4: #6f7a55;
   --chart-5: #b08b3a;
   --sidebar: var(--charcoal);
   --sidebar-foreground: var(--ivory);
-  --sidebar-primary: var(--gold);
+  --sidebar-primary: var(--rose);
   --sidebar-primary-foreground: var(--ink);
   --sidebar-accent: var(--charcoal-2);
   --sidebar-accent-foreground: var(--ivory);
   --sidebar-border: rgba(244, 239, 230, 0.10);
-  --sidebar-ring: var(--gold);
+  --sidebar-ring: var(--rose);
 }
 
 .dark {
@@ -119,11 +129,11 @@
   --secondary-foreground: var(--ivory);
   --muted: var(--charcoal-2);
   --muted-foreground: var(--ivory-dim);
-  --accent: var(--gold);
+  --accent: var(--rose);
   --accent-foreground: var(--ink);
   --border: rgba(244, 239, 230, 0.10);
   --input: rgba(244, 239, 230, 0.12);
-  --ring: var(--gold);
+  --ring: var(--rose);
 }
 
 @layer base {
@@ -144,7 +154,7 @@
     overflow-x: hidden;
   }
   ::selection {
-    background-color: var(--gold);
+    background-color: var(--rose);
     color: var(--ink);
   }
   /* Editorial typographic defaults */
@@ -201,9 +211,9 @@
     border-color: rgba(244, 239, 230, 0.12);
   }
 
-  /* Gold gradient text — used sparingly */
+  /* Rose gradient text — used sparingly */
   .text-gold-gradient {
-    background: linear-gradient(180deg, #e6c474 0%, #c9a24b 55%, #8a6f2e 100%);
+    background: linear-gradient(180deg, #f0a8c5 0%, #e0508c 55%, #a32d63 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -277,16 +287,16 @@
     background: transparent;
   }
   .scrollbar-legacy::-webkit-scrollbar-thumb {
-    background: rgba(201, 162, 75, 0.3);
+    background: rgba(224, 80, 140, 0.3);
     border-radius: 9999px;
   }
   .scrollbar-legacy::-webkit-scrollbar-thumb:hover {
-    background: rgba(201, 162, 75, 0.6);
+    background: rgba(224, 80, 140, 0.6);
   }
 
   /* Focus ring refinement */
   .focus-legacy:focus-visible {
-    outline: 1px solid var(--gold);
+    outline: 1px solid var(--rose);
     outline-offset: 3px;
     border-radius: 1px;
   }
@@ -298,7 +308,7 @@
     vertical-align: top;
   }
 
-  /* SM (Shatta Movement) watermark — large faint emblem placed behind
+  /* WS (Wendy Shay) watermark — large faint emblem placed behind
      text-heavy sections so the dark backgrounds no longer read as flat.
      The emblem itself is the project's house mark; using it as texture
      reinforces the institutional frame without competing with the text. */
@@ -338,8 +348,8 @@
     z-index: 0;
   }
 
-  /* Radial gold glow — subtle warm vignette that lifts text sections
-     off the flat ink background. Pairs with sm-watermark or stands alone. */
+  /* Radial rose glow — subtle warm vignette that lifts text sections
+     off the flat ink background. Pairs with ws-watermark or stands alone. */
   .gold-glow {
     position: relative;
   }
@@ -349,8 +359,8 @@
     inset: 0;
     pointer-events: none;
     background:
-      radial-gradient(60% 50% at 18% 12%, rgba(201, 162, 75, 0.10) 0%, transparent 70%),
-      radial-gradient(50% 60% at 92% 88%, rgba(201, 162, 75, 0.08) 0%, transparent 70%);
+      radial-gradient(60% 50% at 18% 12%, rgba(224, 80, 140, 0.10) 0%, transparent 70%),
+      radial-gradient(50% 60% at 92% 88%, rgba(224, 80, 140, 0.08) 0%, transparent 70%);
     z-index: 0;
   }
 }

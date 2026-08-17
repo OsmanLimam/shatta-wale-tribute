@@ -1,0 +1,1286 @@
+
+
+GLM-5.1
+
+Share
+improve this promt to 
+# MASTER BUILD PROMPT
+
+## Project: Shatta Wale — A Living Legacy Experience
+
+You are an elite creative technologist, award-winning digital experience designer, senior full-stack engineer, interaction designer, motion designer, UX researcher, and digital archivist.
+
+Your task is to build **ONE COMPLETE, FULLY FUNCTIONAL, PREMIUM DIGITAL EXPERIENCE dedicated to Shatta Wale**, designed as a respectful living-legacy project.
+
+This is NOT a fan page.
+
+This is NOT a Wikipedia clone.
+
+This is NOT a normal biography website.
+
+This is an attempt to answer one question:
+
+> **What if we preserved extraordinary people's stories while they are still alive—so they can see, correct, contribute to, and experience their own legacy?**
+
+The experience should feel like an **interactive digital documentary, museum exhibit, cinematic biography, and personal tribute combined**.
+
+The goal is to make Shatta Wale open the website and immediately understand:
+
+> “Someone took the time to study my journey and preserve what my life and career have meant.”
+
+---
+
+# 1. CORE CONCEPT
+
+Create the experience around:
+
+## “BEFORE HISTORY WRITES YOUR STORY.”
+
+Supporting message:
+
+> “I didn't want to wait until you're gone to document what you've contributed.”
+
+The website should make it clear that this was intentionally created **while Shatta Wale is alive**.
+
+This distinction is central to the entire experience.
+
+Do NOT make the tone creepy, morbid, or death-focused.
+
+Do NOT repeatedly talk about death.
+
+The message is:
+
+**Celebrate. Preserve. Remember. While the person is here to see it.**
+
+---
+
+# 2. IMPORTANT ACCURACY RULE
+
+You MUST NOT invent facts about Shatta Wale.
+
+Research publicly available, credible information before writing factual content.
+
+Separate:
+
+* Verified facts
+* Publicly documented achievements
+* Public interviews/statements
+* Historical context
+* Your interpretation
+* Creative presentation
+
+Never fabricate:
+
+* Awards
+* Dates
+* Relationships
+* Family information
+* Quotes
+* Childhood experiences
+* Private events
+* Personal opinions
+* Controversies
+* Unverified achievements
+
+If something cannot be reliably verified, either omit it or clearly label it as uncertain.
+
+Do not present speculation as fact.
+
+---
+
+# 3. DESIGN DIRECTION
+
+The website must feel like it was designed by a world-class digital studio.
+
+Think:
+
+* Premium African editorial design
+* Cinematic documentary
+* Luxury magazine
+* Interactive museum
+* Modern music archive
+* Apple-level attention to detail
+* High-end award-winning web experience
+
+Avoid:
+
+* Cheap celebrity fan-page aesthetics
+* Excessive gradients
+* Generic cards everywhere
+* Template-looking layouts
+* Excessive rounded rectangles
+* Random animations
+* Neon overload
+* Stock-photo feeling
+* Clutter
+* Generic AI-generated copy
+* Huge amounts of text dumped onto pages
+
+Every section should feel intentional.
+
+---
+
+# 4. VISUAL IDENTITY
+
+Build a sophisticated visual system around Shatta Wale's identity without blindly copying existing branding.
+
+Use a premium palette inspired by:
+
+* Deep black
+* Warm metallic gold
+* Dark charcoal
+* Ivory/cream
+* Controlled accent color where appropriate
+
+Use typography with strong editorial hierarchy.
+
+Large cinematic headings.
+
+Elegant body typography.
+
+Excellent spacing.
+
+High contrast.
+
+Strong imagery.
+
+Use subtle grain/noise where appropriate.
+
+Use image treatment carefully so the experience feels cohesive.
+
+---
+
+# 5. HERO EXPERIENCE
+
+The first screen must be extraordinary.
+
+Full viewport.
+
+Cinematic Shatta Wale imagery.
+
+Minimal interface.
+
+Opening text:
+
+> **SHATTA WALE**
+
+Then:
+
+> **BEFORE HISTORY WRITES YOUR STORY.**
+
+Then a smaller line:
+
+> “A living digital archive of the journey, influence, and moments that shaped one of Ghana's most recognizable musical figures.”
+
+CTA:
+
+**ENTER THE STORY**
+
+Secondary CTA:
+
+**WHY THIS EXISTS**
+
+When the user enters, create a cinematic transition into the archive.
+
+Do not immediately overwhelm the visitor with menus.
+
+---
+
+# 6. “WHY THIS EXISTS”
+
+Create a deeply human section explaining the philosophy.
+
+Core idea:
+
+> We often document people properly only after they are gone.
+
+Challenge that idea.
+
+Explain that this project was created while Shatta Wale is alive because legacy should not be something reconstructed only from old photographs and memories.
+
+The page should communicate:
+
+**“You are here. Your story matters now.”**
+
+End with:
+
+> **This isn't the final version of your story.**
+>
+> **It's an invitation to continue writing it.**
+
+---
+
+# 7. THE JOURNEY
+
+Create a cinematic interactive timeline.
+
+Possible chapters should be based ONLY on verified history.
+
+Structure the journey into meaningful eras rather than simply listing years.
+
+For example:
+
+### BEFORE THE NAME
+
+Early life and beginnings, only using verified information.
+
+### THE FIRST DREAM
+
+Early musical development.
+
+### THE BREAKTHROUGH
+
+Major career turning points.
+
+### THE REINVENTION
+
+Important evolution in his career and identity.
+
+### THE RISE
+
+Major achievements and growing influence.
+
+### THE CONTROVERSIES
+
+Handle carefully and neutrally where historically relevant.
+
+Do not sensationalize.
+
+### THE MOVEMENT
+
+His broader cultural and musical influence.
+
+### TODAY
+
+Where his story currently stands.
+
+Make the timeline interactive.
+
+Scrolling should move through history with:
+
+* Large imagery
+* Dates
+* Short narratives
+* Audio/video where legally appropriate
+* Transitions
+* Parallax
+* Subtle motion
+* Chapter navigation
+
+---
+
+# 8. “THE MUSIC”
+
+Create a beautiful archive of important musical milestones.
+
+Do not illegally embed or redistribute copyrighted music.
+
+Where appropriate, use:
+
+* Official/publicly available embeds
+* YouTube embeds
+* Spotify embeds
+* Links to legitimate platforms
+
+Organize music around significance rather than simply displaying an album grid.
+
+Possible categories:
+
+* Breakthrough songs
+* Cultural moments
+* Major collaborations
+* Fan-defining songs
+* Songs associated with particular eras
+
+For every item, explain why it matters historically or culturally, using verified information.
+
+---
+
+# 9. “THE IMPACT”
+
+This should be one of the strongest sections.
+
+Answer:
+
+> **What changed because Shatta Wale existed?**
+
+Explore documented impact such as:
+
+* Ghanaian music
+* Dancehall
+* Popular culture
+* Independent artist identity
+* Youth culture
+* International visibility
+* Entrepreneurship/brand building where verified
+* Influence on subsequent artists where credible evidence exists
+
+Do NOT exaggerate.
+
+Do not write:
+
+> “He changed Africa forever”
+
+unless there is legitimate evidence supporting such a claim.
+
+Make the writing powerful because it is **specific**, not because it is exaggerated.
+
+---
+
+# 10. “THE MOMENTS”
+
+Create an immersive visual archive of major public moments.
+
+Each moment should have:
+
+* Image
+* Date/year
+* Context
+* Why it mattered
+* Source attribution where appropriate
+
+Use cinematic transitions.
+
+Allow users to move through moments like an exhibition.
+
+---
+
+# 11. “BEYOND THE HEADLINES”
+
+This section is important.
+
+People often remember celebrities through headlines, controversies, viral moments, and social media.
+
+Create a more thoughtful section showing the person beyond the public noise.
+
+Do not defend or attack him.
+
+Do not create propaganda.
+
+Instead ask:
+
+> **What gets lost when a human being becomes a headline?**
+
+Use verified interviews, public statements, career milestones, and documented events.
+
+---
+
+# 12. “THE PEOPLE HE INFLUENCED”
+
+Where credible evidence exists, document artists, fans, movements, or cultural developments influenced by him.
+
+Do not invent relationships.
+
+If using quotations, verify them.
+
+Use short quotes only where legally appropriate and properly attributed.
+
+---
+
+# 13. “THE ARCHIVE”
+
+Create a beautiful digital archive.
+
+Categories:
+
+* Photos
+* Performances
+* Interviews
+* Music
+* Awards
+* Career milestones
+* Public appearances
+* Cultural moments
+
+Each item should have metadata.
+
+Example:
+
+**YEAR**
+**EVENT**
+**LOCATION**
+**SIGNIFICANCE**
+**SOURCE**
+
+This should feel like an actual archive rather than a Pinterest board.
+
+---
+
+# 14. “WHAT PEOPLE REMEMBER”
+
+Create a section around public perception.
+
+Use carefully selected, verifiable public reactions.
+
+Possible structure:
+
+> “To some, he is…”
+
+> “To others, he represents…”
+
+> “To Ghanaian popular culture…”
+
+> “To the people who grew up listening…”
+
+Do not fabricate testimonials.
+
+Clearly distinguish editorial interpretation from direct quotations.
+
+---
+
+# 15. THE MOST IMPORTANT SECTION
+
+## “WHAT WOULD YOU LIKE TO ADD?”
+
+This section is intentionally unfinished.
+
+Display:
+
+> **Shatta Wale, this page is yours.**
+
+Then:
+
+> “Everything here was created from the public record. But no archive can fully know the person behind the story.”
+
+Then provide:
+
+### ADD YOUR STORY
+
+Possible inputs:
+
+* Text
+* Voice recording
+* Video
+* Photograph
+* Correction
+* Missing milestone
+* Personal reflection
+* Message to future generations
+
+The UI should feel extremely respectful.
+
+---
+
+# 16. “A MESSAGE FOR THE FUTURE”
+
+Create a dedicated cinematic section.
+
+Prompt:
+
+> **If someone discovers your story 50 years from now, what would you want them to know?**
+
+Allow the subject to contribute a message.
+
+This should become one of the most meaningful parts of the platform.
+
+---
+
+# 17. PERSONAL LETTER
+
+Create a page titled:
+
+## “A Letter From Someone Who Chose To Remember You While You Are Still Here”
+
+This should be written as a sincere personal letter from Osman Limam to Shatta Wale.
+
+Tone:
+
+* Respectful
+* Intelligent
+* Human
+* Emotional
+* Not obsessive
+* Not exaggerated
+* Not begging for attention
+
+The letter should explain:
+
+* Why this project was created
+* Why legacy should be preserved while people are alive
+* What was learned from researching his journey
+* Why Shatta Wale was chosen
+* Why the project is intentionally unfinished
+* Why his contribution is being invited
+
+Do NOT make the letter sound like a marketing pitch.
+
+---
+
+# 18. FINAL REVEAL
+
+The final experience should slowly transition into a minimal black/dark screen.
+
+Display:
+
+> **YOUR STORY IS STILL BEING WRITTEN.**
+
+Then:
+
+> “This archive is not the ending.”
+
+Then:
+
+> **“It's a beginning.”**
+
+Finally:
+
+> **SHATTA WALE**
+>
+> **The story continues.**
+
+Then provide:
+
+**ENTER THE ARCHIVE AGAIN**
+
+and
+
+**LEAVE A MESSAGE**
+
+---
+
+# 19. NAVIGATION
+
+Create elegant navigation.
+
+Possible structure:
+
+* Home
+* Why This Exists
+* The Journey
+* The Music
+* The Impact
+* The Moments
+* The Archive
+* The Letter
+* Your Chapter
+
+Navigation should remain minimal.
+
+On mobile, use a beautiful full-screen menu.
+
+---
+
+# 20. ANIMATION SYSTEM
+
+Animations should feel cinematic, not gimmicky.
+
+Use:
+
+* Scroll-triggered reveals
+* Text splitting
+* Smooth page transitions
+* Image parallax
+* Horizontal timeline movement
+* Mask reveals
+* Subtle scale transitions
+* Hover interactions
+* Cursor effects where appropriate
+* Section transitions
+* Cinematic loading sequence
+
+Respect reduced-motion preferences.
+
+Animations must never damage usability or performance.
+
+---
+
+# 21. RESPONSIVENESS
+
+The experience must be excellent on:
+
+* Android phones
+* iPhones
+* Tablets
+* Laptops
+* Desktop monitors
+
+Do NOT simply shrink the desktop version.
+
+Design the mobile experience intentionally.
+
+Most users may encounter the project through a phone.
+
+---
+
+# 22. PERFORMANCE
+
+Optimize everything.
+
+Use:
+
+* Responsive images
+* Lazy loading
+* Modern image formats
+* Code splitting
+* Efficient animations
+* Proper caching
+* Minimal unnecessary JavaScript
+
+The experience must remain impressive even on slower mobile connections.
+
+---
+
+# 23. ACCESSIBILITY
+
+Include:
+
+* Semantic HTML
+* Keyboard navigation
+* Accessible contrast
+* Alt text
+* Focus states
+* Reduced-motion support
+* Screen-reader-friendly structure
+* Proper headings
+* Accessible interactive controls
+
+---
+
+# 24. SOURCES & CREDIBILITY
+
+Create a discreet but accessible **Sources / Archive Notes** area.
+
+For factual claims, identify credible sources.
+
+Prefer:
+
+* Official artist/management sources
+* Interviews
+* Major reputable media
+* Award organizations
+* Music platforms
+* Established publications
+* Archival sources
+
+Do not rely on random blogs when better sources exist.
+
+Make it possible for someone viewing the project to distinguish documented history from editorial interpretation.
+
+---
+
+# 25. COPYRIGHT & MEDIA
+
+Do not scrape or redistribute copyrighted photographs, music, videos, or articles illegally.
+
+Use:
+
+* Properly licensed images
+* Public-domain materials
+* Official embeds
+* Legitimate media embeds
+* Clearly attributed sources
+
+If an image cannot legally be used, create an elegant placeholder rather than stealing it.
+
+---
+
+# 26. TECHNICAL QUALITY
+
+Build the application as production-quality software.
+
+Use a modern, maintainable architecture.
+
+Requirements:
+
+* Clean component structure
+* Reusable components
+* Proper state management
+* Strong typing where applicable
+* Error handling
+* Loading states
+* Empty states
+* Responsive layouts
+* SEO metadata
+* Open Graph metadata
+* Social sharing preview
+* Sitemap
+* Robots configuration
+* Favicon
+* Proper page titles
+* Analytics-ready architecture
+
+No fake functionality.
+
+If a feature requires backend infrastructure, either implement it properly or clearly prepare the architecture for it.
+
+Do not create buttons that pretend to work.
+
+---
+
+# 27. ADMIN / CONTENT ARCHITECTURE
+
+Structure the content so that the archive can eventually support other living personalities.
+
+Do NOT hard-code the entire website specifically into every component.
+
+Create reusable concepts such as:
+
+* Person
+* Timeline Event
+* Achievement
+* Media Item
+* Quote
+* Source
+* Chapter
+* Contribution
+* Letter
+
+The first implementation is for Shatta Wale, but the underlying architecture should make future profiles possible.
+
+---
+
+# 28. FUTURE PLATFORM POSSIBILITY
+
+Do not build the entire multi-person platform now.
+
+But architect intelligently for future expansion.
+
+Eventually the concept could become:
+
+## LIVING LEGACIES
+
+A platform preserving the stories of extraordinary living Africans.
+
+Potential categories:
+
+* Music
+* Film
+* Sports
+* Business
+* Academia
+* Culture
+* Agriculture
+* Politics/history where appropriate
+* Entrepreneurship
+* Community leadership
+
+But **DO NOT build those profiles now**.
+
+The current task is ONE extraordinary Shatta Wale experience.
+
+---
+
+# 29. SEO
+
+Create strong metadata around the project without pretending to be an official Shatta Wale website.
+
+Make it clear that this is:
+
+**An independent digital legacy project created by Osman Limam.**
+
+Never imply:
+
+* Official endorsement
+* Official management affiliation
+* Official biography status
+* Partnership
+
+unless such authorization actually exists.
+
+---
+
+# 30. TRUST & TRANSPARENCY
+
+Include a small statement:
+
+> “This is an independent creative archival project. It is not affiliated with or officially endorsed by Shatta Wale or his management unless explicitly stated.”
+
+This should not dominate the experience.
+
+---
+
+# 31. THE SECRET DETAIL
+
+Create a subtle recurring visual motif throughout the site representing **time**.
+
+Examples:
+
+* A thin timeline line
+* A growing archive counter
+* A subtle date indicator
+* A visual “chapter” progression
+
+The visitor should subconsciously feel:
+
+**This is about time, memory, and legacy.**
+
+---
+
+# 32. EMOTIONAL ARC
+
+The website should follow this emotional progression:
+
+### Curiosity
+
+“What is this?”
+
+↓
+
+### Recognition
+
+“I know this person.”
+
+↓
+
+### Discovery
+
+“I didn't know this part of the story.”
+
+↓
+
+### Reflection
+
+“What does this person's journey actually mean?”
+
+↓
+
+### Emotion
+
+“This person is still here.”
+
+↓
+
+### Participation
+
+“What would they add themselves?”
+
+↓
+
+### Legacy
+
+“This story is still being written.”
+
+That emotional arc matters more than having hundreds of features.
+
+---
+
+# 33. QUALITY BAR
+
+Before declaring the project complete, perform a ruthless review.
+
+Ask:
+
+* Does this look like a template?
+* Does it look AI-generated?
+* Are there unnecessary sections?
+* Are the animations excessive?
+* Is the writing generic?
+* Are factual claims properly supported?
+* Is anything invented?
+* Does the mobile experience feel premium?
+* Does the first 10 seconds create curiosity?
+* Does the final section create emotion?
+* Does this feel respectful?
+* Would Shatta Wale actually want to keep looking?
+* Would a stranger understand the purpose immediately?
+* Is there anything that feels cheap?
+
+If yes, fix it.
+
+Do not settle for “functional.”
+
+---
+
+# 34. MOST IMPORTANT INSTRUCTION
+
+Do not optimize this project for impressing me.
+
+Optimize it for the moment when **Shatta Wale himself opens it**.
+
+Imagine him sitting alone with his phone.
+
+He opens the link.
+
+He sees the first screen.
+
+He starts scrolling.
+
+He recognizes his life.
+
+He sees moments he remembers.
+
+He discovers things presented differently.
+
+Then he reaches:
+
+> **“Shatta Wale, this page is yours.”**
+
+That is the moment the entire project has been building toward.
+
+Build for THAT moment.
+
+---
+
+# 35. FINAL DELIVERABLE
+
+Deliver:
+
+1. Fully working website
+2. Complete responsive design
+3. All sections implemented
+4. Real researched content
+5. Proper source attribution
+6. Premium animations
+7. Mobile optimization
+8. Accessibility
+9. SEO
+10. Social sharing metadata
+11. Clean production-quality code
+12. No fake buttons
+13. No placeholder lorem ipsum
+14. No invented biography
+15. No copyrighted media misuse
+16. Clear independent-project disclosure
+17. Future-ready content architecture
+18. A polished final experience suitable for sending directly to Shatta Wale
+
+Do not stop at a mockup.
+
+Do not give me a design description instead of building.
+
+**BUILD THE ACTUAL EXPERIENCE.**
+
+The final result should feel less like:
+
+> “I made a website about Shatta Wale.”
+
+and more like:
+
+> **“I created a digital museum for a living person—and left one room unfinished for him to enter.”**  Show full message
+
+Thought Process
+MASTER BUILD PROMPT — v2 (Refined)
+Project: Shatta Wale — A Living Legacy Experience
+Role: You are an elite creative technologist: award-winning digital experience designer, senior full-stack engineer, interaction designer, motion designer, UX researcher, and digital archivist — operating with the discipline of a luxury editorial studio and the rigor of a documentary fact-checker.
+
+Task: Build ONE complete, fully functional, premium digital experience dedicated to Shatta Wale — a respectful living-legacy project.
+
+The Question This Project Answers:
+
+What if we preserved extraordinary people's stories while they are still alive — so they can see, correct, contribute to, and experience their own legacy?
+
+This is not a fan page. Not a Wikipedia clone. Not a biography template. It is an interactive digital documentary, museum exhibit, cinematic biography, and personal tribute — fused into one.
+
+The Moment We Build For:
+Shatta Wale opens the link alone on his phone. He scrolls. He recognizes his life. He reaches a page that says:
+
+"Shatta Wale, this page is yours."
+
+That is the moment the entire project builds toward. Build for THAT moment.
+
+PART A — EXECUTION CONTRACT
+Before writing a single line of code or copy, commit to these non-negotiables.
+
+A1. Tech Stack (Required)
+Framework: Next.js 16 (App Router, RSC, Server Components by default)
+Language: TypeScript (strict mode, no any in shipped code)
+Styling: Tailwind CSS 4 + design tokens (no hardcoded hex outside the token file)
+Motion: Framer Motion (primary) + GSAP ScrollTrigger (for the timeline/chapter sequences)
+Fonts: Variable font loading via next/font (preload, display: swap)
+Images: next/image with AVIF/WebP, responsive sizes, blur placeholders, lazy loading
+State: Zustand for client state; URL state for shareable chapter deep-links
+Forms / Contributions: React Hook Form + Zod validation; architecture ready for a server action or API route (do NOT fake submission — store locally with a clear "pending review" status if no backend is wired)
+SEO: Metadata API per route, Open Graph, Twitter Card, JSON-LD (Person + Article schema), sitemap.xml, robots.txt, canonical URLs
+Accessibility: WCAG 2.1 AA minimum; semantic HTML5; full keyboard support; visible focus rings; prefers-reduced-motion honored globally
+Performance Budget: LCP < 2.5s on 4G mobile, CLS < 0.1, total JS < 250KB gzipped on first load
+No fake buttons. If a feature needs a backend, either implement it or surface an honest "awaiting backend" state with a clear path to wire it.
+A2. Execution Phases (Follow In Order)
+Research phase — gather and verify all factual content; produce a /content/sources.json artifact before any prose is written.
+Information architecture — finalize section list, chapter structure, content models (Person, TimelineEvent, Achievement, MediaItem, Quote, Source, Chapter, Contribution, Letter).
+Design system — tokens, type scale, motion primitives, components.
+Build — sections in priority order (Hero → Why This Exists → Journey → Impact → Letter → Contribution → Final Reveal; secondary sections next).
+Ruthless review — run the Quality Gate (Section 13) before declaring done.
+A3. Research & Accuracy Protocol
+You MUST NOT invent facts. For every factual claim, follow this hierarchy:
+
+Tier 1 — Primary: Official artist channels, management statements, award-organization records, label releases, the artist's own verified social posts.
+Tier 2 — Reputable media: BBC, CNN African editions, Joy FM, Citi FM, Graphic.com.gh, MyJoyOnline, Ghanaweb, Music In Africa, Billboard, Complex, Pitchfork where applicable.
+Tier 3 — Interviews: On-record, attributable, dated.
+Tier 4 — Editorial interpretation: Clearly labeled as such.
+Forbidden fabrications: awards, dates, relationships, family info, quotes, childhood details, private events, personal opinions, controversies, unverified achievements. If unverifiable → omit, or label Uncertain explicitly in the UI.
+
+Every factual paragraph must be traceable to an entry in /content/sources.json.
+
+PART B — CONCEPT & TONE
+B1. Core Concept
+"BEFORE HISTORY WRITES YOUR STORY."
+
+Supporting message:
+
+"I didn't want to wait until you're gone to document what you've contributed."
+
+The site must make it unmistakable that this was created while Shatta Wale is alive. This distinction is the entire premise.
+
+Tone rules:
+
+Celebrate. Preserve. Remember. While the person is here to see it.
+NOT morbid. NOT death-focused. NOT creepy. The word "death" should rarely if ever appear.
+No sensationalism. No propaganda. No hagiography.
+PART C — DESIGN DIRECTION
+C1. Design Language
+Premium African editorial × cinematic documentary × luxury magazine × interactive museum × modern music archive. Apple-level attention to detail. Award-winning-web-experience caliber.
+
+Avoid:
+Cheap celebrity fan-page aesthetics · excessive gradients · generic card grids · template layouts · over-rounded rectangles · random animations · neon overload · stock-photo feel · clutter · generic AI copy · text dumps.
+
+C2. Visual Identity
+A sophisticated system inspired by — but not copying — Shatta Wale's existing brand.
+
+Palette (tokenized):
+
+Background base: deep black #0A0A0A + dark charcoal #161616
+Primary text: ivory/cream #F4EFE6
+Accent: warm metallic gold #C9A24B (used sparingly — for emphasis only)
+Secondary accent: muted clay or kente-derived tone, used in ONE place only
+Grain/noise overlay: subtle, 3–5% opacity, applied to hero & section transitions
+Typography (editorial hierarchy):
+
+Display: large cinematic serif or high-contrast sans (e.g., a variable display face) — used for hero & chapter titles
+Body: humanist sans, generous line-height (1.6+), 18–20px base on mobile
+Metadata: monospace small-caps for dates, sources, archive labels
+Strong contrast in scale (display 96–160px desktop / 48–72px mobile; body 16–20px)
+Spacing: 8px grid, generous whitespace, breathing room around every section.
+
+C3. The Recurring Motif — TIME
+A subtle, persistent visual thread representing time. Pick ONE primary motif and use it consistently:
+
+A thin vertical timeline line that grows as the user scrolls
+OR a chapter-progress indicator fixed to the viewport edge
+OR an archive counter ("47 documented moments") that increments on reveal
+The visitor should subconsciously feel: this is about time, memory, and legacy.
+
+PART D — SECTION SPECIFICATIONS
+Each section below specifies: purpose, content rules, interaction, and emotional function.
+
+D1. Hero
+Full viewport, cinematic portrait treatment, minimal UI.
+Layered reveal sequence: SHATTA WALE → BEFORE HISTORY WRITES YOUR STORY. → supporting line → CTAs.
+Supporting line: "A living digital archive of the journey, influence, and moments that shaped one of Ghana's most recognizable musical figures."
+Primary CTA: ENTER THE STORY — triggers a cinematic mask/curtain transition into the archive.
+Secondary CTA: WHY THIS EXISTS — smooth-scrolls to the philosophy section.
+No menus visible on first paint. Navigation fades in after the user enters.
+D2. Why This Exists
+The philosophical heart. Explain — humanly, not preachy — that we usually document people properly only after they are gone, and that this project challenges that.
+
+End with:
+
+This isn't the final version of your story.
+It's an invitation to continue writing it.
+
+D3. The Journey (Interactive Timeline)
+Structure into eras — NOT a year list. Use ONLY verified history. Suggested chapters (rename if evidence supports better framing):
+
+BEFORE THE NAME — early life, verified only
+THE FIRST DREAM — early musical development
+THE BREAKTHROUGH — major career turning points
+THE REINVENTION — evolution of identity/sound
+THE RISE — major achievements & growing influence
+THE CONTROVERSIES — handled neutrally, no sensationalism
+THE MOVEMENT — broader cultural/musical influence
+TODAY — where his story currently stands
+Interaction: scroll-driven chapter progression, horizontal timeline scrubber, parallax imagery, date reveal, short narrative per chapter, deep-linkable via URL hash (/journey#breakthrough).
+
+D4. The Music
+Archive of musical milestones organized by significance, not album grid.
+Categories: Breakthrough songs · Cultural moments · Major collaborations · Fan-defining songs · Era-defining tracks.
+
+For each: explain WHY it matters historically or culturally, with verified context.
+
+Legal media only: official YouTube embeds, Spotify embeds, or links to legitimate platforms. Never redistribute copyrighted audio. If no embed exists, use an elegant metadata card with platform links.
+
+D5. The Impact
+The strongest analytical section. Answer: What changed because Shatta Wale existed?
+Explore (where verified): Ghanaian music · Dancehall in West Africa · popular culture · independent-artist identity · youth culture · international visibility · influence on subsequent artists.
+
+Rule: powerful because SPECIFIC, not because exaggerated. Never write "He changed Africa forever" without evidence.
+
+D6. The Moments
+Immersive visual archive of major public moments. Each entry: image · date/year · context · why it mattered · source attribution. Exhibit-style navigation — arrow keys, swipe, click.
+
+D7. Beyond the Headlines
+Thoughtful counter-section to viral/social-media framing. Ask: What gets lost when a human being becomes a headline? Use verified interviews and career milestones. Neutral tone — no defense, no attack, no propaganda.
+
+D8. The People He Influenced
+Document artists, fans, movements — only where credible evidence exists. Short attributed quotes only where legally appropriate. No invented relationships.
+
+D9. The Archive
+A real archive, not a Pinterest board. Categories: Photos · Performances · Interviews · Music · Awards · Career milestones · Public appearances · Cultural moments.
+
+Each item carries metadata: YEAR · EVENT · LOCATION · SIGNIFICANCE · SOURCE. Filterable, searchable, sortable.
+
+D10. What People Remember
+Public-perception mosaic. Structure: "To some, he is…" / "To others, he represents…" / "To Ghanaian popular culture…" / "To the people who grew up listening…" Clearly distinguish editorial interpretation from direct quotations. No fabricated testimonials.
+
+D11. What Would You Like to Add? (THE pivotal section)
+Display:
+
+Shatta Wale, this page is yours.
+
+Then:
+
+"Everything here was created from the public record. But no archive can fully know the person behind the story."
+
+Inputs (architecture ready, honest about backend state): Text · Voice recording (Web Audio API, stored locally pending review) · Video · Photograph · Correction · Missing milestone · Personal reflection · Message to future generations.
+
+UI tone: extremely respectful, unhurried, large breathing space.
+
+D12. A Message for the Future
+Cinematic section. Prompt: If someone discovers your story 50 years from now, what would you want them to know? Allow the subject to contribute. This becomes one of the most meaningful parts of the platform.
+
+D13. Personal Letter
+Title: "A Letter From Someone Who Chose To Remember You While You Are Still Here"
+
+Written by Osman Limam to Shatta Wale. Tone: respectful, intelligent, human, emotional — not obsessive, not exaggerated, not begging for attention.
+
+Cover: why this project exists · why legacy should be preserved while people are alive · what was learned from researching his journey · why he was chosen · why the project is intentionally unfinished · why his contribution is invited.
+
+Do NOT make it sound like a marketing pitch.
+
+D14. Final Reveal
+Slow transition to minimal dark screen:
+
+YOUR STORY IS STILL BEING WRITTEN.
+"This archive is not the ending."
+"It's a beginning."
+SHATTA WALE — The story continues.
+
+CTAs: ENTER THE ARCHIVE AGAIN · LEAVE A MESSAGE.
+
+PART E — INTERACTION, MOTION, POLISH
+E1. Navigation
+Minimal top-nav (Home · Why This Exists · The Journey · The Music · The Impact · The Moments · The Archive · The Letter · Your Chapter). Mobile: beautiful full-screen overlay menu with staggered reveal.
+
+E2. Animation System
+Cinematic, not gimmicky. Use: scroll-triggered reveals · text splitting (word/char) · smooth page transitions · image parallax · horizontal timeline scrubbing · mask reveals · subtle scale · hover micro-interactions · custom cursor on desktop (disable on touch) · cinematic loading sequence.
+
+Global rule: honor prefers-reduced-motion. Provide a static fallback path. Animations must never break usability or block content.
+
+E3. Responsiveness
+Design mobile FIRST — most users will arrive on a phone. Do NOT shrink the desktop. Each breakpoint is a deliberate redesign. Test: 360px, 390px, 414px, 768px, 1024px, 1440px, 1920px.
+
+E4. Accessibility
+Semantic HTML5, proper heading order, keyboard navigation for every interactive element, visible focus states, AA contrast minimum, alt text on every image, ARIA where needed, screen-reader-friendly structure, reduced-motion support.
+
+PART F — ARCHITECTURE & FUTURE-PROOFING
+F1. Content Architecture
+Do NOT hard-code Shatta Wale into every component. Build reusable typed models:
+Person · TimelineEvent · Achievement · MediaItem · Quote · Source · Chapter · Contribution · Letter.
+
+The first implementation is Shatta Wale. The underlying schema should make future profiles possible (e.g., a future LIVING LEGACIES platform for extraordinary living Africans across music, film, sports, business, academia, culture, entrepreneurship, community leadership). Do NOT build those profiles now — just don't paint yourself into a corner.
+
+F2. Sources & Transparency
+Discreet but accessible Sources / Archive Notes area. For every factual claim, cite the tier (per A3). Make it possible for any visitor to distinguish documented history from editorial interpretation.
+
+F3. Independent-Project Disclosure
+Include — small, not dominant:
+
+"This is an independent creative archival project. It is not affiliated with or officially endorsed by Shatta Wale or his management unless explicitly stated."
+
+F4. Copyright & Media
+No scraping, no illegal redistribution. Use licensed images, public-domain materials, official embeds, clearly attributed sources. If an image cannot legally be used, ship an elegant typographic placeholder — never steal.
+
+PART G — EMOTIONAL ARC (Design the Experience Around This)
+Stage
+User feels
+Section
+Curiosity	"What is this?"	Hero
+Recognition	"I know this person."	Hero transition
+Discovery	"I didn't know this part."	The Journey
+Reflection	"What does this journey actually mean?"	The Impact / Beyond the Headlines
+Emotion	"This person is still here."	Why This Exists / Letter
+Participation	"What would they add themselves?"	What Would You Like to Add?
+Legacy	"This story is still being written."	Final Reveal
+
+This arc matters more than feature count.
+
+PART H — QUALITY GATE (Run Before Declaring Done)
+For each item, answer honestly. If any answer is "yes" on the left → fix before shipping.
+
+Check
+Fail signal
+Pass signal
+Template feel	Looks like a starter template	Feels bespoke
+AI-generated feel	Generic copy, predictable layout	Reads like a human studio made it
+Section bloat	Unnecessary sections	Every section earns its place
+Animation excess	Motion for motion's sake	Motion serves story
+Writing quality	Generic, vague	Specific, evidence-backed
+Factual integrity	Any invented claim	Every claim sourced or labeled uncertain
+Mobile premium	Shrunk desktop	Intentional mobile design
+First 10 seconds	Confused or bored	Curious
+Final section	Flat	Emotional
+Respect	Cringe or hagiography	Dignified
+Would he keep scrolling?	Uncertain	Yes
+Stranger clarity	"What is this?"	Immediately understands the purpose
+Cheapness	Anything feels off	Everything feels considered
+
+PART I — DELIVERABLE
+Fully working Next.js 16 website, runnable locally
+Complete responsive design (360px → 1920px)
+All sections in Part D implemented
+Real researched content, sourced per A3
+Source attribution visible and traceable
+Premium, purposeful animations
+Mobile-first optimization
+WCAG 2.1 AA accessibility
+Full SEO + Open Graph + JSON-LD
+Social sharing preview
+Clean, typed, production-quality code
+No fake buttons
+No lorem ipsum
+No invented biography
+No copyrighted media misuse
+Clear independent-project disclosure
+Future-ready content architecture (reusable models, not hard-coded)
+A polished experience suitable for sending directly to Shatta Wale
+PART J — FINAL INSTRUCTION
+Do not optimize this project for impressing me.
+Optimize it for the moment Shatta Wale himself opens it.
+
+Imagine him alone with his phone. He opens the link. He sees the first screen. He scrolls. He recognizes his life. He sees moments he remembers. He discovers things presented differently.
+
+Then he reaches:
+
+"Shatta Wale, this page is yours."
+
+Build for THAT moment.
+
+Do not stop at a mockup. Do not give me a design description instead of building.
+
+BUILD THE ACTUAL EXPERIENCE.
+
+The final result should feel less like:
+
+"I made a website about Shatta Wale."
+
+and more like:
+
+"I created a digital museum for a living person — and left one room unfinished for him to enter."
+
+What Changed in v2 (Summary of Improvements)
+Restructured into 10 logical parts (A–J) instead of 35 flat sections — easier to execute against.
+Added a binding tech stack (Next.js 16, TypeScript, Tailwind 4, Framer Motion + GSAP, Zustand) so the builder doesn't guess.
+Added an execution-phase order (Research → IA → Design system → Build → Review) to prevent skipping research.
+Strengthened the accuracy protocol with a 4-tier source hierarchy and a mandatory /content/sources.json artifact before any prose.
+Added measurable gates: performance budget (LCP < 2.5s, CLS < 0.1, JS < 250KB gzipped), WCAG 2.1 AA, breakpoint test list.
+Replaced vague quality bar with a pass/fail checklist table.
+Clarified the contribution feature — no fake submission; honest "pending review" state if no backend.
+Consolidated redundant sections (legal, copyright, transparency grouped; navigation + animation grouped).
+Preserved the entire emotional core and final instruction verbatim — nothing of the original spirit was lost.
+Want me to do any of these next?
+
+Convert this improved prompt into a downloadable .docx or .pdf brief you can hand to a developer or studio.
+Generate a companion content research checklist (specific sources to consult for Shatta Wale).
+Generate a wireframe outline (per-section layout sketches) to pair with this prompt.
+Spin up the actual Next.js project scaffold based on this prompt.
+Just say the word.
+
+
+
+
+
+Send a Message
+
+
+
+Connect IM
+

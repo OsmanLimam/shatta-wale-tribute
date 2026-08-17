@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#c9a24b" stop-opacity="0.22"/>
+      <stop offset="38%" stop-color="#161616" stop-opacity="0.7"/>
+      <stop offset="72%" stop-color="#0a0a0a" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="ivory" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4efe6"/>
+      <stop offset="100%" stop-color="#d8d2c4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0a0a0a"/>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <!-- Hairlines -->
+  <line x1="600" y1="0" x2="600" y2="40" stroke="#c9a24b" stroke-opacity="0.6" stroke-width="1"/>
+  <line x1="600" y1="590" x2="600" y2="630" stroke="#c9a24b" stroke-opacity="0.6" stroke-width="1"/>
+  <line x1="0" y1="315" x2="40" y2="315" stroke="#c9a24b" stroke-opacity="0.6" stroke-width="1"/>
+  <line x1="1160" y1="315" x2="1200" y2="315" stroke="#c9a24b" stroke-opacity="0.6" stroke-width="1"/>
+  <!-- Text -->
+  <text x="600" y="240" text-anchor="middle" font-family="Georgia, serif" font-size="22" letter-spacing="6" fill="#c9a24b">A LIVING LEGACY EXPERIENCE</text>
+  <text x="600" y="370" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="130" fill="url(#ivory)">SHATTA WALE</text>
+  <text x="600" y="450" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="42" fill="#f4efe6">Before History Writes Your Story.</text>
+  <text x="600" y="555" text-anchor="middle" font-family="monospace" font-size="14" letter-spacing="3" fill="#cdc6b8">INDEPENDENT ARCHIVAL PROJECT · BY OSMAN LIMAM</text>
+</svg>
